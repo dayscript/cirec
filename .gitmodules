@@ -1,0 +1,3 @@
+[submodule "sites/all/libraries/FlexSlider"]
+	path = sites/all/libraries/FlexSlider
+	url = https://github.com/woothemes/FlexSlider
