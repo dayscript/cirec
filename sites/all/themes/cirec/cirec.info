@@ -31,8 +31,9 @@ stylesheets[all][] = css/cirec.css
 
 ; Block loading of foundation.min.css from the base theme. This file should either
 ; not exist or be blank in your subtheme. See https://drupal.org/node/263967
-stylesheets[all][] = css/normalize.css
-stylesheets[all][] = css/foundation.min.css
+; stylesheets[all][] = css/normalize.css
+; stylesheets[all][] = css/foundation.min.css
+
 
 ; Foundation JavaScript.
 
@@ -60,11 +61,13 @@ scripts[] = js/app.min.js
 ; You'll use this variable in page.tpl.php:
 ;   <?php print render($page['header']); ?>
 
+regions[header_before]       = Header Before
 regions[header]              = Header
 regions[help]                = Help
 regions[highlighted]         = Highlighted
 regions[featured]            = Featured
 regions[content]             = Content
+regions[content_after]       = Content After
 regions[sidebar_first]       = Left Sidebar
 regions[sidebar_second]      = Right Sidebar
 regions[triptych_first]      = Callout one
@@ -74,6 +77,7 @@ regions[footer_firstcolumn]  = Footer one
 regions[footer_secondcolumn] = Footer two
 regions[footer_thirdcolumn]  = Footer three
 regions[footer_fourthcolumn] = Footer four
+regions[footer_before]       = Footer Before
 regions[footer]              = Footer
 
 ; Various page elements output by the theme can be toggled on and off. The

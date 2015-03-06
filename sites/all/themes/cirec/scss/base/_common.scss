@@ -5,3 +5,23 @@
 // %font-FONTNAME   {}
 // %font-sans-serif { font-family: sans-serif; }
 // %font-serif      { font-family: serif; }
+
+
+// Raleway
+// <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+//Open Sans
+//<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+
+
+
+.hr-stripes {
+    background: $gray;
+    .gradient { filter: none; } //IE9 Support Multi Stop SVG Gradients
+}
+
+.hr-stripes-4-rows div {
+    @include stripes_4_rows();
+    height: 7px;
+}

@@ -4,11 +4,29 @@
 // - Be sure to load after "foundation" import.
 // - Also, before adding styles be sure to modify variables in the
 //   "base/_common.scss" file. You may not need to write any code.
+// Body
+html {
+    font-size: 110%;
+}
+
+body {
+    @include font_body();
+    font-size: $body_font_size;
+    color: $body_font_color;
+}
+
+
 
 // Headings
 //------------------------------------------
-// h1, h2, h3,
-// h4, h5, h6 {}
+h1, h2, h3,
+h4, h5, h6 {
+    @include font_title();
+}
+
+ul, ol, dl, p, div {
+    font-size: $body_font_size;
+}
 
 // Anchors
 //-----------------------------------------------------------------------------
@@ -22,6 +40,40 @@
 
 // Form Input
 //-----------------------------------------------------------------------------
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+.form-text,
+.form-textarea {
+    background: $input_bg;
+    @include font_body();
+    font-size: 14px;
+}
+
+input[type=submit],
+.form-submit {
+    background: $blue;
+    @include font_body();
+    font-size: 14px;
+    padding: 7px 14px;
+    @include transition-hover();
+
+    &:hover{
+        opacity: .7;
+        background: $blue;
+    }
+}
 // input[type="text"],
 // input[type="password"],
 // input[type="date"],
@@ -36,23 +88,11 @@
 // input[type="time"],
 // input[type="url"],
 // textarea {
-// }
-
-// input[type="text"],
-// input[type="password"],
-// input[type="date"],
-// input[type="datetime"],
-// input[type="datetime-local"],
-// input[type="month"],
-// input[type="week"],
-// input[type="email"],
-// input[type="number"],
-// input[type="search"],
-// input[type="tel"],
-// input[type="time"],
-// input[type="url"],
-// textarea {
 
 // }
 
-// select {}
+select,
+.form-select {
+    @include font_body();
+    font-size: 14px;
+}

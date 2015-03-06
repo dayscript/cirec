@@ -1,0 +1,12 @@
+
+.menu-social {
+
+    a {
+
+        @include transition_hover();
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

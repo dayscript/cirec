@@ -1,0 +1,62 @@
+//---------------------------------------*
+// Servicios Destacados: View Node Queue
+//---------------------------------------*
+
+.view-display-id-block_servicios_destacados {
+
+    background: url("../images/pattern-grid.png") left top;
+
+    .service { // = .views-row
+        display: table-cell;
+        padding-bottom: $margin_size;
+        text-align: center;
+        float: none; // Override-> Row Height 100%
+
+        &:hover {
+            background: $white;
+        }
+
+        &:hover:before {
+            background: $blue;
+            content: ' ';
+            height: 12px;
+            left: 0;
+            position: absolute;
+            top: -12px;
+            width: 100%;
+            z-index: 99;
+        }
+
+        &:last-child {
+            float: none; // Override-> Row Height 100%
+        }
+
+        .body { }
+
+        .field-name-title {
+            border-bottom: 4px solid $blue;
+            text-transform: uppercase;
+            margin: 0 6px $margin_size;
+
+            h2 {
+                font-size: 18px;
+                min-height: 50px;
+            }
+        }
+
+        .image {
+            margin-top: 52px;
+            margin-bottom: 30px;
+        }
+
+        &.views-row-1 .field-name-title { border-bottom-color: $blue_d; }
+        &.views-row-2 .field-name-title { border-bottom-color: $orange; }
+        &.views-row-3 .field-name-title { border-bottom-color: $red; }
+        &.views-row-4 .field-name-title { border-bottom-color: $green; }
+    }
+
+    .view-content {
+        @extend .row;
+        display: table;
+    }
+}

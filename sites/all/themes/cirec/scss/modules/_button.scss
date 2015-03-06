@@ -1,0 +1,17 @@
+.button-wrapper {
+    margin-top: 20px;
+}
+
+.button-wrapper a,
+a.btn {
+    background: $blue;
+    @include border_radius( $border_radius );
+    color: $white;
+    display: inline-block;
+    padding: 6px 20px;
+    text-transform: uppercase;
+
+    &:hover {
+        background: $blue_d;
+    }
+}

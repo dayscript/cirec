@@ -1,0 +1,44 @@
+.sf-main-menu {
+    margin-top: $margin_size * 1.5;
+    float: right;
+
+    //Enlaces de Primer Nivel
+    .sf-depth-1 {
+        > a {
+            background: none;
+            color: $body_font_color;
+            @include font_title();
+            font-size: 14px;
+            padding: 0.5em;
+            text-transform: uppercase;
+
+            &:hover{
+                color: $white;
+                background: $blue_menu_d;
+            }
+        }
+
+        > ul {
+            border-top: 3px solid $blue_menu_d;
+            background: $blue_menu;
+            border-radius: 0;
+
+            margin-top: -10px; // Usado para corregir un error de un salto en la animación al hacer hover
+        }
+    }
+
+    // Enlaces Desplegados
+    .sf-depth-2 {
+
+        > a {
+            color: $white;
+            padding: 10px;
+            font-size: 14px;
+
+            &:hover {
+                background: $blue_menu_d;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,65 @@
+//---------------------------------------*
+// Aliados Destacados
+//---------------------------------------*
+.aliados-destacados {
+    background: #f5f5f5;
+    padding-bottom: $margin_size * 4;
+
+    .quicktabs-tabs {
+        margin-bottom: $margin_size * 2;
+
+        a {
+            color: #ababab;
+            display: inline-block;
+            @include font_title();
+            font-size: 30px;
+            padding: 16px 50px 8px;
+            position: relative;
+            text-transform: uppercase;
+            z-index: 20;
+        }
+
+        a:hover,
+        li.active a {
+            background: $white;
+            color: #333;
+        }
+
+        a:hover:before,
+        li.active a:before {
+            background: $blue;
+            content: ' ';
+            height: 7px;
+            left: 0;
+            position: absolute;
+            top: -7px;
+            width: 100%;
+            z-index: 99;
+        }
+
+        li {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            z-index: 10;
+            margin-right: -2px;
+
+            &.active:after,
+            &:hover:after {
+                content: ' ';
+                box-shadow: -2px 0px 20px #444;
+                position: absolute;
+                right: 0px;
+                height: 50px;
+                width: 80px;
+                top: -25px;
+                z-index: 1;
+                @include border_radius(20%);
+            }
+        }
+    }
+
+    .quicktabs-wrapper {
+        @extend .row;
+    }
+}

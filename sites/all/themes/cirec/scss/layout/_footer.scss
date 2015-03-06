@@ -1,1 +1,13 @@
 // Non-modular or client styles for .l-footer region.
+.l-footer-wrapper {
+    background: #f0ebe7;
+    padding: ($margin_size * 3) 0 0;
+}
+
+.l-footer {
+    font-size: inherit;
+
+    p {
+        font-size: inherit;
+    }
+}

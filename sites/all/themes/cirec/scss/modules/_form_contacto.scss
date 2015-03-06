@@ -1,0 +1,25 @@
+//---------------------------------------*
+// Formulario de Contacto
+//---------------------------------------*
+.form-contacto {
+
+    background: $blue;
+    padding: $margin_size * 4;
+    text-align: center;
+
+    h1,h2,h3,h4,h5,h6,p {
+        color: $white;
+    }
+
+    .form-submit {
+        margin: $margin_size 0;
+    }
+
+    .node {
+        @extend .row
+    }
+
+    .webform-component-textarea {
+        padding: 0 .5em;
+    }
+}

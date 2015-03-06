@@ -53,7 +53,8 @@ module.exports = function(grunt) {
       dist: {
         options: {
           outputStyle: 'compressed',
-          includePaths: ['<%= global_vars.theme_scss %>', '<%= global_vars.base_theme_path %>/scss/'].concat(bourbon)
+          includePaths: ['<%= global_vars.theme_scss %>', '<%= global_vars.base_theme_path %>/scss/'].concat(bourbon),
+          sourceMap: true
         },
         files: {
           '<%= global_vars.theme_css %>/<%= global_vars.theme_name %>.css': '<%= global_vars.theme_scss %>/<%= global_vars.theme_name %>.scss'
@@ -73,7 +74,7 @@ module.exports = function(grunt) {
 
     uglify: {
       options: {
-        sourceMap: false
+        sourceMap: true
       },
       dist: {
         files: {

@@ -1,0 +1,22 @@
+//---------------------------------------*
+// Testimonios: Widget;
+//---------------------------------------*
+
+.view-id-testimonios_widget {
+
+    .image {
+
+        float: left;
+        margin-right: $margin_size / 2;
+
+        img {
+            @include border_radius(50%);
+            border-width: 5px;
+        }
+    }
+
+    .body {
+        clear: both;
+        padding-top: $margin_size / 2;
+    }
+}
