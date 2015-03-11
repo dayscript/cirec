@@ -12,3 +12,4 @@ node_modules
 # SystemFiles
 .DS_Store
 
+*.map
