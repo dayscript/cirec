@@ -52,7 +52,8 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
-          outputStyle: 'compressed',
+          outputStyle: 'compact',
+          // outputStyle: 'compressed',
           includePaths: ['<%= global_vars.theme_scss %>', '<%= global_vars.base_theme_path %>/scss/'].concat(bourbon),
           sourceMap: true
         },
@@ -73,9 +74,9 @@ module.exports = function(grunt) {
     },
 
     uglify: {
-      options: {
-        sourceMap: true
-      },
+      // options: {
+      //   sourceMap: true
+      // },
       dist: {
         files: {
           'js/libs.min.js': [jsLibs],
