@@ -1,6 +1,17 @@
 <?php
 
 /**
+ * Loads additional template files.
+ */
+function _cirec_load() {
+  $themepath = drupal_get_path('theme', 'cirec');
+  include $themepath . '/inc/form.inc';
+}
+
+_cirec_load();
+
+
+/**
  * Implements template_preprocess_html().
  */
 function cirec_preprocess_html(&$variables) {
