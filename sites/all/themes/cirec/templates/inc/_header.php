@@ -95,9 +95,3 @@
   <!-- hr-stripes -->
   <div class="hr-stripes hr-stripes-4-rows"><div class="row gradient"></div></div>
 
-
-<?php
-// WebForm Contacto
-// $form = module_invoke('webform', 'block_view', 'client-block-23');
-// print render($form['content']);
-?>
