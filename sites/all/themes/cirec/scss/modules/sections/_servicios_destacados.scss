@@ -10,7 +10,7 @@
         display: table-cell;
         padding-bottom: $margin_size;
         text-align: center;
-        float: none; // Override-> Row Height 100%
+        float: none; // Override
 
         &:hover {
             background: $white;
@@ -28,7 +28,7 @@
         }
 
         &:last-child {
-            float: none; // Override-> Row Height 100%
+            float: none; // Override
         }
 
         .body { }
@@ -56,7 +56,8 @@
     }
 
     .view-content {
-        @extend .row;
+        //@extend .row;
+        @include row();
         display: table;
     }
 }

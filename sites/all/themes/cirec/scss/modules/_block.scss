@@ -12,6 +12,14 @@
             margin-top: $margin_size;
             width: 250px;
         }
+
+        a {
+            color: $title_font_color;
+
+            &:hover {
+                color: $blue;
+            }
+        }
     }
 
     .field-name-post-date {
@@ -26,6 +34,14 @@
             text-transform: uppercase;
         }
 
+        a {
+            color: $title_font_color;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
     }
 
 
@@ -35,7 +51,7 @@
     }
 
     .flex-control-nav {
-        border-top: 1px solid #ccc;
+        border-top: 1px solid $arrows_color;
         padding-top: $margin_size;
         text-align: left;
 

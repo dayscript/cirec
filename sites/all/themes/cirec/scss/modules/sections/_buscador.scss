@@ -1,0 +1,84 @@
+//---------------------------------------*
+// Página de resultados de Búsqueda
+//---------------------------------------*
+.page-search {
+
+    // TODO: Verificar si es posible modificar la plantilla de drupal
+    // y añadir una clase a este título (h2)
+    #search-form + h2 { // Título de resultados de búsqueda
+        font-size: em(24);
+        position: relative;
+        padding-bottom: $margin_size;
+        margin-bottom: $margin_size;
+        text-transform: uppercase;
+
+        &:after {
+            border-bottom: 4px solid $blue;
+            bottom: 0;
+            content: ' ';
+            left: 0;
+            position: absolute;
+            width: 250px;
+        }
+
+    }
+
+    .ds-search-extra {
+        margin-bottom: $margin_size;
+
+        strong {
+            color: $blue;
+        }
+    }
+
+    .main .node {
+        border-bottom: 1px solid $arrows_color;
+        margin-bottom: $margin_size;
+
+        &:last-child {
+            border: none;
+            margin-bottom: 0;
+        }
+    }
+
+    .main .node-title {
+        font-size: em(16);
+        text-transform: uppercase;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    /*-----Formulario Busqueda ------*/
+    .search-form {
+        text-align: left;
+        margin-bottom: $margin_size * 2;
+        padding-bottom: $margin_size;
+        border-bottom: 1px solid $arrows_color;
+
+        label {
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        .form-wrapper {
+            @include clearfix;
+        }
+
+        .form-item,
+        .form-submit {
+            display: inline-block;
+        }
+
+        .form-item {
+            width: 86%;
+            margin: 0;
+        }
+
+        .form-text,
+        .form-submit {
+            margin: 0;
+        }
+    }
+}

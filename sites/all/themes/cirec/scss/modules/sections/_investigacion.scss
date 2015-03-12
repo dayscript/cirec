@@ -1,0 +1,41 @@
+.view-display-id-pagina_investigacion {
+
+    .field-name-post-date {
+        color: $orange;
+        font-size: 13px;
+        font-style: italic;
+    }
+
+    .field-name-title h2 {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        a {
+            color: $title_font_color;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .image {
+        margin-bottom: $margin_size;
+
+        img {
+            border: 3px solid $gray_l;
+            height: auto;
+            width: auto;
+
+        }
+    }
+
+    .view-content {
+        @extend .cf
+    }
+
+    .views-row-odd {
+        clear: both;
+    }
+}

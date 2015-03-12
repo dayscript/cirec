@@ -1,0 +1,88 @@
+//---------------------------------------*
+// Formulario de Contacto: Bloque
+//---------------------------------------*
+.form-contacto {
+
+    background: $blue;
+    padding: $margin_size * 4;
+    text-align: center;
+
+    h1,h2,h3,h4,h5,h6,p {
+        color: $white;
+    }
+
+    .alert-box {
+        text-align: left;
+
+        ul {
+            margin: 8px;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 12px;
+        }
+    }
+
+    .form-submit {
+        margin: $margin_size 0;
+    }
+
+    .node {
+        //@extend .row
+        @include row();
+    }
+
+    .webform-component-textarea {
+        padding: 0 .5em;
+    }
+
+
+    /*----- Envio exitoso------*/
+    .links a {
+        @include btn($blue, $white);
+    }
+
+    .webform-confirmation {
+        border-top: 1px solid lighten($blue, 15%);
+        padding: $margin_size 0 12px;
+    }
+}
+
+
+//---------------------------------------*
+// Formulario de Contacto: Página (/contactenos)
+//---------------------------------------*
+#node-23 {
+
+    padding-bottom: $margin_size * 2;
+    text-align: center;
+
+    .alert-box {
+        text-align: left;
+
+        ul {
+            margin: 8px;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 12px;
+        }
+    }
+
+    .form-textarea-wrapper {
+        margin: 0 10px;
+    }
+
+    /*----- Envio exitoso------*/
+    .links a {
+        @include btn($white, $blue);
+    }
+
+    .webform-confirmation {
+        border-top: 1px solid $arrows_color;
+        padding: $margin_size 0 12px;
+    }
+
+}

@@ -5,6 +5,46 @@
     background: #f5f5f5;
     padding-bottom: $margin_size * 4;
 
+    .flexslider {
+        background: none;
+        border: none;
+        margin: 0;
+
+        img {
+            width: auto;
+            height: auto;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+
+    .flex-direction-nav {
+        display: block;
+        a { display: block; }
+        a:before {
+            display: block;
+            content: '\ea44';
+            color: $arrows_color;
+            @include font_cirec();
+        }
+
+        a:hover:before {
+            color: $gray;
+        }
+
+        .flex-nav-next a:before {
+            content: '\ea42';
+        }
+    }
+
+    .flex-nav-prev {}
+    .flex-nav-next {}
+
+    .flex-viewport{
+        margin: 0 $margin_size * 3;
+    }
+
     .quicktabs-tabs {
         margin-bottom: $margin_size * 2;
 
@@ -60,6 +100,7 @@
     }
 
     .quicktabs-wrapper {
-        @extend .row;
+        // @extend .row;
+        @include row();
     }
 }

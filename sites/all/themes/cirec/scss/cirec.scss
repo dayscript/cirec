@@ -98,6 +98,7 @@
 // Styling for elements.
 // Optional.
 @import "base/elements";
+@import "base/typography";
 
 // Layout
 // Each section of the document has it's own partial seperated out to improve
@@ -110,13 +111,20 @@
 // Modules
 @import "modules/block";
 @import "modules/button";
-
-@import "modules/aliados";
-@import "modules/form_contacto";
+// Custom Modules-----
 @import "modules/menu_principal";
 @import "modules/menu_social";
-@import "modules/servicios_destacados";
-@import "modules/testimonios";
+
+
+@import "modules/sections/aliados";
+@import "modules/sections/buscador";
+@import "modules/sections/form_contacto";
+@import "modules/sections/investigacion";
+@import "modules/sections/noticias";
+@import "modules/sections/plan_padrino";
+@import "modules/sections/proyectos_especiales";
+@import "modules/sections/servicios_destacados";
+@import "modules/sections/testimonios";
 
 // States
 // @import "states/collapse";

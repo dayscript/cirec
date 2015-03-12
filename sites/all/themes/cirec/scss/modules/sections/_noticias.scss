@@ -1,0 +1,111 @@
+//---------------------------------------*
+// Página Noticias
+//---------------------------------------*
+.page-noticias {
+
+    #page-title {
+        background: $green;
+    }
+}
+
+
+//---------------------------------------*
+// View Noticias
+//---------------------------------------*
+.view-display-id-pagina_noticias {
+
+    .body {
+        margin-bottom: 1em;
+
+        p { margin: 0; }
+    }
+
+    //--- Eventos
+    .field-name-field-fecha {
+        background: url('../images/icon-sprite.png') left top no-repeat;
+        padding-left: 28px;
+        margin-bottom: 6px;
+    }
+
+    .field-name-field-lugar {
+        background: url('../images/icon-sprite.png') left -95px no-repeat;
+        padding-left: 28px;
+
+        .vcard {
+            border: none;
+            padding: 0;
+            width: 85%;
+            margin-bottom: 5px;
+        }
+
+        .fn {//Location Name
+            display: block;
+        }
+
+        .locality,
+        .street-address {
+            display: inline-block;
+        }
+
+        .locality { font-weight: bold; }
+        .locality:before{ content: ' - '; } //Location Name
+
+    }
+
+    //--- end Eventos
+
+    .field-name-post-date,
+    .field-name-field-fecha {
+        color: $orange;
+        font-size: 13px;
+        font-style: italic;
+    }
+
+    .field-name-title h2 {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        a {
+            color: $title_font_color;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .image {
+
+        margin-bottom: $margin_size;
+
+        img {
+            border: 3px solid $gray_l;
+            height: auto;
+            width: auto;
+
+        }
+    }
+
+    .view-content {
+        @extend .cf
+    }
+
+    .views-row-odd {
+        clear: both;
+    }
+
+    .views-row {
+        margin-bottom: $margin_size * 2;
+        position: relative;
+        min-height: 320px;
+
+        &:after {
+            content: ' ';
+            position: absolute;
+            border-bottom: 1px solid $arrows_color;
+            bottom: 0;
+            width: 94%;
+        }
+    }
+}

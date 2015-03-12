@@ -5,13 +5,14 @@
 // Animation
 //---------------------------------------*
 @mixin transition_hover(){
-    transition: .2s opacity linear;
+  @include transition(.2s opacity linear);
 }
 
 
 //---------------------------------------*
-// Utilities
+// CSS3
 //---------------------------------------*
+//TODO: Agregar Autoprefixer
 @mixin border_radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -26,25 +27,76 @@
           box-shadow: $values;
 }
 
+
+//---------------------------------------*
+// Utilities
+//---------------------------------------*
+
+// Apariencia general de botones
+@mixin btn($color_tx, $color_bg) {
+  @include border_radius( $border_radius );
+  @include transition_hover();
+
+  background: $color_bg;
+  color: $color_tx;
+  cursor: pointer;
+  display: inline-block;
+  font-size: em(14);
+  opacity: 1;
+  padding: 8px 20px;
+  text-transform: uppercase;
+
+  &:hover {
+    background: $color_bg;
+    color: $color_tx;
+    opacity: 0.6;
+  }
+}
+
+// Apariencia general de las imágenes en los contenidos
+@mixin img_style() {
+  border: 5px solid $gray_l;
+}
+
+// Apariencia de las fotografias (Testimonios, Plan Padrino)
+@mixin photo_img_style() {
+  @include border_radius(50%);
+  border: 5px solid $gray_l;
+}
+
+// Franjas horizontales multicolor bajo el header, sobre el footer
 @mixin stripes_4_rows() {
   background: $blue;
-  background: -moz-linear-gradient(left,  $blue 0%, $blue 25%, $green 25%, $green 50%, $orange 50%, $orange 75%, $red 75%, $red 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,$blue), color-stop(25%,$blue), color-stop(25%,$green), color-stop(50%,$green), color-stop(50%,$orange), color-stop(75%,$orange), color-stop(75%,$red), color-stop(100%,$red));
-  background: -webkit-linear-gradient(left,  $blue 0%,$blue 25%,$green 25%,$green 50%,$orange 50%,$orange 75%,$red 75%,$red 100%);
-  background: -o-linear-gradient(left,  $blue 0%,$blue 25%,$green 25%,$green 50%,$orange 50%,$orange 75%,$red 75%,$red 100%);
-  background: -ms-linear-gradient(left,  $blue 0%,$blue 25%,$green 25%,$green 50%,$orange 50%,$orange 75%,$red 75%,$red 100%);
-  background: linear-gradient(to right,  $blue 0%,$blue 25%,$green 25%,$green 50%,$orange 50%,$orange 75%,$red 75%,$red 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$blue', endColorstr='$red',GradientType=1 );
+  // background: -moz-linear-gradient(left,  $blue 0%, $blue 25%, $green 25%, $green 50%, $orange 50%, $orange 75%, $red 75%, $red 100%);
+  @include linear-gradient(to right,  $blue 0%,$blue 25%,$green 25%,$green 50%,$orange 50%,$orange 75%,$red 75%,$red 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$blue', endColorstr='$red',GradientType=1 ); //Old IE
+}
 
+// Heredar el ancho de fila establecido para Foundation-
+@mixin row() {
+  width: $row-width;
+  margin: 0 auto;
 }
 
 //---------------------------------------*
 // Typography
 //---------------------------------------*
 @mixin font_title() {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 @mixin font_body() {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@mixin font_cirec() {
+  font-family: 'cirec';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

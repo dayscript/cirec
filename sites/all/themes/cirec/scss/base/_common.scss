@@ -1,21 +1,10 @@
 // Common abstract classes to extend or parametrics are stored here.
 
-// Example parametrics.
-// ------------------------------------------------------
-// %font-FONTNAME   {}
-// %font-sans-serif { font-family: sans-serif; }
-// %font-serif      { font-family: serif; }
 
-
-// Raleway
-// <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
-//Open Sans
-//<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-
-
-
+//---------------------------------------*
+//  Separador Horizontal
+//  (Franja Hz de 5 Colores, bajo el Header, y sobre el footer)
+//---------------------------------------*
 .hr-stripes {
     background: $gray;
     .gradient { filter: none; } //IE9 Support Multi Stop SVG Gradients
@@ -25,3 +14,63 @@
     @include stripes_4_rows();
     height: 7px;
 }
+
+
+//---------------------------------------*
+// Breadcrumbs
+//---------------------------------------*
+.breadcrumbs {
+    border: none;
+    background: none;
+    padding: 0;
+
+    a {
+        font-size: 11px;
+        color:  $body_font_color;
+    }
+
+    a:hover,
+    .current a {
+        color: $blue;
+    }
+}
+
+//---------------------------------------*
+// Paginador
+//---------------------------------------*
+.pagination.pager {
+    margin: ($margin_size * 2) 0;
+
+    a {
+        background: #ccc;
+        color: $white;
+        display: inline-block;
+        font-size: 20px;
+        padding: 6px 16px;
+        text-transform: uppercase;
+    }
+
+    a:hover,
+    .current a {
+        background: $blue;
+
+    }
+}
+
+
+//---------------------------------------*
+// Views
+//---------------------------------------*
+.page-node,
+.views-page {
+    #page-title {
+        background: $blue;
+        color: $white;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0 0 $margin_size;
+        padding: $margin_size ($margin_size * 2);
+        text-transform: uppercase;
+    }
+}
+

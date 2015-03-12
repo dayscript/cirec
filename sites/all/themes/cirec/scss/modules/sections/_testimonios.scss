@@ -10,8 +10,7 @@
         margin-right: $margin_size / 2;
 
         img {
-            @include border_radius(50%);
-            border-width: 5px;
+            @include photo_img_style();
         }
     }
 

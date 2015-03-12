@@ -1,0 +1,52 @@
+//---------------------------------------*
+// Proyectos Especiales
+//---------------------------------------*
+.view-display-id-page_proyectos_especiales {
+
+    .field-name-field-subtitulo {
+        @include font_title();
+        color: $title_font_color;
+        font-size: 16px;
+    }
+
+    .field-name-title {
+        font-size: 24px;
+        position: relative;
+        text-transform: uppercase;
+        margin-bottom: $margin_size;
+        padding-bottom: $margin_size / 2;
+
+        &:after {
+            border-bottom: 4px solid $blue;
+            bottom: 0;
+            content:' ';
+            left: 0;
+            position: absolute;
+            width: 250px;
+        }
+    }
+
+    .flex-control-paging {
+        text-align: left;
+    }
+
+    .slides {
+        margin-top: 6px;
+
+        img {
+            @include img_style();
+        }
+    }
+
+    .views-row {
+        border-bottom: 1px solid $arrows_color;
+        margin-bottom: $margin_size;
+        padding-bottom: $margin_size;
+    }
+
+    .views-row-even .group-left {
+        float: right;
+    }
+
+
+}

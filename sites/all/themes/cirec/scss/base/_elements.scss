@@ -5,9 +5,8 @@
 // - Also, before adding styles be sure to modify variables in the
 //   "base/_common.scss" file. You may not need to write any code.
 // Body
-html {
-    font-size: 110%;
-}
+
+// html { font-size: 110%; }
 
 body {
     @include font_body();
@@ -38,8 +37,15 @@ ul, ol, dl, p, div {
 // a:active,
 // a:hover {}
 
-// Form Input
+// Forms & Inputs
 //-----------------------------------------------------------------------------
+label {
+    color: $body_font_color;
+    font-size: em(14);
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -58,21 +64,12 @@ textarea,
 .form-textarea {
     background: $input_bg;
     @include font_body();
-    font-size: 14px;
+    font-size: em(14);
 }
 
 input[type=submit],
 .form-submit {
-    background: $blue;
-    @include font_body();
-    font-size: 14px;
-    padding: 7px 14px;
-    @include transition-hover();
-
-    &:hover{
-        opacity: .7;
-        background: $blue;
-    }
+    @include btn($white, $blue);
 }
 // input[type="text"],
 // input[type="password"],
@@ -94,5 +91,5 @@ input[type=submit],
 select,
 .form-select {
     @include font_body();
-    font-size: 14px;
+    font-size: em(14);
 }

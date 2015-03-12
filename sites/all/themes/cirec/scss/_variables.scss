@@ -2,6 +2,13 @@
 // TEMP
 //---------------------------------------*
 
+
+//---------------------------------------*
+// Bourbon
+//---------------------------------------*
+$em-base: 14px;
+
+
 //---------------------------------------
 // Foundation
 //---------------------------------------
@@ -22,7 +29,7 @@ $blue_menu:     #19a3d2;
 $blue_menu_d:   #008cbc;
 
 $gray:          #666666;
-$gray_l:        #f4f4f4;
+$gray_l:        #f3f3f3;
 
 $green:         #92cd4d;
 
@@ -32,14 +39,16 @@ $orange:        #fc8d31;
 
 $white:         #fff;
 
-$input_bg:      $gray_l;
-
 
 //---------------------------------------*
 // Common Measures
 //---------------------------------------*
+$input_bg:      $gray_l;
+
+$arrows_color:      #ccc;
 $body_font_size:    14px;
 $body_font_color:   #999;
+$title_font_color:  #444;
 $border_radius:     5px;
 $margin_size:       20px;
 
