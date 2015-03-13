@@ -1,6 +1,6 @@
 name = cirec
 description = Custom sub-theme based on the the Zurb Foundation base theme.
-screenshot = images/screenshot.png
+screenshot = screenshot.jpg
 
 core = 7.x
 engine = phptemplate
