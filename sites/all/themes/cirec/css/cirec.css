@@ -7306,6 +7306,62 @@ select, .form-select {
     width: 20%;
     text-align: center; }
 
+.view-display-id-propuesta_valor .slide {
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 650px; }
+.view-display-id-propuesta_valor .slide-row {
+  padding: 150px 0; }
+  .view-display-id-propuesta_valor .slide-row .column-right {
+    text-align: center; }
+  .view-display-id-propuesta_valor .slide-row .desc, .view-display-id-propuesta_valor .slide-row .title {
+    color: #fff; }
+  .view-display-id-propuesta_valor .slide-row .icon-img {
+    margin-bottom: 1em; }
+  .view-display-id-propuesta_valor .slide-row .title {
+    font-size: 2em;
+    line-height: 1em;
+    padding: 0 2em;
+    text-transform: uppercase; }
+.view-display-id-propuesta_valor .views-slideshow-controls-bottom {
+  background: url('../images/bg-slider-drag-nav.png') center center no-repeat;
+  bottom: 100px;
+  margin: 0 auto;
+  position: relative;
+  width: 1140px;
+  z-index: 99;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+.view-display-id-propuesta_valor .ui-slider {
+  background: none;
+  border: none;
+  bottom: 0;
+  height: 40px;
+  padding: 0;
+  width: 675px;
+  margin: 0 auto; }
+.view-display-id-propuesta_valor .ui-widget-header {
+  background: none;
+  border: none; }
+.view-display-id-propuesta_valor .ui-slider-handle {
+  background: url('../images/bg-slider-drag-btn.png') center center no-repeat;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  margin-left: -12.5%;
+  top: 0;
+  width: 25%; }
+.view-display-id-propuesta_valor .views-slideshow-cycle-main-frame {
+  position: relative; }
+.view-display-id-propuesta_valor .views_slideshow_cycle_slide {
+  width: 100%; }
+
 .view-display-id-page_proyectos_especiales .field-name-field-subtitulo {
   font-family: 'Raleway', sans-serif;
   color: #444;
@@ -7392,7 +7448,5 @@ select, .form-select {
   clear: both;
   padding-top: 10px; }
 
-.front .l-content-after {
-  margin-top: 80px; }
 
 /*# sourceMappingURL=cirec.css.map */

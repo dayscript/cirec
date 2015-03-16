@@ -1,0 +1,85 @@
+.view-display-id-propuesta_valor {
+
+    .slide {
+        background-position: center center;
+        background-repeat: no-repeat;
+        @include background_size(cover);
+        min-height: 650px;
+    }
+
+    .slide-row {
+        padding: 150px 0 ;
+
+        .column-right {
+            text-align: center;
+        }
+
+        .desc,
+        .title {
+            color: $white;
+        }
+
+        .icon-img {
+            margin-bottom: 1em;
+        }
+
+        .title {
+            font-size: em(28);
+            line-height: 1em;
+            padding: 0 2em;
+            text-transform: uppercase;
+        }
+    }
+
+    //----- Drag Controls------
+    .views-slideshow-controls-bottom {
+        background: url('../images/bg-slider-drag-nav.png') center center no-repeat;
+        bottom: 100px;
+        margin: 0 auto;
+        position: relative;
+        width: $row-width;
+        z-index: 99;
+        //margin-bottom: -40px;
+        @include user-select(none);
+    }
+
+    .ui-slider {
+        //background: url('../images/bg-slider-drag-nav.png') center center no-repeat;
+        background: none;
+        border: none;
+        bottom: 0;
+        height: 40px;
+        padding: 0;
+        width: 675px;
+        margin: 0 auto;
+    }
+
+    .ui-widget-header {
+        background: none;
+        border: none;
+    }
+
+    .ui-slider-handle {
+        background: url('../images/bg-slider-drag-btn.png') center center no-repeat;
+        border: none;
+        cursor: pointer;
+        height: 40px;
+        margin-left: -12.5%;
+        top: 0;
+        //@include user-select(none);
+
+        width: 25%;//160px;
+        //@include linear-gradient(lighten($blue, 20%), $blue);
+    }
+    //----- end Drag Controls------
+
+
+    .views-slideshow-cycle-main-frame {
+        //width: 100% !important;
+        position: relative;
+    }
+    .views_slideshow_cycle_slide {
+        width: 100%;
+    }
+}
+

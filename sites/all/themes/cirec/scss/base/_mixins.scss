@@ -27,6 +27,12 @@
           box-shadow: $values;
 }
 
+@mixin background_size($value) {
+  -webkit-background-size: $value;
+     -moz-background-size: $value;
+       -o-background-size: $value;
+          background-size: $value;
+}
 
 //---------------------------------------*
 // Utilities
