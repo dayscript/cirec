@@ -1,7 +1,14 @@
 <?php
-//---------------------------------------
-// Template: Slider Propuesta de Valor
-//---------------------------------------
+/**
+ * Template: Slider Propuesta de Valor
+ *---------------------------------------
+ * Este template es utilizado para mostrar la imagen principal (del tipo de contenido)
+ * como 'background' de un div y asi poder lograr la presentación segun el diseño
+ * Se utiliza este archivo para evitar el uso de un campo VIEWS_PHP, y debido a que los
+ * campos 'Custom Text' en drupal no permiten la adicion de estilos CSS-inline o etiquetas <style>
+ */
+
+
 /**
  * @file
  * Default simple view template to all the fields as a row.
@@ -28,7 +35,7 @@
 ?>
 <?php foreach ($fields as $id => $field): ?>
     <?php
-        // Guarda la Url de la imagen, para luego añadirla como background-image en CSS
+        // Guarda la Url de la imagen, para luego añadirla como background-image
         $row_bg = file_create_url($row->field_field_image[0]['rendered']['#file']->uri);
     ?>
     <div class="slide slide-<?php print $row->nid; ?>"
