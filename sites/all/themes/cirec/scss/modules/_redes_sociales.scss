@@ -1,0 +1,161 @@
+// Ocultar el contenido del bloque del título
+// debido a que drupal no permite crear un bloque con contenido vacio
+.title-social-feed {
+    .block-content {
+        display: none;
+    }
+}
+
+.social-widget {
+    padding: .7em 1em 1em;
+    margin: 24px 12px 50px 0;
+    @include border-radius(20px);
+
+    .block-title {
+        text-transform: uppercase;
+        font-size: em(16);
+        font-weight: bold;
+        margin: 0;
+        padding: 0 0 8px 0;
+
+        &:before {
+            //fb: \ea8c;
+            //tw: \ea91;
+            //yb: \ea99;
+            content: '\ea8c';
+
+            background: #fff;
+            @include border-radius(50%);
+            color: $fb_color;
+            display: inline-block;
+            @include font_cirec();
+            font-size: 24px;
+            height: 40px;
+            line-height: 40px;
+            margin-right: 12px;
+            text-align: center;
+            width: 40px;
+        }
+    }
+
+    .block-title a {
+        color: $white;
+        position: relative;
+        top: -4px;
+
+        &:hover {
+            opacity: .5;
+        }
+    }
+
+    .block-content {
+        background: $white;
+        // @include border-radius(8px);
+        max-height: 126px;
+        min-height: 126px;
+        overflow: hidden;
+        position: relative;
+        padding: 5px 10px 10px;
+    }
+
+    li,
+    li.item {
+        margin: 0;
+    }
+}
+//---------------------------------------
+// Facebook Feed
+//---------------------------------------
+.social-widget.facebook-widget {
+    background: $fb_color;
+
+    .block-title:before {
+        content: '\ea8c';
+        color: $fb_color;
+        font-weight: bold;
+        text-indent: -4px;
+    }
+
+    .facebook-feed-from {
+        margin-left: 5px;
+        a {
+            color: #333;
+            font-size: 1em;
+        }
+    }
+
+    .facebook-feed-message {
+        color: $body_font_color;
+        font-size: em(13);
+        display: block;
+        line-height: 1.4;
+        margin-left: 60px;
+        margin-top: 5px;
+
+        a {
+            color: $blue;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    .facebook-feed-picture {
+        margin-top: 8px;
+    }
+
+    .facebook-feed-time {
+        font-size: 13px;
+        font-style: italic;
+        color: $body_font_color;
+        position: absolute;
+        top: 5px;
+        right: 8px;
+    }
+}
+
+
+//---------------------------------------
+// Twitter Feed
+//---------------------------------------
+.social-widget.twitter-widget {
+    background: $tw_color;
+    margin-top: 75px;
+
+    .block-title:before {
+        content: '\ea91';
+        color: $tw_color;
+    }
+
+    .avatar {
+        margin-top: 8px;
+    }
+
+    .text {
+        color: $body_font_color;
+        font-size: 13px;
+        line-height: 1.4;
+
+        a {
+            color: $blue;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    ul.actions { display: none; }
+    .twitter-status,
+    .item-list ul,
+    .views-row
+     {
+        padding: 0;
+        margin: 0;
+    }
+}
