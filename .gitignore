@@ -7,7 +7,7 @@ sites/*/private
 
 .svn/
 node_modules
-
+.idea/*
 
 # SystemFiles
 .DS_Store
