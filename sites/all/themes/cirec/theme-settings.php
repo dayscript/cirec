@@ -12,28 +12,28 @@ function cirec_form_system_theme_settings_alter(&$form, &$form_state) {
     /*---------------------------------------*
      * Social Networks
      *---------------------------------------*/
-    $form['cirec']['social'] = array(
-      '#type' => 'fieldset',
-      '#title' => t('Cirec Social Networks'),
-    );
+    // $form['cirec']['social'] = array(
+    //   '#type' => 'fieldset',
+    //   '#title' => t('Cirec Social Networks'),
+    // );
 
-    $form['cirec']['social']['fb_link'] = array(
-        '#type' => 'textfield',
-        '#title' => t('Enlace a facebook'),
-        '#default_value' => theme_get_setting('fb_link'),
-        );
+    // $form['cirec']['social']['fb_link'] = array(
+    //     '#type' => 'textfield',
+    //     '#title' => t('Enlace a facebook'),
+    //     '#default_value' => theme_get_setting('fb_link'),
+    //     );
 
-    $form['cirec']['social']['tw_link'] = array(
-        '#type' => 'textfield',
-        '#title' => t('Enlace a twitter'),
-        '#default_value' => theme_get_setting('tw_link'),
-        );
+    // $form['cirec']['social']['tw_link'] = array(
+    //     '#type' => 'textfield',
+    //     '#title' => t('Enlace a twitter'),
+    //     '#default_value' => theme_get_setting('tw_link'),
+    //     );
 
-    $form['cirec']['social']['yb_link'] = array(
-        '#type' => 'textfield',
-        '#title' => t('Enlace a Youtube'),
-        '#default_value' => theme_get_setting('yb_link'),
-        );
+    // $form['cirec']['social']['yb_link'] = array(
+    //     '#type' => 'textfield',
+    //     '#title' => t('Enlace a Youtube'),
+    //     '#default_value' => theme_get_setting('yb_link'),
+    //     );
 
     /*---------------------------------------*
      * Settings
