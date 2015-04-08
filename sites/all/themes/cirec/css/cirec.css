@@ -6895,7 +6895,7 @@ select, .form-select {
   margin-top: 30px;
   float: right; }
   .sf-main-menu .sf-depth-1 > a {
-    background: none;
+    background: #000;
     color: #999;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
@@ -7155,10 +7155,10 @@ select, .form-select {
     .page-search .search-form label {
       display: inline-block;
       margin-bottom: 8px; }
-    .page-search .search-form .form-wrapper:after {
+    .page-search .search-form .form-wrapper::after {
+      clear: both;
       content: "";
-      display: table;
-      clear: both; }
+      display: table; }
     .page-search .search-form .form-item, .page-search .search-form .form-submit {
       display: inline-block; }
     .page-search .search-form .form-item {
