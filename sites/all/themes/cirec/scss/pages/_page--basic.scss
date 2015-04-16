@@ -1,0 +1,240 @@
+.node-type-page
+              { .group-left
+                {
+                  width: 68%;
+                  margin-right: 22px;
+                  .image
+                  {
+                      float: left;
+                      margin-right: 10px;
+                  }
+                }
+                .group-right
+                {
+                  width: 30%;
+
+                  .field-name-testimonios-basic-page .block-title {
+                    font-size: 24px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    margin-bottom: 10px; }
+                  .field-name-testimonios-basic-page .block-title:after {
+                    border-top: 4px solid #0099cd;
+                    content: '';
+                    display: block;
+                    margin-top: 20px;
+                    width: 250px; }
+                  .field-name-testimonios-basic-page .block-title a {
+                    color: #444; }
+                    .field-name-testimonios-basic-page .block-title a:hover {
+                      color: #0099cd; }
+                  .field-name-testimonios-basic-page .field-name-post-date {
+                    color: #fc8d31;
+                    font-size: 13px;
+                    font-style: italic; }
+                  .field-name-testimonios-basic-page .field-name-title h2 {
+                    font-size: 16px;
+                    text-transform: uppercase; }
+                  .field-name-testimonios-basic-page .field-name-title a {
+                    color: #444; }
+                  .field-name-testimonios-basic-page .field-name-title a:hover {
+                    text-decoration: underline; }
+                  .field-name-testimonios-basic-page .flexslider {
+                    border: none; }
+                  .field-name-testimonios-basic-page .flex-control-nav {
+                    border-top: 1px solid #ccc;
+                    padding-top: 20px;
+                    text-align: left; }
+                  .field-name-testimonios-basic-page .flex-control-nav a {
+                    background: #d5d5d5;
+                    -webkit-box-shadow: none;
+                    -moz-box-shadow: none;
+                    -ms-box-shadow: none;
+                    box-shadow: none; }
+                  .field-name-testimonios-basic-page .flex-control-nav a.flex-active {
+                    background: #7a7a7a; }
+                  .field-name-testimonios-basic-page .image img {
+                    border: 3px solid #f3f3f3;
+                    width: auto; }
+
+                  .field-name-actividad-en-redes .block-title {
+                    font-size: 24px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    margin-bottom: 10px; }
+
+                  .field-name-actividad-en-redes .block-title a{
+                    color: #444; }
+                  .field-name-actividad-en-redes .block-title a:hover {
+                      color: #0099cd; }
+                  .field-name-actividad-en-redes .block-content {
+                        display: none; }
+                  .field-name-actividad-en-redes .block-title:after {
+                            border-top: 4px solid #0099cd;
+                            content: '';
+                            display: block;
+                            margin-top: 20px;
+                            width: 250px;
+                  }
+                  .field-name-actividad-en-redes p{display: none}
+                  .field-name-actividad-facebook , .field-name-actividad-twitter {
+                            padding: .7em 1em 1em;
+                            margin: 24px 12px 30px 0;
+                            @include border-radius(20px);
+
+                            .block-title {
+                                text-transform: uppercase;
+                                font-size: em(16);
+                                font-weight: bold;
+                                margin: 0;
+                                padding: 0 0 8px 0;
+
+                                &:before {
+                                    //fb: \ea8c;
+                                    //tw: \ea91;
+                                    //yb: \ea99;
+                                    content: '\ea8c';
+
+                                    background: #fff;
+                                    @include border-radius(50%);
+                                    color: $fb_color;
+                                    display: inline-block;
+                                    @include font_cirec();
+                                    font-size: 24px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    margin-right: 12px;
+                                    text-align: center;
+                                    width: 40px;
+                                }
+                            }
+                            .twitter-status.clearfix{
+                              padding: 10px;
+                            }
+
+                            .block-title {
+                                color: $white;
+                                position: relative;
+                                top: -4px;
+
+                                &:hover {
+                                    opacity: .5;
+                                }
+                            }
+
+                            .facebook-feed {
+                                background: $white;
+                                // @include border-radius(8px);
+                                max-height: 126px;
+                                min-height: 126px;
+                                overflow: hidden;
+                                position: relative;
+                                padding: 5px 10px 10px;
+                            }
+
+                            li,
+                            li.item {
+                                margin: 0;
+                            }
+                        }
+
+                     .field-name-actividad-facebook {
+                          background: $fb_color;
+
+                          .block-title:before {
+                              content: '\ea8c';
+                              color: $fb_color;
+                              font-weight: bold;
+                              text-indent: -4px;
+                          }
+
+                          .facebook-feed-from {
+                              margin-left: 5px;
+                              a {
+                                  color: #333;
+                                  font-size: 1em;
+                              }
+                          }
+
+                          .facebook-feed-message {
+                              color: $body_font_color;
+                              font-size: em(13);
+                              display: block;
+                              line-height: 1.4;
+                              margin-left: 60px;
+                              margin-top: 5px;
+
+                              a {
+                                  color: $blue;
+
+                                  &:hover {
+                                      text-decoration: underline;
+                                  }
+                              }
+
+                              img {
+                                  display: none;
+                              }
+                          }
+
+                          .facebook-feed-picture {
+                              margin-top: 8px;
+                          }
+
+                          .facebook-feed-time {
+                              font-size: 13px;
+                              font-style: italic;
+                              color: $body_font_color;
+                              position: absolute;
+                              top: 5px;
+                              right: 8px;
+                          }
+                  }
+
+                  .field-name-actividad-twitter{
+                      background: $tw_color;
+                      /*margin-top: 75px;*/
+
+                      .block-title:before {
+                          content: '\ea91';
+                          color: $tw_color;
+                      }
+
+                      .avatar {
+                          margin-top: 8px;
+                      }
+
+                      .text {
+                          color: $body_font_color;
+                          font-size: 13px;
+                          line-height: 1.4;
+
+                          a {
+                              color: $blue;
+
+                              &:hover{
+                                  text-decoration: underline;
+                              }
+                          }
+                      }
+
+                      ul.actions { display: none; }
+                      .twitter-status,
+                      .item-list ul,
+                      .views-row
+                       {
+                          padding: 0;
+                          margin: 0;
+                      }
+                    }
+
+                    .twitter-status.clearfix{
+
+                    }
+
+                }
+
+              }
+
+
+

@@ -7569,5 +7569,184 @@ select, .form-select {
 .page-node-77 .ds-2col > .group-right {
   width: 100% !important; }
 
+.node-type-page .group-left {
+  width: 68%;
+  margin-right: 22px; }
+  .node-type-page .group-left .image {
+    float: left;
+    margin-right: 10px; }
+.node-type-page .group-right {
+  width: 30%; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .block-title {
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .block-title:after {
+    border-top: 4px solid #0099cd;
+    content: '';
+    display: block;
+    margin-top: 20px;
+    width: 250px; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .block-title a {
+    color: #444; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .block-title a:hover {
+    color: #0099cd; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-post-date {
+    color: #fc8d31;
+    font-size: 13px;
+    font-style: italic; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title h2 {
+    font-size: 16px;
+    text-transform: uppercase; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title a {
+    color: #444; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title a:hover {
+    text-decoration: underline; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .flexslider {
+    border: none; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .flex-control-nav {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    text-align: left; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .flex-control-nav a {
+    background: #d5d5d5;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .flex-control-nav a.flex-active {
+    background: #7a7a7a; }
+  .node-type-page .group-right .field-name-testimonios-basic-page .image img {
+    border: 3px solid #f3f3f3;
+    width: auto; }
+  .node-type-page .group-right .field-name-actividad-en-redes .block-title {
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  .node-type-page .group-right .field-name-actividad-en-redes .block-title a {
+    color: #444; }
+  .node-type-page .group-right .field-name-actividad-en-redes .block-title a:hover {
+    color: #0099cd; }
+  .node-type-page .group-right .field-name-actividad-en-redes .block-content {
+    display: none; }
+  .node-type-page .group-right .field-name-actividad-en-redes .block-title:after {
+    border-top: 4px solid #0099cd;
+    content: '';
+    display: block;
+    margin-top: 20px;
+    width: 250px; }
+  .node-type-page .group-right .field-name-actividad-en-redes p {
+    display: none; }
+  .node-type-page .group-right .field-name-actividad-facebook, .node-type-page .group-right .field-name-actividad-twitter {
+    padding: .7em 1em 1em;
+    margin: 24px 12px 30px 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px; }
+    .node-type-page .group-right .field-name-actividad-facebook .block-title, .node-type-page .group-right .field-name-actividad-twitter .block-title {
+      text-transform: uppercase;
+      font-size: 1.1428571429em;
+      font-weight: bold;
+      margin: 0;
+      padding: 0 0 8px 0; }
+      .node-type-page .group-right .field-name-actividad-facebook .block-title:before, .node-type-page .group-right .field-name-actividad-twitter .block-title:before {
+        content: '\ea8c';
+        background: #fff;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        color: #425f9c;
+        display: inline-block;
+        font-family: 'cirec';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 24px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 12px;
+        text-align: center;
+        width: 40px; }
+    .node-type-page .group-right .field-name-actividad-facebook .twitter-status.clearfix, .node-type-page .group-right .field-name-actividad-twitter .twitter-status.clearfix {
+      padding: 10px; }
+    .node-type-page .group-right .field-name-actividad-facebook .block-title, .node-type-page .group-right .field-name-actividad-twitter .block-title {
+      color: #fff;
+      position: relative;
+      top: -4px; }
+      .node-type-page .group-right .field-name-actividad-facebook .block-title:hover, .node-type-page .group-right .field-name-actividad-twitter .block-title:hover {
+        opacity: .5; }
+    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed, .node-type-page .group-right .field-name-actividad-twitter .facebook-feed {
+      background: #fff;
+      max-height: 126px;
+      min-height: 126px;
+      overflow: hidden;
+      position: relative;
+      padding: 5px 10px 10px; }
+    .node-type-page .group-right .field-name-actividad-facebook li, .node-type-page .group-right .field-name-actividad-facebook li.item, .node-type-page .group-right .field-name-actividad-twitter li, .node-type-page .group-right .field-name-actividad-twitter li.item {
+      margin: 0; }
+  .node-type-page .group-right .field-name-actividad-facebook {
+    background: #425f9c; }
+    .node-type-page .group-right .field-name-actividad-facebook .block-title:before {
+      content: '\ea8c';
+      color: #425f9c;
+      font-weight: bold;
+      text-indent: -4px; }
+    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-from {
+      margin-left: 5px; }
+      .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-from a {
+        color: #333;
+        font-size: 1em; }
+    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message {
+      color: #999;
+      font-size: 0.9285714286em;
+      display: block;
+      line-height: 1.4;
+      margin-left: 60px;
+      margin-top: 5px; }
+      .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message a {
+        color: #0099cd; }
+        .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message a:hover {
+          text-decoration: underline; }
+      .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message img {
+        display: none; }
+    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-picture {
+      margin-top: 8px; }
+    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-time {
+      font-size: 13px;
+      font-style: italic;
+      color: #999;
+      position: absolute;
+      top: 5px;
+      right: 8px; }
+  .node-type-page .group-right .field-name-actividad-twitter {
+    background: #0099cd;
+    /*margin-top: 75px;*/ }
+    .node-type-page .group-right .field-name-actividad-twitter .block-title:before {
+      content: '\ea91';
+      color: #0099cd; }
+    .node-type-page .group-right .field-name-actividad-twitter .avatar {
+      margin-top: 8px; }
+    .node-type-page .group-right .field-name-actividad-twitter .text {
+      color: #999;
+      font-size: 13px;
+      line-height: 1.4; }
+      .node-type-page .group-right .field-name-actividad-twitter .text a {
+        color: #0099cd; }
+        .node-type-page .group-right .field-name-actividad-twitter .text a:hover {
+          text-decoration: underline; }
+    .node-type-page .group-right .field-name-actividad-twitter ul.actions {
+      display: none; }
+    .node-type-page .group-right .field-name-actividad-twitter .twitter-status, .node-type-page .group-right .field-name-actividad-twitter .item-list ul, .node-type-page .group-right .field-name-actividad-twitter .views-row {
+      padding: 0;
+      margin: 0; }
 
 /*# sourceMappingURL=cirec.css.map */
