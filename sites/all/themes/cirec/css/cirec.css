@@ -7567,7 +7567,7 @@ select, .form-select {
 /*Seccion apoyanos*/
 /******************/
 .page-node-77 .ds-2col > .group-right {
-  width: 100% !important; }
+  /*width: 100%!important;*/ }
 
 .node-type-page .group-left {
   width: 68%;
@@ -7748,5 +7748,30 @@ select, .form-select {
     .node-type-page .group-right .field-name-actividad-twitter .twitter-status, .node-type-page .group-right .field-name-actividad-twitter .item-list ul, .node-type-page .group-right .field-name-actividad-twitter .views-row {
       padding: 0;
       margin: 0; }
+
+.node-type-proability #page-title {
+  background: url('../../../../default/files/header-proability.png');
+  background-size: 100% 133px;
+  height: 133px;
+  color: rgba(255, 255, 255, 0); }
+.node-type-proability .group-header .field.field-name-field-subtitulo.field-type-text-long.field-label-hidden.field-wrapper {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -1px;
+  color: #333333;
+  border-bottom: 4px solid #0099cd;
+  padding-bottom: 20px; }
+.node-type-proability .field-name-field-imagenes img {
+  margin-right: 10px;
+  margin-bottom: 10px; }
+.node-type-proability .ds-2col-stacked-fluid > .group-right {
+  width: 45%; }
+.node-type-proability .ds-2col-stacked-fluid > .group-left {
+  float: left;
+  width: 50%;
+  margin-right: 56px; }
 
 /*# sourceMappingURL=cirec.css.map */
