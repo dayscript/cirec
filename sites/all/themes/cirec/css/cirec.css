@@ -6873,7 +6873,8 @@ select, .form-select {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 20px;
-  border-color: #0099CD; }
+  border-color: #0099CD;
+  text-transform: uppercase; }
 
 .button-wrapper {
   margin-top: 20px; }
