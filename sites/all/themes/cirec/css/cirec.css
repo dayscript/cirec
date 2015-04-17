@@ -7770,20 +7770,18 @@ select, .form-select {
   margin-right: 56px; }
 
 .page-clinica-de-rehabilitaci-n .views-row.views-row-1.views-row-odd.views-row-first {
-  float: left;
-  width: 520px; }
+  float: left; }
 .page-clinica-de-rehabilitaci-n .views-row.views-row-3.views-row-odd {
   float: left; }
 .page-clinica-de-rehabilitaci-n .views-row.views-row-6.views-row-even {
   float: left; }
 .page-clinica-de-rehabilitaci-n .views-row.views-row-2.views-row-even {
-  float: left;
-  height: 281px; }
+  float: left; }
 .page-clinica-de-rehabilitaci-n .views-row.views-row-4.views-row-even {
-  float: left;
-  width: 281px; }
+  float: left; }
 .page-clinica-de-rehabilitaci-n .views-row.views-row-5.views-row-odd {
-  float: left;
-  width: 520px; }
+  width: 265px;
+  position: absolute;
+  margin: 0 0 0 75%; }
 
 /*# sourceMappingURL=cirec.css.map */

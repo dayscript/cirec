@@ -4,7 +4,6 @@
 
           .views-row.views-row-1.views-row-odd.views-row-first {
             float: left;
-            width: 520px;
           }
           .views-row.views-row-3.views-row-odd {
             float: left;
@@ -14,14 +13,15 @@
           }
           .views-row.views-row-2.views-row-even{
            float: left;
-           height: 281px;
+
           }
           .views-row.views-row-4.views-row-even{
           float: left;
-          width: 281px;
+
           }
           .views-row.views-row-5.views-row-odd{
-            float: left;
-            width: 520px;
+            width: 265px;
+            position: absolute;
+            margin: 0 0 0 75%;
           }
 }
