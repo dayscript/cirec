@@ -7769,21 +7769,28 @@ select, .form-select {
   width: 50%;
   margin-right: 56px; }
 
-.page-clinica-de-rehabilitaci-n .views-row.views-row-1.views-row-odd.views-row-first {
-  float: left;
-  width: 520px; }
-.page-clinica-de-rehabilitaci-n .views-row.views-row-3.views-row-odd {
-  float: left; }
-.page-clinica-de-rehabilitaci-n .views-row.views-row-6.views-row-even {
-  float: left; }
-.page-clinica-de-rehabilitaci-n .views-row.views-row-2.views-row-even {
-  float: left;
-  height: 281px; }
-.page-clinica-de-rehabilitaci-n .views-row.views-row-4.views-row-even {
-  float: left;
-  width: 281px; }
-.page-clinica-de-rehabilitaci-n .views-row.views-row-5.views-row-odd {
-  float: left;
-  width: 520px; }
+.page-clinica-de-rehabilitaci-n {
+  /*          .views-row.views-row-1.views-row-odd.views-row-first {
+            float: left;
+            width: 520px;
+          }
+          .views-row.views-row-3.views-row-odd {
+            float: left;
+          }
+          .views-row.views-row-6.views-row-even{
+           float: left;
+          }
+          .views-row.views-row-2.views-row-even{
+           float: left;
+           height: 281px;
+          }
+          .views-row.views-row-4.views-row-even{
+          float: left;
+          width: 281px;
+          }
+          .views-row.views-row-5.views-row-odd{
+            float: left;
+            width: 520px;
+          }*/ }
 
 /*# sourceMappingURL=cirec.css.map */
