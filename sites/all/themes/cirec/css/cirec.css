@@ -6867,6 +6867,14 @@ select, .form-select {
   border: 3px solid #f3f3f3;
   width: auto; }
 
+.block-block-11 h2.block-title {
+  border-bottom: 4px solid;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-color: #0099CD; }
+
 .button-wrapper {
   margin-top: 20px; }
 
