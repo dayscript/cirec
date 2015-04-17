@@ -7769,4 +7769,11 @@ select, .form-select {
   width: 50%;
   margin-right: 56px; }
 
+.page-clinica-de-rehabilitaci-n .views-row.views-row-1.views-row-odd.views-row-first {
+  float: left; }
+.page-clinica-de-rehabilitaci-n .views-row.views-row-3.views-row-odd {
+  float: left; }
+.page-clinica-de-rehabilitaci-n .views-row.views-row-6.views-row-even {
+  float: left; }
+
 /*# sourceMappingURL=cirec.css.map */
