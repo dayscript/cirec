@@ -7804,7 +7804,8 @@ select, .form-select {
   z-index: 9999;
   position: absolute;
   top: 1px;
-  padding: 16px; }
+  padding: 16px;
+  font-size: 13px; }
   .page-clinica-de-rehabilitaci-n .title-content hr {
     display: none; }
 .page-clinica-de-rehabilitaci-n .title-content:hover {
