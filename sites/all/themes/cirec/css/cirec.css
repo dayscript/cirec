@@ -7805,13 +7805,13 @@ select, .form-select {
   position: absolute;
   top: 1px; }
 .page-clinica-de-rehabilitaci-n .title-content:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(34, 116, 140, 0.8);
   color: #fff; }
 .page-clinica-de-rehabilitaci-n .collage.imagen1 {
   position: relative; }
 .page-clinica-de-rehabilitaci-n span.title {
   text-transform: uppercase;
-  margin-bottom: 2px;
+  margin-top: 2px;
   margin-bottom: 2px;
   border-bottom: 1px solid #0099CD; }
 
