@@ -7811,7 +7811,8 @@ select, .form-select {
   background: rgba(34, 116, 140, 0.8);
   color: #fff; }
   .page-clinica-de-rehabilitaci-n .title-content:hover hr {
-    display: block; }
+    display: block;
+    color: #0099CD; }
 .page-clinica-de-rehabilitaci-n .collage.imagen1 {
   position: relative; }
 .page-clinica-de-rehabilitaci-n span.title {
