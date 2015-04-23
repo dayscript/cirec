@@ -7803,7 +7803,7 @@ select, .form-select {
   color: rgba(255, 255, 255, 0);
   z-index: 9999;
   position: absolute;
-  top: 1px;
+  top: 0px;
   padding: 16px;
   font-size: 13px; }
   .page-clinica-de-rehabilitaci-n .title-content hr {
