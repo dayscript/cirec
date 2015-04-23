@@ -7805,6 +7805,8 @@ select, .form-select {
   position: absolute;
   top: 1px;
   padding: 16px; }
+  .page-clinica-de-rehabilitaci-n .title-content hr {
+    display: none; }
 .page-clinica-de-rehabilitaci-n .title-content:hover {
   background: rgba(34, 116, 140, 0.8);
   color: #fff; }
