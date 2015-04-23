@@ -42,6 +42,7 @@
                 top: 1px;
                 padding: 16px;
 
+
                 hr{display: none}
               }
           .title-content:hover {
@@ -55,10 +56,11 @@
 
             }
             span.title {
-              /*text-transform: uppercase;
+              font-size: 25px;
+              text-transform: uppercase;
               margin-top: 2px;
               margin-bottom:2px;
-              border-bottom: 1px solid #0099CD;*/
+              border-bottom: 1px solid #0099CD;
             }
 
 }
