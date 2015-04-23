@@ -7803,16 +7803,17 @@ select, .form-select {
   color: rgba(255, 255, 255, 0);
   z-index: 9999;
   position: absolute;
-  top: 1px; }
+  top: 1px;
+  padding: 16px; }
 .page-clinica-de-rehabilitaci-n .title-content:hover {
   background: rgba(34, 116, 140, 0.8);
   color: #fff; }
 .page-clinica-de-rehabilitaci-n .collage.imagen1 {
   position: relative; }
 .page-clinica-de-rehabilitaci-n span.title {
-  text-transform: uppercase;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border-bottom: 1px solid #0099CD; }
+  /*text-transform: uppercase;
+              margin-top: 2px;
+              margin-bottom:2px;
+              border-bottom: 1px solid #0099CD;*/ }
 
 /*# sourceMappingURL=cirec.css.map */
