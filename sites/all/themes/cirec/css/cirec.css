@@ -7813,7 +7813,8 @@ select, .form-select {
   color: #fff; }
   .page-clinica-de-rehabilitaci-n .title-content:hover hr {
     display: block;
-    border: solid 2px #0099CD; }
+    border: solid 2px #0099CD;
+    width: 50%; }
 .page-clinica-de-rehabilitaci-n .collage.imagen1 {
   position: relative; }
 .page-clinica-de-rehabilitaci-n span.title {
