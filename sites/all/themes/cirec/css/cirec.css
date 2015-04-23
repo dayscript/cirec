@@ -7798,7 +7798,8 @@ select, .form-select {
   background: transparent;
   width: 100%;
   height: 100%;
-  color: rgba(255, 255, 255, 0); }
+  color: rgba(255, 255, 255, 0);
+  z-index: 9999; }
 .page-clinica-de-rehabilitaci-n span.title-content:hover {
   background: rgba(0, 0, 0, 0.6);
   color: #fff; }
