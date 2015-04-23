@@ -7802,6 +7802,8 @@ select, .form-select {
   z-index: 9999; }
 .page-clinica-de-rehabilitaci-n .title-content:hover {
   background: rgba(0, 0, 0, 0.6);
-  color: #fff; }
+  color: #fff;
+  position: absolute;
+  top: 1px; }
 
 /*# sourceMappingURL=cirec.css.map */
