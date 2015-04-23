@@ -7809,5 +7809,10 @@ select, .form-select {
   color: #fff; }
 .page-clinica-de-rehabilitaci-n .collage.imagen1 {
   position: relative; }
+.page-clinica-de-rehabilitaci-n span.title {
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid #0099CD; }
 
 /*# sourceMappingURL=cirec.css.map */
