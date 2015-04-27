@@ -6812,7 +6812,7 @@ select, .form-select {
   text-align: right; }
 
 button#edit-submit {
-  background: url(sites/all/themes/cirec/images/search.png); }
+  background: url(images/search.png); }
 
 .search-submit.fleft {
   background-color: #C8C8C8; }
