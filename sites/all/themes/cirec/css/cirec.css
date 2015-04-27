@@ -6812,7 +6812,10 @@ select, .form-select {
   text-align: right; }
 
 button#edit-submit {
-  background: url(images/search.png); }
+  background: url(../images/search.png) no-repeat;
+  color: #C8C8C8;
+  background-size: 15px 20px;
+  background-position: 17px 10px; }
 
 .search-submit.fleft {
   background-color: #C8C8C8; }
