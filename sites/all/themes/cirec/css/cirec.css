@@ -6811,6 +6811,12 @@ select, .form-select {
 .search-form {
   text-align: right; }
 
+button#edit-submit {
+  background: url(sites/all/themes/cirec/images/search.png); }
+
+.search-submit.fleft {
+  background-color: #C8C8C8; }
+
 .l-main {
   padding-bottom: 20px; }
 
