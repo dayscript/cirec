@@ -6813,8 +6813,8 @@ select, .form-select {
 
 button#edit-submit {
   background: url(../images/search.png) no-repeat;
-  color: #C8C8C8;
-  background-size: 17px 20px;
+  color: rgba(200, 200, 200, 0);
+  background-size: 17px 19px;
   background-position: 18px 8px; }
 
 .search-submit.fleft {
