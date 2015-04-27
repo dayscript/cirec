@@ -6876,6 +6876,9 @@ select, .form-select {
   border-color: #0099CD;
   text-transform: uppercase; }
 
+.flex-viewport {
+  max-height: 320px; }
+
 .button-wrapper {
   margin-top: 20px; }
 
