@@ -6877,7 +6877,7 @@ select, .form-select {
   text-transform: uppercase; }
 
 .flex-viewport {
-  max-height: 320px; }
+  height: 350px; }
 
 .button-wrapper {
   margin-top: 20px; }
