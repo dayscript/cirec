@@ -7628,6 +7628,7 @@ button#edit-submit {
     font-style: italic; }
   .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title h2 {
     font-size: 16px;
+    margin-top: 27px;
     text-transform: uppercase; }
   .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title a {
     color: #444; }
