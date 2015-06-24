@@ -6855,7 +6855,8 @@ button#edit-submit {
   font-style: italic; }
 .widget .field-name-title h2 {
   font-size: 16px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 27px; }
 .widget .field-name-title a {
   color: #444; }
   .widget .field-name-title a:hover {
