@@ -6710,7 +6710,8 @@ label {
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, .form-text, .form-textarea {
   background: #f3f3f3;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  height: 28px; }
 
 input[type=submit], .form-submit {
   -webkit-border-radius: 5px;

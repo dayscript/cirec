@@ -65,6 +65,7 @@ textarea,
     background: $input_bg;
     @include font_body();
     font-size: em(14);
+    height: 28px;
 }
 
 input[type=submit],
