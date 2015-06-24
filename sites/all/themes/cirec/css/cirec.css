@@ -7604,7 +7604,8 @@ button#edit-submit {
   margin-right: 22px; }
   .node-type-page .group-left .image {
     float: left;
-    margin-right: 10px; }
+    margin-right: 10px;
+    margin-bottom: 20px; }
 .node-type-page .group-right {
   width: 30%; }
   .node-type-page .group-right .field-name-testimonios-basic-page .block-title {
