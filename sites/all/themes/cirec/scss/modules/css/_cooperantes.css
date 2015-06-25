@@ -1,9 +1,8 @@
 .view-display-id-page_cooperantes .views-row-even .group-left {
   float: right; }
-.view-display-id-page_cooperantes .field.field-name-title.field-type-ds.field-label-hidden.field-wrapper:after {
+.view-display-id-page_cooperantes .field.field-name-title.field-type-ds.field-label-hidden.field-wrapper h2:after {
   border-bottom: 4px solid #0099cd;
-  bottom: 0;
   content: ' ';
-  padding: 0 42px; }
+  padding: 0px 130px; }
 
 /*# sourceMappingURL=_cooperantes.css.map */
