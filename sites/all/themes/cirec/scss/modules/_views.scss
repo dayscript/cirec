@@ -1,0 +1,11 @@
+.page-investigacion,.page-noticias{
+    .field-name-title{
+        h2{
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -o-text-overflow: ellipsis;
+          white-space: nowrap;
+          }
+    }
+
+}

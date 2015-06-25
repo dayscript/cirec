@@ -7077,6 +7077,12 @@ button#edit-submit {
     padding: 0;
     margin: 0; }
 
+.page-investigacion .field-name-title h2, .page-noticias .field-name-title h2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap; }
+
 .aliados-destacados {
   background: #f5f5f5;
   padding-bottom: 80px; }
