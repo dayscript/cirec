@@ -7617,6 +7617,10 @@ button#edit-submit {
 .page-node-77 .ds-2col > .group-right {
   /*width: 100%!important;*/ }
 
+.view-display-id-page_cooperantes .views-row {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
 .view-display-id-page_cooperantes .views-row-even .group-left {
   float: right; }
 .view-display-id-page_cooperantes .field-name-field-subt-tulo {

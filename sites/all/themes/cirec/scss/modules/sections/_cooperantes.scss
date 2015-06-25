@@ -1,5 +1,10 @@
 
 .view-display-id-page_cooperantes{
+  .views-row {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
   .views-row-even{
     .group-left {
       float: right;
