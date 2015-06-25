@@ -5,10 +5,15 @@
       float: right;
     }
   }
-  .field.field-name-title.field-type-ds.field-label-hidden.field-wrapper:after {
-      border-bottom: 4px solid #0099cd;
-      content: ' ';
-      padding: 0px 130px;
+  .field.field-name-title.field-type-ds.field-label-hidden.field-wrapper{
+    h2{
+      margin: 0;
+    }
+    &:after {
+        border-bottom: 4px solid #0099cd;
+        content: ' ';
+        padding-left: 240px;
+    }
   }
 
 }
