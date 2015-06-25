@@ -102,5 +102,6 @@
     .quicktabs-wrapper {
         // @extend .row;
         @include row();
+        height:290px;
     }
 }
