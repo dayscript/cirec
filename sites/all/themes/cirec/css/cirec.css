@@ -6895,14 +6895,15 @@ button#edit-submit {
   height: 657px; }
 
 .head-slider {
-  margin: 0 146px;
-  padding-bottom: 45px; }
+  margin: 0 280px;
+  padding-bottom: 45px;
+  text-align: center; }
   .head-slider:after {
     border-top: 4px solid #0099cd;
     content: '';
     display: block;
     margin-left: 150px;
-    width: 250px; }
+    width: 270px; }
 
 .button-wrapper {
   margin-top: 20px; }
