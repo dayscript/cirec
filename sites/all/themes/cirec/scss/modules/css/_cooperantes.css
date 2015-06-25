@@ -1,5 +1,9 @@
 .view-display-id-page_cooperantes .views-row-even .group-left {
   float: right; }
+.view-display-id-page_cooperantes .field p {
+  font-family: 'Raleway', sans-serif;
+  color: #444;
+  font-size: 16px; }
 .view-display-id-page_cooperantes .field.field-name-title.field-type-ds.field-label-hidden.field-wrapper {
   font-size: 7px;
   position: relative;
