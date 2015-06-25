@@ -7087,7 +7087,7 @@ button#edit-submit {
       width: auto;
       height: auto;
       margin: 0;
-      padding: 0; }
+      padding: 0 20px; }
   .aliados-destacados .flex-direction-nav {
     display: block; }
     .aliados-destacados .flex-direction-nav a {
@@ -7470,7 +7470,8 @@ button#edit-submit {
 .view-display-id-propuesta_valor .slide-row {
   padding: 50px 0; }
   .view-display-id-propuesta_valor .slide-row .column-right {
-    text-align: center; }
+    text-align: center;
+    margin-top: 30px; }
   .view-display-id-propuesta_valor .slide-row .desc, .view-display-id-propuesta_valor .slide-row .title {
     color: #fff; }
   .view-display-id-propuesta_valor .slide-row .icon-img {
