@@ -1,5 +1,11 @@
 .view-display-id-page_cooperantes .views-row-even .group-left {
   float: right; }
+.view-display-id-page_cooperantes .field.field-name-title.field-type-ds.field-label-hidden.field-wrapper {
+  font-size: 7px;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 10px; }
 .view-display-id-page_cooperantes .field.field-name-title.field-type-ds.field-label-hidden.field-wrapper h2 {
   margin: 0; }
 .view-display-id-page_cooperantes .field.field-name-title.field-type-ds.field-label-hidden.field-wrapper:after {
