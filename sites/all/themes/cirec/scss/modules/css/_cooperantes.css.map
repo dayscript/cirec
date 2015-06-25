@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAGI,6DAAY;EACV,KAAK,EAAE,KAAK;AAGhB,iHAAgF;EAC5E,aAAa,EAAE,iBAAiB;EAChC,OAAO,EAAE,GAAG;EACZ,OAAO,EAAE,SAAS",
+"mappings": "AAGI,6DAAY;EACV,KAAK,EAAE,KAAK;AAGhB,8GAA6E;EACzE,aAAa,EAAE,iBAAiB;EAChC,OAAO,EAAE,GAAG;EACZ,OAAO,EAAE,SAAS",
 "sources": ["../sections/_cooperantes.scss"],
 "names": [],
 "file": "_cooperantes.css"
