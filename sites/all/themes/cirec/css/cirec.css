@@ -6894,6 +6894,16 @@ button#edit-submit {
 .block-views-nodequeue-4-propuesta-valor {
   height: 657px; }
 
+.head-slider {
+  margin: 0 146px;
+  padding-bottom: 45px; }
+  .head-slider:after {
+    border-top: 4px solid #0099cd;
+    content: '';
+    display: block;
+    margin-left: 150px;
+    width: 250px; }
+
 .button-wrapper {
   margin-top: 20px; }
 
@@ -7458,7 +7468,7 @@ button#edit-submit {
   background-size: cover;
   min-height: 650px; }
 .view-display-id-propuesta_valor .slide-row {
-  padding: 150px 0; }
+  padding: 50px 0; }
   .view-display-id-propuesta_valor .slide-row .column-right {
     text-align: center; }
   .view-display-id-propuesta_valor .slide-row .desc, .view-display-id-propuesta_valor .slide-row .title {

@@ -100,3 +100,14 @@
 .block-views-nodequeue-4-propuesta-valor{
     height: 657px;
 }
+.head-slider {
+    margin: 0 146px;
+    padding-bottom: 45px;
+    &:after {
+            border-top: 4px solid $blue;
+            content: '';
+            display: block;
+            margin-left: 150px;
+            width: 250px;
+    }
+}
