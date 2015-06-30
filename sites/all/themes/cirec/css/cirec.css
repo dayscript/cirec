@@ -7857,7 +7857,7 @@ button#edit-submit {
   float: right; }
 .page-proability .first-color {
   background-color: #3A5D95; }
-  .page-proability .first-color .flexslider-3 {
+  .page-proability .first-color #flexslider-3 {
     background-color: #3A5D95 !important;
     border: 0px solid #3A5D95 !important; }
 
