@@ -7848,8 +7848,6 @@ button#edit-submit {
   width: 50%;
   margin-right: 56px; }
 
-.page-proability .row {
-  margin-bottom: 30px; }
 .page-proability .views-field-field-imagenes {
   width: 50%;
   float: right; }
@@ -7872,8 +7870,7 @@ button#edit-submit {
   width: 300px;
   margin: 0 auto; }
 .page-proability .first-color {
-  color: #fff;
-  background-color: #3A5D95; }
+  color: #fff; }
   .page-proability .first-color .view-header {
     position: absolute;
     z-index: 1;
@@ -7892,7 +7889,6 @@ button#edit-submit {
     background-color: #3A5D95 !important;
     border: 0px solid #3A5D95 !important; }
 .page-proability .second-color {
-  background-color: #92CD4D;
   color: #fff; }
   .page-proability .second-color .view-header {
     position: absolute;
@@ -7913,8 +7909,7 @@ button#edit-submit {
     background-color: #92CD4D !important;
     border: 0px solid #92CD4D !important; }
 .page-proability .third-color {
-  color: #fff;
-  background-color: #C70C21; }
+  color: #fff; }
   .page-proability .third-color .view-header {
     position: absolute;
     z-index: 1;
