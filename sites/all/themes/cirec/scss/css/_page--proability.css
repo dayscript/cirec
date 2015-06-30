@@ -39,7 +39,7 @@
 .page-proability .first-color {
   color: #fff;
   background-color: #3A5D95; }
-  .page-proability .first-color .view-header {
+  .page-proability .first-color .view-header:after {
     border-bottom: 4px solid #0099cd;
     bottom: 0;
     content: ' ';
@@ -52,7 +52,7 @@
 .page-proability .second-color {
   background-color: #92CD4D;
   color: #fff; }
-  .page-proability .second-color .view-header {
+  .page-proability .second-color .view-header:after {
     border-bottom: 4px solid #0099cd;
     bottom: 0;
     content: ' ';
