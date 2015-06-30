@@ -7873,6 +7873,8 @@ button#edit-submit {
     font-size: 24px;
     position: relative;
     text-transform: uppercase; }
+    .page-proability .first-color .view-header h2 {
+      color: #fff; }
     .page-proability .first-color .view-header hr {
       border: 2px solid #0099cd;
       bottom: 0;
@@ -7885,13 +7887,18 @@ button#edit-submit {
 .page-proability .second-color {
   background-color: #92CD4D;
   color: #fff; }
-  .page-proability .second-color .view-header:after {
-    border-bottom: 4px solid #0099cd;
-    bottom: 0;
-    content: ' ';
-    left: 0;
-    width: 250px;
-    margin-bottom: 0px !important; }
+  .page-proability .second-color .view-header {
+    font-size: 24px;
+    position: relative;
+    text-transform: uppercase; }
+    .page-proability .second-color .view-header h2 {
+      color: #fff; }
+    .page-proability .second-color .view-header hr {
+      border: 2px solid #0099cd;
+      bottom: 0;
+      content: ' ';
+      left: 0;
+      width: 250px; }
   .page-proability .second-color #flexslider-1 {
     background-color: #92CD4D !important;
     border: 0px solid #92CD4D !important; }
@@ -7899,12 +7906,17 @@ button#edit-submit {
   color: #fff;
   background-color: #C70C21; }
   .page-proability .third-color .view-header {
-    border-bottom: 4px solid #0099cd;
-    bottom: 0;
-    content: ' ';
-    left: 0;
-    width: 250px;
-    margin-bottom: 0px !important; }
+    font-size: 24px;
+    position: relative;
+    text-transform: uppercase; }
+    .page-proability .third-color .view-header h2 {
+      color: #fff; }
+    .page-proability .third-color .view-header hr {
+      border: 2px solid #0099cd;
+      bottom: 0;
+      content: ' ';
+      left: 0;
+      width: 250px; }
   .page-proability .third-color #flexslider-2 {
     background-color: #C70C21 !important;
     border: 0px solid #C70C21 !important; }
