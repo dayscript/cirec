@@ -7864,9 +7864,14 @@ button#edit-submit {
     border: 0px solid #3A5D95 !important; }
 .page-proability .second-color {
   background-color: #92CD4D; }
-  .page-proability .second-color #flexslider-3 {
+  .page-proability .second-color #flexslider-1 {
     background-color: #92CD4D !important;
     border: 0px solid #92CD4D !important; }
+.page-proability .third-color {
+  background-color: #C70C21; }
+  .page-proability .third-color #flexslider-2 {
+    background-color: #C70C21 !important;
+    border: 0px solid #C70C21 !important; }
 
 .page-clinica-rehabilitacin .views-row.views-row-1.views-row-odd.views-row-first {
   float: left; }
