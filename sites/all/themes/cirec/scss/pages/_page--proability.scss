@@ -34,6 +34,9 @@
 
 
 .page-proability{
+    .row{
+      margin-bottom: 20px;
+    }
     .views-field-field-imagenes{
       width: 50%;
       float: right;
@@ -49,6 +52,13 @@
     #flexslider-3{
       background-color: #3A5D95!important;
       border: 0px solid #3A5D95!important;
+      }
+    }
+    .second-color{
+    background-color: #92CD4D;;
+    #flexslider-3{
+      background-color: #92CD4D!important;
+      border: 0px solid #92CD4D!important;
       }
     }
 }

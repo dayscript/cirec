@@ -7848,6 +7848,8 @@ button#edit-submit {
   width: 50%;
   margin-right: 56px; }
 
+.page-proability .row {
+  margin-bottom: 20px; }
 .page-proability .views-field-field-imagenes {
   width: 50%;
   float: right; }
@@ -7860,6 +7862,11 @@ button#edit-submit {
   .page-proability .first-color #flexslider-3 {
     background-color: #3A5D95 !important;
     border: 0px solid #3A5D95 !important; }
+.page-proability .second-color {
+  background-color: #92CD4D; }
+  .page-proability .second-color #flexslider-3 {
+    background-color: #92CD4D !important;
+    border: 0px solid #92CD4D !important; }
 
 .page-clinica-rehabilitacin .views-row.views-row-1.views-row-odd.views-row-first {
   float: left; }
