@@ -50,6 +50,13 @@
     .first-color{
       color: #fff;
       background-color: #3A5D95;
+      .view-header{
+        border-bottom: 4px solid #0099cd;
+        bottom: 0;
+        content: ' ';
+        left: 0;
+        width: 250px;
+      }
       #flexslider-3{
         background-color: #3A5D95!important;
         border: 0px solid #3A5D95!important;
