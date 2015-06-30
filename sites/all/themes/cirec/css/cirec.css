@@ -7857,27 +7857,39 @@ button#edit-submit {
   float: left; }
 .page-proability .right-d {
   float: right; }
-.page-proability .view-header {
-  border-bottom: 4px solid #0099cd;
-  bottom: 0;
-  content: ' ';
-  left: 0;
-  width: 250px; }
 .page-proability .first-color {
   color: #fff;
   background-color: #3A5D95; }
+  .page-proability .first-color .view-header {
+    border-bottom: 4px solid #0099cd;
+    bottom: 0;
+    content: ' ';
+    left: 0;
+    width: 250px; }
   .page-proability .first-color #flexslider-3 {
     background-color: #3A5D95 !important;
     border: 0px solid #3A5D95 !important; }
 .page-proability .second-color {
   background-color: #92CD4D;
   color: #fff; }
+  .page-proability .second-color .view-header {
+    border-bottom: 4px solid #0099cd;
+    bottom: 0;
+    content: ' ';
+    left: 0;
+    width: 250px; }
   .page-proability .second-color #flexslider-1 {
     background-color: #92CD4D !important;
     border: 0px solid #92CD4D !important; }
 .page-proability .third-color {
   color: #fff;
   background-color: #C70C21; }
+  .page-proability .third-color .view-header {
+    border-bottom: 4px solid #0099cd;
+    bottom: 0;
+    content: ' ';
+    left: 0;
+    width: 250px; }
   .page-proability .third-color #flexslider-2 {
     background-color: #C70C21 !important;
     border: 0px solid #C70C21 !important; }
