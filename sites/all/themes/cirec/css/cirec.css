@@ -7848,6 +7848,9 @@ button#edit-submit {
   width: 50%;
   margin-right: 56px; }
 
+.page-prohability .views-row-odd .group-left.medium-12.columns {
+  float: right; }
+
 .page-clinica-rehabilitacin .views-row.views-row-1.views-row-odd.views-row-first {
   float: left; }
 .page-clinica-rehabilitacin .views-row.views-row-3.views-row-odd {
