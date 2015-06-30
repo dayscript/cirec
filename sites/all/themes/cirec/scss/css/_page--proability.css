@@ -20,5 +20,10 @@
 
 .page-prohability .views-row-odd .group-left.medium-12.columns {
   float: right; }
+.page-prohability .views-field-field-subtitulo, .page-prohability .views-field-body {
+  float: left; }
+.page-prohability .views-field-field-imagenes {
+  width: 50%;
+  float: right; }
 
 /*# sourceMappingURL=_page--proability.css.map */
