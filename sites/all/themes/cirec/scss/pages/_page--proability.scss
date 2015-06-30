@@ -34,15 +34,25 @@
 
 
 .page-prohability{
-  .views-row-odd .group-left.medium-12.columns {
-    float: right;
-  }
-  .views-field-field-subtitulo,.views-field-body{
-    float: left;
-  }
-  .views-field-field-imagenes{
-    width: 50%;
-    float: right;
-  }
+
+    .views-row-odd .group-left.medium-12.columns {
+      float: right;
+    }
+    .views-field-field-subtitulo,.views-field-body{
+      float: left;
+    }
+    .views-field-field-imagenes{
+      width: 50%;
+      float: right;
+    }
+
+    .left-d{
+      float: left;
+    }
+    .right-d{
+      float: right;
+    }
+
+
 }
 

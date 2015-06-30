@@ -25,5 +25,9 @@
 .page-prohability .views-field-field-imagenes {
   width: 50%;
   float: right; }
+.page-prohability .left-d {
+  float: left; }
+.page-prohability .right-d {
+  float: right; }
 
 /*# sourceMappingURL=_page--proability.css.map */
