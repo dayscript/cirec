@@ -7857,8 +7857,8 @@ button#edit-submit {
   float: left; }
 .page-proability .right-d {
   float: right; }
-.page-proability .view-header {
-  margin-bottom: 80px; }
+.page-proability h2 {
+  margin: 29px 0px 0 0px; }
 .page-proability .title-header {
   border-bottom: 4px solid #0099cd;
   bottom: 0;
