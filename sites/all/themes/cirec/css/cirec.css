@@ -7869,13 +7869,19 @@ button#edit-submit {
 .page-proability .first-color {
   color: #fff;
   background-color: #3A5D95; }
-  .page-proability .first-color .view-header:after {
-    border-bottom: 4px solid #0099cd;
-    bottom: 0;
-    content: ' ';
-    left: 0;
-    width: 250px;
-    margin-bottom: 0px !important; }
+  .page-proability .first-color .view-header {
+    font-size: 24px;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 10px; }
+    .page-proability .first-color .view-header:after {
+      border-bottom: 4px solid #0099cd;
+      bottom: 0;
+      content: ' ';
+      left: 0;
+      width: 250px;
+      margin-bottom: 0px !important; }
   .page-proability .first-color #flexslider-3 {
     background-color: #3A5D95 !important;
     border: 0px solid #3A5D95 !important; }

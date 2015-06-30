@@ -61,6 +61,11 @@
       color: #fff;
       background-color: #3A5D95;
       .view-header{
+        font-size: 24px;
+        position: relative;
+        text-transform: uppercase;
+        margin-bottom: $margin_size;
+        padding-bottom: $margin_size / 2;
         &:after{
           border-bottom: 4px solid #0099cd;
           bottom: 0;
