@@ -45,7 +45,18 @@
     .right-d{
       float: right;
     }
+    .view-header{
+      margin-bottom: 80px;
+    }
 
+    .title-header {
+      border-bottom: 4px solid #0099cd;
+      bottom: 0;
+      content: ' ';
+      left: 0;
+      width: 300px;
+      margin: 0 auto;
+    }
     .first-color{
       color: #fff;
       background-color: #3A5D95;
@@ -55,6 +66,7 @@
         content: ' ';
         left: 0;
         width: 250px;
+        margin-bottom: 0px!important;
       }
       #flexslider-3{
         background-color: #3A5D95!important;
@@ -70,6 +82,7 @@
         content: ' ';
         left: 0;
         width: 250px;
+        margin-bottom: 0px!important;
       }
       #flexslider-1{
         background-color: #92CD4D!important;
@@ -85,6 +98,7 @@
         content: ' ';
         left: 0;
         width: 250px;
+        margin-bottom: 0px!important;
       }
       #flexslider-2{
         background-color: #C70C21!important;
