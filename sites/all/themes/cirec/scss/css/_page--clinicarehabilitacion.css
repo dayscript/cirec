@@ -1,0 +1,47 @@
+.page-clinica-rehabilitacin .views-row.views-row-1.views-row-odd.views-row-first {
+  float: left; }
+.page-clinica-rehabilitacin .views-row.views-row-3.views-row-odd {
+  float: left; }
+.page-clinica-rehabilitacin .views-row.views-row-6.views-row-even {
+  float: left; }
+.page-clinica-rehabilitacin .views-row.views-row-2.views-row-even {
+  float: left; }
+.page-clinica-rehabilitacin .views-row.views-row-4.views-row-even {
+  float: left; }
+.page-clinica-rehabilitacin .views-row.views-row-5.views-row-odd {
+  width: 255px;
+  position: absolute;
+  margin: 0px 0px 0px 75.5%; }
+.page-clinica-rehabilitacin .views-row.views-row-7.views-row-odd.views-row-last {
+  float: left; }
+.page-clinica-rehabilitacin .views-row.views-row-5.views-row-odd div span img {
+  height: 603px; }
+.page-clinica-rehabilitacin .title-content {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 0px;
+  padding: 16px;
+  font-size: 13px; }
+  .page-clinica-rehabilitacin .title-content hr {
+    display: none; }
+.page-clinica-rehabilitacin .title-content:hover {
+  background: rgba(34, 116, 140, 0.8);
+  color: #fff; }
+  .page-clinica-rehabilitacin .title-content:hover hr {
+    display: block;
+    border: solid  2px #0099CD;
+    width: 50%; }
+.page-clinica-rehabilitacin .collage.imagen1 {
+  position: relative; }
+.page-clinica-rehabilitacin span.title {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 2px;
+  margin-bottom: 2px; }
+.page-clinica-rehabilitacin .views-row {
+  margin: 1px; }
+
+/*# sourceMappingURL=_page--clinicarehabilitacion.css.map */
