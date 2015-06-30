@@ -7855,6 +7855,11 @@ button#edit-submit {
   float: left; }
 .page-proability .right-d {
   float: right; }
+.page-proability .first-color {
+  background-color: #3A5D95; }
+  .page-proability .first-color .flexslider-3 {
+    background-color: #3A5D95;
+    border: 0px solid #3A5D95; }
 
 .page-clinica-rehabilitacin .views-row.views-row-1.views-row-odd.views-row-first {
   float: left; }
