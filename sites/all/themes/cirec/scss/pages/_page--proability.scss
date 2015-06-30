@@ -31,8 +31,6 @@
 
 
 }
-
-
 .page-proability{
     .row{
       margin-bottom: 30px;
@@ -47,16 +45,16 @@
     .right-d{
       float: right;
     }
-    .first-color{
-      color: #fff;
-      background-color: #3A5D95;
-      .view-header{
+    .view-header{
         border-bottom: 4px solid #0099cd;
         bottom: 0;
         content: ' ';
         left: 0;
         width: 250px;
-      }
+    }
+    .first-color{
+      color: #fff;
+      background-color: #3A5D95;
       #flexslider-3{
         background-color: #3A5D95!important;
         border: 0px solid #3A5D95!important;
