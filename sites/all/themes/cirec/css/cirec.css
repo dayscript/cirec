@@ -7923,10 +7923,12 @@ button#edit-submit {
     background-color: #92CD4D !important;
     border: 0px solid #92CD4D !important;
     height: 305px; }
-    .page-proability .second-color #flexslider-1 img {
-      width: 570px;
-      height: 304px;
+    .page-proability .second-color #flexslider-1 .left-d {
       top: 0 !important; }
+      .page-proability .second-color #flexslider-1 .left-d img {
+        width: 570px;
+        height: 304px;
+        top: 0 !important; }
 .page-proability .third-color {
   color: #fff; }
   .page-proability .third-color .view-header {
