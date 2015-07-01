@@ -62,6 +62,14 @@
       position: absolute;
       text-align: center;
       top: 260px;
+      li{
+        a{
+          background-color: #fff;
+          &:hover{
+            background-color: #fff;
+          }
+        }
+      }
     }
 
     .title-header {

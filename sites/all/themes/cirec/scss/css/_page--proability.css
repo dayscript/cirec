@@ -36,6 +36,10 @@
   position: absolute;
   text-align: center;
   top: 260px; }
+  .page-proability .flex-control-nav li a {
+    background-color: #fff; }
+    .page-proability .flex-control-nav li a:hover {
+      background-color: #fff; }
 .page-proability .title-header {
   border-bottom: 4px solid #0099cd;
   bottom: 0;
