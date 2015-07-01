@@ -166,9 +166,16 @@
             }
           }
 
-    .node-planes-padrinos{
-
-    }
+        .node-planes-padrinos{
+            .image {
+                float: left;
+            }
+            .field-name-title{
+                h2{
+                 color: #0099CD;
+                }
+            }
+        }
 
     }
 }
