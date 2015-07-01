@@ -7505,6 +7505,9 @@ button#edit-submit {
   background-color: #0099CD;
   color: #fff;
   padding: 9px 16px; }
+  .view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante a {
+    color: #fff;
+    text-decoration: underline; }
 
 .view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .image {
   float: left; }
