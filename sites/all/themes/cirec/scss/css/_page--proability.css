@@ -81,7 +81,8 @@
       content: ' ';
       left: 0;
       width: 250px;
-      margin-top: 6px; }
+      margin-top: 6px;
+      margin-left: 18px; }
   .page-proability .first-color #flexslider-3 {
     background-color: #3A5D95 !important;
     border: 0px solid #3A5D95 !important;
@@ -163,7 +164,8 @@
       content: ' ';
       left: 0;
       width: 250px;
-      margin-top: 6px; }
+      margin-top: 6px;
+      margin-left: 18px; }
   .page-proability .third-color #flexslider-2 {
     background-color: #C70C21 !important;
     border: 0px solid #C70C21 !important;
