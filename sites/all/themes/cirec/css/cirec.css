@@ -7477,7 +7477,7 @@ button#edit-submit {
   border-bottom: 4px solid #0099cd;
   bottom: 0;
   content: ' ';
-  /* left: 0; */
+  left: 0;
   position: absolute;
   width: 250px; }
 .view-id-plan_padrino .mayusculas {
