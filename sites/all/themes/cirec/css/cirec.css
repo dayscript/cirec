@@ -7907,16 +7907,20 @@ button#edit-submit {
     z-index: 1;
     font-size: 24px;
     font-size: 24px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    width: 100%;
+    text-align: right;
+    padding: 0 137px; }
     .page-proability .second-color .view-header h2 {
       color: #fff; }
     .page-proability .second-color .view-header hr {
       border: 2px solid #0099cd;
       bottom: 0;
       content: ' ';
-      left: 0;
       width: 250px;
-      margin-top: 6px; }
+      margin-top: 6px;
+      float: right;
+      margin-right: 160px; }
   .page-proability .second-color #flexslider-1 {
     background-color: #92CD4D !important;
     border: 0px solid #92CD4D !important;
