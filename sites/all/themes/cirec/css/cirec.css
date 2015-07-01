@@ -7496,6 +7496,14 @@ button#edit-submit {
   float: right;
   width: 76%; }
 
+.view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .image {
+  float: left; }
+.view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .field-name-title h2 {
+  color: #0099CD; }
+.view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .body {
+  float: right;
+  width: 76%; }
+
 .view-display-id-propuesta_valor .slide {
   background-position: center center;
   background-repeat: no-repeat;

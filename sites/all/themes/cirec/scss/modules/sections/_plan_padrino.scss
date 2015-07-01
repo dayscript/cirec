@@ -183,3 +183,20 @@
 
 
 }
+
+.view-plan-padrino-casos-rehabilitacion{
+    .node-casos-rehabilitacion{
+        .image {
+            float: left;
+        }
+        .field-name-title{
+            h2{
+             color: #0099CD;
+            }
+        }
+        .body{
+            float: right;
+            width: 76%;
+        }
+    }
+}
