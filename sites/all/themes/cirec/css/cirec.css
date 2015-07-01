@@ -7500,6 +7500,11 @@ button#edit-submit {
 .view-id-plan_padrino .node-planes-padrinos .body {
   width: 76%;
   margin-left: 150px; }
+.view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante {
+  margin-left: 150px;
+  background-color: #0099CD;
+  color: #fff;
+  padding: 9px 16px; }
 
 .view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .image {
   float: left; }
