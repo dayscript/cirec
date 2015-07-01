@@ -32,7 +32,10 @@
 
 }
 .page-proability{
+    #page-title {
+      background: #3A5D95!important;
 
+    }
     .flex-viewport {
       height: 304px;
     }
@@ -77,9 +80,6 @@
     }
 
     .title-header {
-      border-bottom: 4px solid #0099cd;
-      bottom: 0;
-      content: ' ';
       left: 0;
       width: 100%;
       margin: 0 auto;
@@ -87,6 +87,11 @@
       font-size: 36px;
       color: #000;
       margin-bottom: 80px;
+      hr{
+        width: 30%;
+        margin: 0 auto;
+        border: 2px solid #0099CD;
+      }
     }
     .first-color{
       color: #fff;

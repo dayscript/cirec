@@ -7848,6 +7848,8 @@ button#edit-submit {
   width: 50%;
   margin-right: 56px; }
 
+.page-proability #page-title {
+  background: #3A5D95 !important; }
 .page-proability .flex-viewport {
   height: 304px; }
 .page-proability .views-field-field-imagenes {
@@ -7873,9 +7875,6 @@ button#edit-submit {
     .page-proability .flex-control-nav li a:hover {
       background-color: #777373; }
 .page-proability .title-header {
-  border-bottom: 4px solid #0099cd;
-  bottom: 0;
-  content: ' ';
   left: 0;
   width: 100%;
   margin: 0 auto;
@@ -7883,6 +7882,10 @@ button#edit-submit {
   font-size: 36px;
   color: #000;
   margin-bottom: 80px; }
+  .page-proability .title-header hr {
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid #0099CD; }
 .page-proability .first-color {
   color: #fff; }
   .page-proability .first-color .views-field-body {
