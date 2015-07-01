@@ -148,11 +148,13 @@
     }
     h2.block-title:after {
       border-bottom: 4px solid #0099cd;
-      bottom: 0;
+      /* bottom: 0; */
       content: ' ';
       left: 0;
       position: absolute;
-      width: 250px;
+      width: 260px;
+      top: 44px;
+      margin-left: 9px;
     }
     .mayusculas{
           color: #000;
