@@ -7475,11 +7475,13 @@ button#edit-submit {
   font-size: 28px; }
 .view-id-plan_padrino h2.block-title:after {
   border-bottom: 4px solid #0099cd;
-  bottom: 0;
+  /* bottom: 0; */
   content: ' ';
   left: 0;
   position: absolute;
-  width: 250px; }
+  width: 260px;
+  top: 44px;
+  margin-left: 9px; }
 .view-id-plan_padrino .mayusculas {
   color: #000;
   margin: 20px 0; }
