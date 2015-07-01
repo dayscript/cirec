@@ -7466,49 +7466,53 @@ button#edit-submit {
     width: 20%;
     text-align: center; }
 
-.view-id-plan_padrino .image img {
-  border-radius: 50%;
-  border: 7px solid #eee;
-  width: 130px; }
-.view-id-plan_padrino h2.block-title {
-  text-transform: uppercase;
-  font-size: 28px;
-  margin: 0 0 50px 0; }
-.view-id-plan_padrino h2.block-title:after {
-  border-bottom: 4px solid #0099cd;
-  /* bottom: 0; */
-  content: ' ';
-  left: 0;
-  position: absolute;
-  width: 260px;
-  top: 50px;
-  margin-left: 9px; }
-.view-id-plan_padrino .mayusculas {
-  color: #000;
-  margin: 20px 0; }
-  .view-id-plan_padrino .mayusculas p span {
-    font-family: raleway;
-    font-size: 17px;
-    line-height: 24px;
-    word-spacing: 3px;
-    font-weight: 500; }
-.view-id-plan_padrino .node-planes-padrinos .image {
-  float: left; }
-.view-id-plan_padrino .node-planes-padrinos .field-name-title h2 {
-  color: #0099CD;
-  margin-left: 150px; }
-.view-id-plan_padrino .node-planes-padrinos .body {
-  width: 76%;
-  margin-left: 150px; }
-.view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante {
-  margin-left: 150px;
-  background-color: #0099CD;
-  color: #fff;
-  padding: 9px 16px;
-  width: 380px; }
-  .view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante a {
+.view-id-plan_padrino {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 30px; }
+  .view-id-plan_padrino .image img {
+    border-radius: 50%;
+    border: 7px solid #eee;
+    width: 130px; }
+  .view-id-plan_padrino h2.block-title {
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 0 0 50px 0; }
+  .view-id-plan_padrino h2.block-title:after {
+    border-bottom: 4px solid #0099cd;
+    /* bottom: 0; */
+    content: ' ';
+    left: 0;
+    position: absolute;
+    width: 260px;
+    top: 50px;
+    margin-left: 9px; }
+  .view-id-plan_padrino .mayusculas {
+    color: #000;
+    margin: 20px 0; }
+    .view-id-plan_padrino .mayusculas p span {
+      font-family: raleway;
+      font-size: 17px;
+      line-height: 24px;
+      word-spacing: 3px;
+      font-weight: 500; }
+  .view-id-plan_padrino .node-planes-padrinos .image {
+    float: left; }
+  .view-id-plan_padrino .node-planes-padrinos .field-name-title h2 {
+    color: #0099CD;
+    margin-left: 150px; }
+  .view-id-plan_padrino .node-planes-padrinos .body {
+    width: 76%;
+    margin-left: 150px; }
+  .view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante {
+    margin-left: 150px;
+    background-color: #0099CD;
     color: #fff;
-    text-decoration: underline; }
+    padding: 9px 16px;
+    width: 380px; }
+    .view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante a {
+      color: #fff;
+      text-decoration: underline; }
 
 .view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .image {
   float: left; }
