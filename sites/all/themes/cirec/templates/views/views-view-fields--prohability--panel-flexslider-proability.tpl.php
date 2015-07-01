@@ -15,7 +15,7 @@
                   40 años
                 </div>
                 <div class="views-field views-field-body left-d">
-                     <?php print render($fields['field_subtitulo']->content);?>
+                     <?php print render($fields['field_subtitulo']);?>
                 </div>
 
                 <div class="views-field views-field-field-imagenes rigth-d">
