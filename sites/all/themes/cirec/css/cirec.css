@@ -7488,10 +7488,10 @@ button#edit-submit {
     line-height: 24px;
     word-spacing: 3px;
     font-weight: 500; }
-  .view-id-plan_padrino .mayusculas .node-planes-padrinos .image {
-    float: left; }
-  .view-id-plan_padrino .mayusculas .node-planes-padrinos .field-name-title h2 {
-    color: #0099CD; }
+.view-id-plan_padrino .node-planes-padrinos .image {
+  float: left; }
+.view-id-plan_padrino .node-planes-padrinos .field-name-title h2 {
+  color: #0099CD; }
 
 .view-display-id-propuesta_valor .slide {
   background-position: center center;
