@@ -7895,7 +7895,11 @@ button#edit-submit {
       margin-top: 6px; }
   .page-proability .first-color #flexslider-3 {
     background-color: #3A5D95 !important;
-    border: 0px solid #3A5D95 !important; }
+    border: 0px solid #3A5D95 !important;
+    height: 305px; }
+    .page-proability .first-color #flexslider-3 img {
+      width: 570px;
+      height: 304px; }
 .page-proability .second-color {
   color: #fff; }
   .page-proability .second-color .view-header {
@@ -7915,7 +7919,8 @@ button#edit-submit {
       margin-top: 6px; }
   .page-proability .second-color #flexslider-1 {
     background-color: #92CD4D !important;
-    border: 0px solid #92CD4D !important; }
+    border: 0px solid #92CD4D !important;
+    height: 305px; }
 .page-proability .third-color {
   color: #fff; }
   .page-proability .third-color .view-header {
@@ -7935,7 +7940,8 @@ button#edit-submit {
       margin-top: 6px; }
   .page-proability .third-color #flexslider-2 {
     background-color: #C70C21 !important;
-    border: 0px solid #C70C21 !important; }
+    border: 0px solid #C70C21 !important;
+    height: 305px; }
 
 .page-clinica-rehabilitacin .views-row.views-row-1.views-row-odd.views-row-first {
   float: left; }
