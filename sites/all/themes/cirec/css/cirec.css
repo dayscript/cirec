@@ -7466,6 +7466,14 @@ button#edit-submit {
     width: 20%;
     text-align: center; }
 
+.view-id-plan_padrino h2.block-title:after {
+  border-bottom: 4px solid #0099cd;
+  bottom: 0;
+  content: ' ';
+  /* left: 0; */
+  /* position: absolute; */
+  width: 250px; }
+
 .view-display-id-propuesta_valor .slide {
   background-position: center center;
   background-repeat: no-repeat;
