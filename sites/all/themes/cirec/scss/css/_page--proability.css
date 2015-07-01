@@ -40,10 +40,12 @@
   position: absolute;
   text-align: center;
   top: 260px; }
-  .page-proability .flex-control-nav li a {
-    background-color: #fff; }
-    .page-proability .flex-control-nav li a:hover {
-      background-color: #777373; }
+  .page-proability .flex-control-nav li {
+    margin: 0 3px !important; }
+    .page-proability .flex-control-nav li a {
+      background-color: #fff; }
+      .page-proability .flex-control-nav li a:hover {
+        background-color: #777373; }
 .page-proability .title-header {
   left: 0;
   width: 100%;
