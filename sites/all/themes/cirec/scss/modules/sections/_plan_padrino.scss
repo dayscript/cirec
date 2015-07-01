@@ -134,11 +134,29 @@
     }
 }
 
-.view-id-plan_padrino h2.block-title {
-  border-bottom: 4px solid #0099cd;
-  bottom: 0;
-  content: ' ';
-  /* left: 0; */
-  /* position: absolute; */
-  width: 250px;
+.view-id-plan_padrino{
+
+    h2.block-title {
+      border-bottom: 4px solid #0099cd;
+      bottom: 0;
+      content: ' ';
+      /* left: 0; */
+      /* position: absolute; */
+      width: 250px;
+      text-transform: uppercase;
+      font-size: 28px;
+    }
+    .mayusculas{
+          color: #000;
+          margin: 20px 0;
+          p{
+            span{
+              font-family: raleway;
+              font-size: 17px;
+              line-height: 24px;
+              word-spacing: 3px;
+              font-weight: 500;
+            }
+          }
+    }
 }
