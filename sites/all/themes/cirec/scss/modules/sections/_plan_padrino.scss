@@ -143,7 +143,7 @@
         }
     }
 
-    h2.block-title {
+    h2.block-title:after {
       border-bottom: 4px solid #0099cd;
       bottom: 0;
       content: ' ';
@@ -190,13 +190,16 @@
             float: left;
         }
         .field-name-title{
-            h2{
+            h4{
              color: #0099CD;
             }
         }
         .body{
             float: right;
             width: 76%;
+        }
+        .field-name-node-link{
+            margin-left: 132px;
         }
     }
 }

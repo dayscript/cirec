@@ -7470,7 +7470,7 @@ button#edit-submit {
   border-radius: 50%;
   border: 7px solid #eee;
   width: 130px; }
-.view-id-plan_padrino h2.block-title {
+.view-id-plan_padrino h2.block-title:after {
   border-bottom: 4px solid #0099cd;
   bottom: 0;
   content: ' ';
@@ -7498,11 +7498,13 @@ button#edit-submit {
 
 .view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .image {
   float: left; }
-.view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .field-name-title h2 {
+.view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .field-name-title h4 {
   color: #0099CD; }
 .view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .body {
   float: right;
   width: 76%; }
+.view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .field-name-node-link {
+  margin-left: 132px; }
 
 .view-display-id-propuesta_valor .slide {
   background-position: center center;
