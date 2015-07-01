@@ -7504,7 +7504,8 @@ button#edit-submit {
   margin-left: 150px;
   background-color: #0099CD;
   color: #fff;
-  padding: 9px 16px; }
+  padding: 9px 16px;
+  width: 380px; }
   .view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante a {
     color: #fff;
     text-decoration: underline; }
