@@ -7869,7 +7869,7 @@ button#edit-submit {
   .page-proability .flex-control-nav li a {
     background-color: #fff; }
     .page-proability .flex-control-nav li a:hover {
-      background-color: #fff; }
+      background-color: #777373; }
 .page-proability .title-header {
   border-bottom: 4px solid #0099cd;
   bottom: 0;
@@ -7921,6 +7921,21 @@ button#edit-submit {
       height: 304px; }
 .page-proability .second-color {
   color: #fff; }
+  .page-proability .second-color .views-field-body {
+    width: 50%;
+    padding: 50px 50px; }
+    .page-proability .second-color .views-field-body .content {
+      display: inline-block;
+      width: 100%; }
+      .page-proability .second-color .views-field-body .content .subtitulo {
+        float: left;
+        font-size: 60px; }
+      .page-proability .second-color .views-field-body .content .body {
+        float: right;
+        width: 50%;
+        text-align: initial;
+        padding: 30px 15px;
+        border-left: 2px solid; }
   .page-proability .second-color .view-header {
     position: absolute;
     z-index: 1;
@@ -7949,6 +7964,21 @@ button#edit-submit {
         top: 0 !important; }
 .page-proability .third-color {
   color: #fff; }
+  .page-proability .third-color .views-field-body {
+    width: 50%;
+    padding: 50px 50px; }
+    .page-proability .third-color .views-field-body .content {
+      display: inline-block;
+      width: 100%; }
+      .page-proability .third-color .views-field-body .content .subtitulo {
+        float: left;
+        font-size: 60px; }
+      .page-proability .third-color .views-field-body .content .body {
+        float: right;
+        width: 50%;
+        text-align: initial;
+        padding: 30px 15px;
+        border-left: 2px solid; }
   .page-proability .third-color .view-header {
     position: absolute;
     z-index: 1;
