@@ -7848,6 +7848,8 @@ button#edit-submit {
   width: 50%;
   margin-right: 56px; }
 
+.page-proability .flex-viewport {
+  height: 304px; }
 .page-proability .views-field-field-imagenes {
   width: 50%;
   float: right; }
