@@ -32,6 +32,13 @@
 
 }
 .page-proability{
+
+    .views-field.views-field-field-subtitulo.left-d {
+
+    }
+
+
+
     .row{
 
     }
@@ -41,9 +48,13 @@
     }
     .left-d{
       float: left;
+      top: 82px;
+      position: relative;
     }
     .right-d{
       float: right;
+      top: 82px;
+      position: relative;
     }
     h2{
         margin: 14px 0px 0 16px;
@@ -65,7 +76,6 @@
     }
     .first-color{
       color: #fff;
-
       .view-header{
         position: absolute;
         z-index: 1;

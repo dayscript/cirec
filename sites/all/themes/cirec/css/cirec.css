@@ -7852,9 +7852,13 @@ button#edit-submit {
   width: 50%;
   float: right; }
 .page-proability .left-d {
-  float: left; }
+  float: left;
+  top: 82px;
+  position: relative; }
 .page-proability .right-d {
-  float: right; }
+  float: right;
+  top: 82px;
+  position: relative; }
 .page-proability h2 {
   margin: 14px 0px 0 16px; }
 .page-proability .flex-control-nav {
