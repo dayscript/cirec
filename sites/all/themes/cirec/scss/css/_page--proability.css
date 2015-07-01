@@ -35,7 +35,7 @@
   width: 50%;
   position: absolute;
   text-align: center;
-  top: 210px; }
+  top: 260px; }
 .page-proability .title-header {
   border-bottom: 4px solid #0099cd;
   bottom: 0;
@@ -63,7 +63,7 @@
         width: 50%;
         text-align: initial;
         padding: 30px 15px;
-        border-left: 4px solid; }
+        border-left: 2px solid; }
   .page-proability .first-color .view-header {
     position: absolute;
     z-index: 1;
