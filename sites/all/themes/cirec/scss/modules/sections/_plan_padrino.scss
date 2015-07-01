@@ -134,6 +134,9 @@
     }
 }
 
+
+$mleft : 150px;
+
 .view-id-plan_padrino{
     .image{
         img{
@@ -176,12 +179,12 @@
         .field-name-title{
             h2{
              color: #0099CD;
-            margin-left: 150px;
+            margin-left: $mleft;
             }
         }
         .body{
             width: 76%;
-            margin-left: 150px;
+            margin-left: $mleft;
         }
     }
 
@@ -196,15 +199,15 @@
         .field-name-title{
             h4{
              color: #0099CD;
-               margin-left: 150px;
+               margin-left: $mleft;
             }
         }
         .body{
             width: 76%;
-            margin-left: 150px;
+            margin-left: $mleft;
         }
         .field-name-node-link{
-            margin-left: 132px;
+            margin-left: $mleft;
         }
     }
 }
