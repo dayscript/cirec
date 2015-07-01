@@ -35,16 +35,16 @@
   position: relative; }
 .page-proability h2 {
   margin: 14px 0px 0 16px; }
-.page-proability .flex-control-nav {
+.page-proability .view-id-prohability .flex-control-nav {
   width: 50%;
   position: absolute;
   text-align: center;
   top: 260px; }
-  .page-proability .flex-control-nav li {
+  .page-proability .view-id-prohability .flex-control-nav li {
     margin: 0 3px !important; }
-    .page-proability .flex-control-nav li a {
+    .page-proability .view-id-prohability .flex-control-nav li a {
       background-color: #fff; }
-      .page-proability .flex-control-nav li a:hover {
+      .page-proability .view-id-prohability .flex-control-nav li a:hover {
         background-color: #777373; }
 .page-proability .title-header {
   left: 0;
