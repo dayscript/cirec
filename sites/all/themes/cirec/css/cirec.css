@@ -7466,6 +7466,10 @@ button#edit-submit {
     width: 20%;
     text-align: center; }
 
+.view-id-plan_padrino .image img {
+  border-radius: 50%;
+  border: 7px solid #eee;
+  width: 130px; }
 .view-id-plan_padrino h2.block-title {
   border-bottom: 4px solid #0099cd;
   bottom: 0;
@@ -7484,10 +7488,6 @@ button#edit-submit {
     line-height: 24px;
     word-spacing: 3px;
     font-weight: 500; }
-  .view-id-plan_padrino .mayusculas .node-planes-padrinos .image img {
-    border-radius: 50%;
-    border: 7px solid #eee;
-    width: 130px; }
 
 .view-display-id-propuesta_valor .slide {
   background-position: center center;

@@ -135,6 +135,13 @@
 }
 
 .view-id-plan_padrino{
+    .image{
+        img{
+            border-radius: 50%;
+            border: 7px solid #eee;
+            width: 130px;
+        }
+    }
 
     h2.block-title {
       border-bottom: 4px solid #0099cd;
@@ -160,16 +167,8 @@
           }
 
     .node-planes-padrinos{
-        .image{
-            img{
-                border-radius: 50%;
-                border: 7px solid #eee;
-                width: 130px;
-            }
-        }
+
     }
-
-
 
     }
 }
