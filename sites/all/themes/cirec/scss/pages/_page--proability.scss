@@ -78,6 +78,9 @@
     }
     .first-color{
       color: #fff;
+      .field.views-field-body {
+        width: 50%;
+      }
       .view-header{
         position: absolute;
         z-index: 1;
