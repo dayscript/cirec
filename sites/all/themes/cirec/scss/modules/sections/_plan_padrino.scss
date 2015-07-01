@@ -142,16 +142,17 @@
             width: 130px;
         }
     }
-
+    h2.block-title {
+      text-transform: uppercase;
+      font-size: 28px;
+    }
     h2.block-title:after {
       border-bottom: 4px solid #0099cd;
       bottom: 0;
       content: ' ';
       /* left: 0; */
-      /* position: absolute; */
+      position: absolute;
       width: 250px;
-      text-transform: uppercase;
-      font-size: 28px;
     }
     .mayusculas{
           color: #000;
