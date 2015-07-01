@@ -7494,18 +7494,22 @@ button#edit-submit {
 .view-id-plan_padrino .node-planes-padrinos .image {
   float: left; }
 .view-id-plan_padrino .node-planes-padrinos .field-name-title h2 {
-  color: #0099CD; }
+  color: #0099CD;
+  margin-left: 150px; }
 .view-id-plan_padrino .node-planes-padrinos .body {
   float: right;
-  width: 76%; }
+  width: 76%;
+  margin-left: 150px; }
 
 .view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .image {
   float: left; }
 .view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .field-name-title h4 {
-  color: #0099CD; }
+  color: #0099CD;
+  margin-left: 150px; }
 .view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .body {
   float: right;
-  width: 76%; }
+  width: 76%;
+  margin-left: 150px; }
 .view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .field-name-node-link {
   margin-left: 132px; }
 
