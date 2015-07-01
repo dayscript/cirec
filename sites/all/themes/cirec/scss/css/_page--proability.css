@@ -41,8 +41,12 @@
   bottom: 0;
   content: ' ';
   left: 0;
-  width: 300px;
-  margin: 0 auto; }
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 80px; }
 .page-proability .first-color {
   color: #fff; }
   .page-proability .first-color .view-header {
