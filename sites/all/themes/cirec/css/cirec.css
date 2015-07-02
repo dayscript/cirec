@@ -7470,7 +7470,9 @@ button#edit-submit {
   background-image: url('../images/header-padrino.jpg');
   height: 150px;
   padding: 65px 155px; }
-.page-servicios-plan-padrino .field-name-title h4 {
+.page-servicios-plan-padrino .view-plan-padrino-casos-exitosos .body {
+  height: 140px; }
+.page-servicios-plan-padrino .view-plan-padrino-casos-exitosos .field-name-title h4 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
