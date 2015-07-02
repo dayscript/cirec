@@ -22,10 +22,6 @@
   background: #3A5D95 !important; }
 .page-proability .flex-viewport {
   height: 304px; }
-.page-proability .field-name-title h4 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; }
 .page-proability .views-field-field-imagenes {
   width: 50%;
   float: right; }
