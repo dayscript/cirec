@@ -8118,6 +8118,8 @@ button#edit-submit {
 
 .page-historia .views-row-1, .page-historia .views-row-2, .page-historia .views-row-3, .page-historia .views-row-4, .page-historia .views-row-5, .page-historia .views-row-6 {
   float: left;
-  width: 16.6%; }
+  width: 15%;
+  text-align: center;
+  margin: 0 5px; }
 
 /*# sourceMappingURL=cirec.css.map */

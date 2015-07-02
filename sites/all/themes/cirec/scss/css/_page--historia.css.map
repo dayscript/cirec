@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAEI,4KAA6E;EAC3E,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,KAAK",
+"mappings": "AAEI,4KAA6E;EACzE,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,KAAK",
 "sources": ["../pages/_page--historia.scss"],
 "names": [],
 "file": "_page--historia.css"
