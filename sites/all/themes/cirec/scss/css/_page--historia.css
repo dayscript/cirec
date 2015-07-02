@@ -35,6 +35,15 @@
       margin-top: 31px !important; }
   .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider {
     background: rgba(255, 255, 255, 0) !important; }
+    .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .body {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height: 160px;
+      line-height: 18px;
+      display: none; }
+    .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .field-name-title h4 {
+      color: #0099cd; }
     .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .slides img {
       width: 90px !important;
       border-radius: 50% !important;

@@ -54,6 +54,19 @@
         }
           .flexslider{
             background: rgba(255, 255, 255, 0)!important;
+            .body{
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 160px;
+            line-height: 18px;
+            display: none;
+            }
+            .field-name-title{
+             h4{
+              color:#0099cd;
+                }
+            }
             .slides{
                  img {
                   width: 90px!important;
