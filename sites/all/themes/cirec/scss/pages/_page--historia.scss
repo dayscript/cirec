@@ -15,12 +15,18 @@
     .block-content{
       div{
         h2{
-
+          margin: 0 auto;
+          width: 90%;
+          margin-bottom: 15px
         }
         hr{
           border: 3px solid #0099cd;
           width: 20%;
           margin: 0 auto;
+          margin-bottom: 50px;
+        }
+        p{
+          text-align: center;
         }
       }
     }
