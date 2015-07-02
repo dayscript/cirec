@@ -8158,6 +8158,8 @@ button#edit-submit {
       margin-top: 31px !important; }
   .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider {
     background: rgba(255, 255, 255, 0) !important; }
+    .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .flex-viewport {
+      height: 360px; }
     .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .body {
       width: 100%;
       overflow: hidden;

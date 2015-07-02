@@ -54,7 +54,9 @@
         }
           .flexslider{
             background: rgba(255, 255, 255, 0)!important;
-
+            .flex-viewport {
+              height: 360px;
+            }
             .body{
             width: 100%;
             overflow: hidden;
