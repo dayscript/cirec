@@ -8122,13 +8122,15 @@ button#edit-submit {
   float: left;
   width: 15%;
   text-align: center;
-  margin: 0 9px; }
+  margin: 50px 9px; }
   .page-historia .views-row-1 .body, .page-historia .views-row-2 .body, .page-historia .views-row-3 .body, .page-historia .views-row-4 .body, .page-historia .views-row-5 .body, .page-historia .views-row-6 .body {
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     height: 160px;
     line-height: 18px; }
+  .page-historia .views-row-1 .field-name-title h4, .page-historia .views-row-2 .field-name-title h4, .page-historia .views-row-3 .field-name-title h4, .page-historia .views-row-4 .field-name-title h4, .page-historia .views-row-5 .field-name-title h4, .page-historia .views-row-6 .field-name-title h4 {
+    color: #0099cd; }
   .page-historia .views-row-1 .image img, .page-historia .views-row-2 .image img, .page-historia .views-row-3 .image img, .page-historia .views-row-4 .image img, .page-historia .views-row-5 .image img, .page-historia .views-row-6 .image img {
     border-radius: 50%; }
   .page-historia .views-row-1 .field-name-node-link a, .page-historia .views-row-2 .field-name-node-link a, .page-historia .views-row-3 .field-name-node-link a, .page-historia .views-row-4 .field-name-node-link a, .page-historia .views-row-5 .field-name-node-link a, .page-historia .views-row-6 .field-name-node-link a {
