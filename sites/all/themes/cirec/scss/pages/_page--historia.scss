@@ -10,6 +10,25 @@
             border-radius:50%;
           }
         }
+        .field-name-node-link{
+          a{
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-transition: .2s opacity linear;
+            -moz-transition: .2s opacity linear;
+            transition: .2s opacity linear;
+            background: #0099cd;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 1em;
+            opacity: 1;
+            padding: 8px 20px;
+            text-transform: uppercase;
+          }
+        }
     }
   .block-block-12{
     .block-content{
@@ -27,6 +46,7 @@
         }
         p{
           text-align: center;
+          margin: 60px auto;
         }
       }
     }
