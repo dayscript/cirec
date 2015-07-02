@@ -8123,5 +8123,9 @@ button#edit-submit {
   margin: 0 9px; }
   .page-historia .views-row-1 .image img, .page-historia .views-row-2 .image img, .page-historia .views-row-3 .image img, .page-historia .views-row-4 .image img, .page-historia .views-row-5 .image img, .page-historia .views-row-6 .image img {
     border-radius: 50%; }
+.page-historia .block-block-12 .block-content div hr {
+  border: 3px solid #0099cd;
+  width: 20%;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=cirec.css.map */
