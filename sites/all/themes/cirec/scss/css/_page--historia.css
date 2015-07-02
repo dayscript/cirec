@@ -1,5 +1,6 @@
 .page-historia .views-row-1:hover, .page-historia .views-row-2:hover, .page-historia .views-row-3:hover, .page-historia .views-row-4:hover, .page-historia .views-row-5:hover, .page-historia .views-row-6:hover {
-  border-bottom: 3px solid #0099cd; }
+  border-bottom: 3px solid #0099cd;
+  margin-bottom: 10px; }
 .page-historia .views-row-1, .page-historia .views-row-2, .page-historia .views-row-3, .page-historia .views-row-4, .page-historia .views-row-5, .page-historia .views-row-6 {
   float: left;
   width: 15%;
@@ -15,22 +16,6 @@
     color: #0099cd; }
   .page-historia .views-row-1 .image img, .page-historia .views-row-2 .image img, .page-historia .views-row-3 .image img, .page-historia .views-row-4 .image img, .page-historia .views-row-5 .image img, .page-historia .views-row-6 .image img {
     border-radius: 50%; }
-  .page-historia .views-row-1 .field-name-node-link a, .page-historia .views-row-2 .field-name-node-link a, .page-historia .views-row-3 .field-name-node-link a, .page-historia .views-row-4 .field-name-node-link a, .page-historia .views-row-5 .field-name-node-link a, .page-historia .views-row-6 .field-name-node-link a {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-    -webkit-transition: .2s opacity linear;
-    -moz-transition: .2s opacity linear;
-    transition: .2s opacity linear;
-    background: #0099cd;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1em;
-    opacity: 1;
-    padding: 8px 20px;
-    text-transform: uppercase; }
 .page-historia .block-block-12 .block-content div h2 {
   margin: 0 auto;
   width: 79%;
