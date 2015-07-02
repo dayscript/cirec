@@ -32,8 +32,9 @@
     display: inline-block; }
 .page-historia .block-block-12 .block-content div h2 {
   margin: 0 auto;
-  width: 79%;
-  margin-bottom: 15px; }
+  width: 1140px;
+  margin-bottom: 15px;
+  text-align: center; }
 .page-historia .block-block-12 .block-content div hr {
   border: 3px solid #0099cd;
   width: 20%;
@@ -41,6 +42,6 @@
   margin-bottom: 50px; }
 .page-historia .block-block-12 .block-content div p {
   text-align: center;
-  margin: 60px auto; }
+  margin: 30px auto; }
 
 /*# sourceMappingURL=_page--historia.css.map */
