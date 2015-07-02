@@ -147,6 +147,13 @@ $mleft : 150px;
         height: 150px;
         padding: 65px 155px;
     }
+    .field-name-title{
+      h4{
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+      }
+    }
 }
 
 
