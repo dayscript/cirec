@@ -1,6 +1,8 @@
 .page-historia .views-row-1:hover, .page-historia .views-row-2:hover, .page-historia .views-row-3:hover, .page-historia .views-row-4:hover, .page-historia .views-row-5:hover, .page-historia .views-row-6:hover {
   border-bottom: 3px solid #0099cd;
   margin-bottom: 10px; }
+.page-historia li:hover {
+  border-bottom: 3px solid #0099cd; }
 .page-historia .views-row-1, .page-historia .views-row-2, .page-historia .views-row-3, .page-historia .views-row-4, .page-historia .views-row-5, .page-historia .views-row-6 {
   float: left;
   width: 15%;
@@ -45,8 +47,6 @@
       line-height: 18px; }
     .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .field-name-title h4 {
       color: #0099cd; }
-    .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .slides li:hover .body {
-      display: block; }
     .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .slides img {
       width: 90px !important;
       border-radius: 50% !important;
