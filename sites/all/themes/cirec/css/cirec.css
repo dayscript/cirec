@@ -7466,6 +7466,10 @@ button#edit-submit {
     width: 20%;
     text-align: center; }
 
+.page-servicios-plan-padrino #page-title {
+  background-image: url('../images/header-padrino.jpg');
+  height: 150px; }
+
 .view-id-plan_padrino {
   margin-bottom: 30px;
   border-bottom: 2px solid #cccccc;
