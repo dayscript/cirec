@@ -8116,6 +8116,8 @@ button#edit-submit {
 .page-clinica-rehabilitacin .views-row {
   margin: 1px; }
 
+.page-historia .views-row-1:hover, .page-historia .views-row-2:hover, .page-historia .views-row-3:hover, .page-historia .views-row-4:hover, .page-historia .views-row-5:hover, .page-historia .views-row-6:hover {
+  border-bottom: 3px solid #0099cd; }
 .page-historia .views-row-1, .page-historia .views-row-2, .page-historia .views-row-3, .page-historia .views-row-4, .page-historia .views-row-5, .page-historia .views-row-6 {
   float: left;
   width: 15%;
