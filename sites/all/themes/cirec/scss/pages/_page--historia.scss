@@ -66,6 +66,12 @@
           .flexslider{
             width: 100%;
             background: rgba(255, 255, 255, 0)!important;
+            .flex-next{
+              height: 50px;
+            }
+            .flex-prev{
+              height: 50px;
+            }
             .flex-viewport {
               height: 360px;
               width: 1140px;

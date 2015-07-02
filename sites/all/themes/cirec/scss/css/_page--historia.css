@@ -42,6 +42,10 @@
   .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider {
     width: 100%;
     background: rgba(255, 255, 255, 0) !important; }
+    .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .flex-next {
+      height: 50px; }
+    .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .flex-prev {
+      height: 50px; }
     .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .flex-viewport {
       height: 360px;
       width: 1140px;
