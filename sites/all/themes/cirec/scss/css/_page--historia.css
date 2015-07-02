@@ -16,7 +16,7 @@
     text-overflow: ellipsis;
     height: 160px;
     line-height: 18px;
-    display: block; }
+    display: inline-block; }
   .page-historia .views-row-1 .field-name-title h4, .page-historia .views-row-2 .field-name-title h4, .page-historia .views-row-3 .field-name-title h4, .page-historia .views-row-4 .field-name-title h4, .page-historia .views-row-5 .field-name-title h4, .page-historia .views-row-6 .field-name-title h4 {
     color: #0099cd; }
   .page-historia .views-row-1 .image img, .page-historia .views-row-2 .image img, .page-historia .views-row-3 .image img, .page-historia .views-row-4 .image img, .page-historia .views-row-5 .image img, .page-historia .views-row-6 .image img {
