@@ -9,6 +9,13 @@
         width: 15%;
         text-align: center;
         margin: 0 9px;
+        .body{
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 160px;
+            line-height: 18px;
+        }
         .image{
           img{
             border-radius:50%;
