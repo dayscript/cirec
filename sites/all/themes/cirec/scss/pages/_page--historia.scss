@@ -55,17 +55,21 @@
         text-align: center;
         width: 100%;
         .view-id-historia_nodequeue_{
-          width: 1140px;
+          width: 100%;
           margin: 0 auto;
           display: inline-block;
          .view-content{
+            width: 100%;
             margin-top: 31px!important;
           }
         }
           .flexslider{
+            width: 100%;
             background: rgba(255, 255, 255, 0)!important;
             .flex-viewport {
               height: 360px;
+              width: 1140px;
+              margin: 0 auto;
             }
             .body{
             width: 100%;

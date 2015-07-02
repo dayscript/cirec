@@ -8156,15 +8156,19 @@ button#edit-submit {
   text-align: center;
   width: 100%; }
   .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .view-id-historia_nodequeue_ {
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
     display: inline-block; }
     .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .view-id-historia_nodequeue_ .view-content {
+      width: 100%;
       margin-top: 31px !important; }
   .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider {
+    width: 100%;
     background: rgba(255, 255, 255, 0) !important; }
     .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .flex-viewport {
-      height: 360px; }
+      height: 360px;
+      width: 1140px;
+      margin: 0 auto; }
     .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .body {
       width: 100%;
       overflow: hidden;
