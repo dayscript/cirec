@@ -8120,6 +8120,8 @@ button#edit-submit {
   float: left;
   width: 15%;
   text-align: center;
-  margin: 0 5px; }
+  margin: 0 9px; }
+  .page-historia .views-row-1 .image img, .page-historia .views-row-2 .image img, .page-historia .views-row-3 .image img, .page-historia .views-row-4 .image img, .page-historia .views-row-5 .image img, .page-historia .views-row-6 .image img {
+    border-radius: 50%; }
 
 /*# sourceMappingURL=cirec.css.map */

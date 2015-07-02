@@ -4,7 +4,12 @@
         float: left;
         width: 15%;
         text-align: center;
-        margin: 0 5px;
+        margin: 0 9px;
+        .image{
+          img{
+            border-radius:50%;
+          }
+        }
     }
 
 }
