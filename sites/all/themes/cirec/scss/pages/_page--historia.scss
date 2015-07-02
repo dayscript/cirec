@@ -6,11 +6,10 @@
       }
     }
 
-     li{
-      &:hover{
+     li:hover{
         border-bottom: 3px solid #0099cd;
        }
-      }
+
 
     .views-row-1,.views-row-2,.views-row-3,.views-row-4,.views-row-5,.views-row-6{
         float: left;
