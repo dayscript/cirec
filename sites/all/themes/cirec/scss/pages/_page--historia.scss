@@ -47,12 +47,18 @@
         .view-id-historia_nodequeue_{
           width: 1140px;
           margin: 0 auto;
-          display: inline-block;}
+          display: inline-block;
+         .view-content{
+            margin-top: 31px!important;
+          }
+        }
           .flexslider{
+            background: rgba(255, 255, 255, 0)!important;
             .slides{
                  img {
                   width: 90px!important;
                   border-radius: 50%!important;
+                  margin: 0 auto!important;
                 }
               }
             }

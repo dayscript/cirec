@@ -31,9 +31,14 @@
     width: 1140px;
     margin: 0 auto;
     display: inline-block; }
-  .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .slides img {
-    width: 90px !important;
-    border-radius: 50% !important; }
+    .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .view-id-historia_nodequeue_ .view-content {
+      margin-top: 31px !important; }
+  .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider {
+    background: rgba(255, 255, 255, 0) !important; }
+    .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .slides img {
+      width: 90px !important;
+      border-radius: 50% !important;
+      margin: 0 auto !important; }
 .page-historia .block-block-12 .block-content div h2 {
   margin: 0 auto;
   width: 1140px;
