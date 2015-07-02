@@ -16,7 +16,7 @@
     color: #0099cd; }
   .page-historia .views-row-1 .image img, .page-historia .views-row-2 .image img, .page-historia .views-row-3 .image img, .page-historia .views-row-4 .image img, .page-historia .views-row-5 .image img, .page-historia .views-row-6 .image img {
     border-radius: 50%; }
-.page-historia .block-content .view-id-historia_nodequeue_ {
+.page-historia .view-id-historia_nodequeue_ {
   display: inline-block;
   position: relative;
   background-image: url("sites/all/themes/cirec/images/bg_ruta_historia.png"); }
