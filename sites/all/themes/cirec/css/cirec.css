@@ -8146,7 +8146,14 @@ button#edit-submit {
   background-repeat: repeat-x;
   background-position-y: 37px;
   background-position-x: 0;
-  background-size: 100% 90px; }
+  background-size: 100% 90px;
+  padding: 80px;
+  text-align: center;
+  width: 100%; }
+  .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .view-id-historia_nodequeue_ {
+    width: 1140px;
+    margin: 0 auto;
+    display: inline-block; }
 .page-historia .block-block-12 .block-content div h2 {
   margin: 0 auto;
   width: 79%;

@@ -34,14 +34,21 @@
         }
     }
     .block-views-d3216d34d00b40bb8b1a610234e3c626{
-      display: inline-block;
-      position: relative;
-      background-image: url('../images/bg_ruta_historia.png');
-      background-repeat: repeat-x;
-      background-position-y: 37px;
-      background-position-x: 0;
-      background-size: 100% 90px;
-    }
+        display: inline-block;
+        position: relative;
+        background-image: url('../images/bg_ruta_historia.png');
+        background-repeat: repeat-x;
+        background-position-y: 37px;
+        background-position-x: 0;
+        background-size: 100% 90px;
+        padding: 80px;
+        text-align: center;
+        width: 100%;
+        .view-id-historia_nodequeue_{
+          width: 1140px;
+          margin: 0 auto;
+          display: inline-block;}
+        }
 
 
   .block-block-12{
