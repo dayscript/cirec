@@ -44,6 +44,8 @@
       display: none; }
     .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .field-name-title h4 {
       color: #0099cd; }
+    .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .slides ul:hover .body {
+      display: block; }
     .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .slides img {
       width: 90px !important;
       border-radius: 50% !important;
