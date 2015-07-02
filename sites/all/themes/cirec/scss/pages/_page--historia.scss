@@ -48,6 +48,15 @@
           width: 1140px;
           margin: 0 auto;
           display: inline-block;}
+          .flexslider{
+            .slides{
+                 img {
+                  height: auto;
+                  width: 90px;
+                  border-radius: 50%;
+                }
+              }
+            }
         }
 
 
