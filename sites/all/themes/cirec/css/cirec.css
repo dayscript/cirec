@@ -8127,7 +8127,7 @@ button#edit-submit {
 .page-historia li:hover {
   border-bottom: 3px solid #0099cd; }
   .page-historia li:hover .body {
-    display: inline-block;
+    display: inline-block !important;
     height: 201px; }
 .page-historia .views-row-1, .page-historia .views-row-2, .page-historia .views-row-3, .page-historia .views-row-4, .page-historia .views-row-5, .page-historia .views-row-6 {
   float: left;
