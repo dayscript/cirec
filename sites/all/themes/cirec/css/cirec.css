@@ -8154,6 +8154,9 @@ button#edit-submit {
     width: 1140px;
     margin: 0 auto;
     display: inline-block; }
+  .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 .flexslider .slides img {
+    width: 90px !important;
+    border-radius: 50% !important; }
 .page-historia .block-block-12 .block-content div h2 {
   margin: 0 auto;
   width: 1140px;

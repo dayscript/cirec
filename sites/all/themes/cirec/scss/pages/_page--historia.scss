@@ -51,9 +51,8 @@
           .flexslider{
             .slides{
                  img {
-                  height: auto;
-                  width: 90px;
-                  border-radius: 50%;
+                  width: 90px!important;
+                  border-radius: 50%!important;
                 }
               }
             }
