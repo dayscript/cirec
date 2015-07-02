@@ -8149,15 +8149,12 @@ button#edit-submit {
       color: #0099cd; }
     .page-historia .views-row-1 .image img, .page-historia .views-row-2 .image img, .page-historia .views-row-3 .image img, .page-historia .views-row-4 .image img, .page-historia .views-row-5 .image img, .page-historia .views-row-6 .image img {
       border-radius: 50%; }
-  .page-historia .block-content {
-    display: inline-block;
-    position: relative;
+  .page-historia .page {
     background-image: url('../images/bg_ruta_historia.png');
     background-repeat: repeat-x;
     background-position-y: 37px;
     background-position-x: 0;
-    background-size: 100% 90px;
-    z-index: 1; }
+    background-size: 100% 90px; }
   .page-historia .block-block-12 .block-content div h2 {
     margin: 0 auto;
     width: 79%;
