@@ -1,44 +1,40 @@
-.page-historia {
-  /*.view-id-historia_nodequeue_{
-    display: inline-block;
-    position: relative;
-    background-image: url('../images/bg_ruta_historia.png');
-    background-repeat: repeat-x;
-    background-position-y: 37px;
-    background-position-x: 0;
-    background-size: 100% 90px;
-    }*/ }
-  .page-historia .views-row-1:hover, .page-historia .views-row-2:hover, .page-historia .views-row-3:hover, .page-historia .views-row-4:hover, .page-historia .views-row-5:hover, .page-historia .views-row-6:hover {
-    border-bottom: 3px solid #0099cd;
-    margin-bottom: 10px; }
-  .page-historia .views-row-1, .page-historia .views-row-2, .page-historia .views-row-3, .page-historia .views-row-4, .page-historia .views-row-5, .page-historia .views-row-6 {
-    float: left;
-    width: 15%;
-    text-align: center;
-    margin: 50px 9px; }
-    .page-historia .views-row-1 .body, .page-historia .views-row-2 .body, .page-historia .views-row-3 .body, .page-historia .views-row-4 .body, .page-historia .views-row-5 .body, .page-historia .views-row-6 .body {
-      width: 100%;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      height: 160px;
-      line-height: 18px; }
-    .page-historia .views-row-1 .field-name-title h4, .page-historia .views-row-2 .field-name-title h4, .page-historia .views-row-3 .field-name-title h4, .page-historia .views-row-4 .field-name-title h4, .page-historia .views-row-5 .field-name-title h4, .page-historia .views-row-6 .field-name-title h4 {
-      color: #0099cd; }
-    .page-historia .views-row-1 .image img, .page-historia .views-row-2 .image img, .page-historia .views-row-3 .image img, .page-historia .views-row-4 .image img, .page-historia .views-row-5 .image img, .page-historia .views-row-6 .image img {
-      border-radius: 50%; }
-  .page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 {
-    display: inline-block; }
-  .page-historia .block-block-12 .block-content div h2 {
-    margin: 0 auto;
-    width: 79%;
-    margin-bottom: 15px; }
-  .page-historia .block-block-12 .block-content div hr {
-    border: 3px solid #0099cd;
-    width: 20%;
-    margin: 0 auto;
-    margin-bottom: 50px; }
-  .page-historia .block-block-12 .block-content div p {
-    text-align: center;
-    margin: 60px auto; }
+.page-historia .views-row-1:hover, .page-historia .views-row-2:hover, .page-historia .views-row-3:hover, .page-historia .views-row-4:hover, .page-historia .views-row-5:hover, .page-historia .views-row-6:hover {
+  border-bottom: 3px solid #0099cd;
+  margin-bottom: 10px; }
+.page-historia .views-row-1, .page-historia .views-row-2, .page-historia .views-row-3, .page-historia .views-row-4, .page-historia .views-row-5, .page-historia .views-row-6 {
+  float: left;
+  width: 15%;
+  text-align: center;
+  margin: 50px 9px; }
+  .page-historia .views-row-1 .body, .page-historia .views-row-2 .body, .page-historia .views-row-3 .body, .page-historia .views-row-4 .body, .page-historia .views-row-5 .body, .page-historia .views-row-6 .body {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 160px;
+    line-height: 18px; }
+  .page-historia .views-row-1 .field-name-title h4, .page-historia .views-row-2 .field-name-title h4, .page-historia .views-row-3 .field-name-title h4, .page-historia .views-row-4 .field-name-title h4, .page-historia .views-row-5 .field-name-title h4, .page-historia .views-row-6 .field-name-title h4 {
+    color: #0099cd; }
+  .page-historia .views-row-1 .image img, .page-historia .views-row-2 .image img, .page-historia .views-row-3 .image img, .page-historia .views-row-4 .image img, .page-historia .views-row-5 .image img, .page-historia .views-row-6 .image img {
+    border-radius: 50%; }
+.page-historia .block-views-d3216d34d00b40bb8b1a610234e3c626 {
+  display: inline-block;
+  position: relative;
+  background-image: url("../images/bg_ruta_historia.png");
+  background-repeat: repeat-x;
+  background-position-y: 37px;
+  background-position-x: 0;
+  background-size: 100% 90px; }
+.page-historia .block-block-12 .block-content div h2 {
+  margin: 0 auto;
+  width: 79%;
+  margin-bottom: 15px; }
+.page-historia .block-block-12 .block-content div hr {
+  border: 3px solid #0099cd;
+  width: 20%;
+  margin: 0 auto;
+  margin-bottom: 50px; }
+.page-historia .block-block-12 .block-content div p {
+  text-align: center;
+  margin: 60px auto; }
 
 /*# sourceMappingURL=_page--historia.css.map */
