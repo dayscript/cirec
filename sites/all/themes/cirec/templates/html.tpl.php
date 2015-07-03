@@ -93,15 +93,6 @@
     })(jQuery, Drupal, this, this.document);
   </script>
 
-<Script type = "text / javascript">
-ventana. $ Zopim || (function (d, s) {var z = $ Zopim = function (c) {
-z ._. empujar (c)}, $ = zs =
-d.createElement (s), e = d.getElementsByTagName (s) [0]; z.set = Función (o) {z.set.
-_.push (o)}; z ._ = []; z.set ._ = [] ;. $ Async = 0;!. $ SetAttribute ('charset', 'utf-8');
-$ .src = '// V2.zopim.com/?38fe6dw0zxvizcOaDmnQ3P8gZXCWRWl4';zt=+new Fecha; $.
-type = "text / javascript '; e.parentNode.insertBefore ($, e)}) (document,' script ');
-
-</ Script>
 
 
 </body>
