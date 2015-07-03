@@ -7424,8 +7424,7 @@ button#edit-submit {
       overflow: hidden;
       text-overflow: ellipsis;
       height: 160px;
-      line-height: 18px;
-      display: none; }
+      line-height: 18px; }
     .block-casos-exitosos .flexslider .field-name-title h4 {
       color: #0099cd; }
     .block-casos-exitosos .flexslider .slides img {
