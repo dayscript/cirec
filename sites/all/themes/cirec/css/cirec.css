@@ -7719,92 +7719,92 @@ button#edit-submit {
   content: ' ';
   padding-left: 240px; }
 
-.node-type-page .group-left, .node-type-casos-rehabilitacion .group-left {
+.node-type-page .group-left, .node-type-casos-rehabilitacion .group-left, .node-type-noticias .group-left {
   width: 68%;
   margin-right: 22px; }
-  .node-type-page .group-left .image, .node-type-casos-rehabilitacion .group-left .image {
+  .node-type-page .group-left .image, .node-type-casos-rehabilitacion .group-left .image, .node-type-noticias .group-left .image {
     float: left;
     margin-right: 10px;
     margin-bottom: 20px; }
-.node-type-page .group-right, .node-type-casos-rehabilitacion .group-right {
+.node-type-page .group-right, .node-type-casos-rehabilitacion .group-right, .node-type-noticias .group-right {
   width: 30%; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .block-title, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .block-title {
+  .node-type-page .group-right .field-name-testimonios-basic-page .block-title, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .block-title, .node-type-noticias .group-right .field-name-testimonios-basic-page .block-title {
     font-size: 24px;
     line-height: 24px;
     text-transform: uppercase;
     margin-bottom: 10px; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .block-title:after, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .block-title:after {
+  .node-type-page .group-right .field-name-testimonios-basic-page .block-title:after, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .block-title:after, .node-type-noticias .group-right .field-name-testimonios-basic-page .block-title:after {
     border-top: 4px solid #0099cd;
     content: '';
     display: block;
     margin-top: 20px;
     width: 250px; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .block-title a, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .block-title a {
+  .node-type-page .group-right .field-name-testimonios-basic-page .block-title a, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .block-title a, .node-type-noticias .group-right .field-name-testimonios-basic-page .block-title a {
     color: #444; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .block-title a:hover, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .block-title a:hover {
+  .node-type-page .group-right .field-name-testimonios-basic-page .block-title a:hover, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .block-title a:hover, .node-type-noticias .group-right .field-name-testimonios-basic-page .block-title a:hover {
     color: #0099cd; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-post-date, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .field-name-post-date {
+  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-post-date, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .field-name-post-date, .node-type-noticias .group-right .field-name-testimonios-basic-page .field-name-post-date {
     color: #fc8d31;
     font-size: 13px;
     font-style: italic; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title h2, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .field-name-title h2 {
+  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title h2, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .field-name-title h2, .node-type-noticias .group-right .field-name-testimonios-basic-page .field-name-title h2 {
     font-size: 16px;
     margin-top: 27px;
     text-transform: uppercase; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title a, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .field-name-title a {
+  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title a, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .field-name-title a, .node-type-noticias .group-right .field-name-testimonios-basic-page .field-name-title a {
     color: #444; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title a:hover, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .field-name-title a:hover {
+  .node-type-page .group-right .field-name-testimonios-basic-page .field-name-title a:hover, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .field-name-title a:hover, .node-type-noticias .group-right .field-name-testimonios-basic-page .field-name-title a:hover {
     text-decoration: underline; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .flexslider, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .flexslider {
+  .node-type-page .group-right .field-name-testimonios-basic-page .flexslider, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .flexslider, .node-type-noticias .group-right .field-name-testimonios-basic-page .flexslider {
     border: none; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .flex-control-nav, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .flex-control-nav {
+  .node-type-page .group-right .field-name-testimonios-basic-page .flex-control-nav, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .flex-control-nav, .node-type-noticias .group-right .field-name-testimonios-basic-page .flex-control-nav {
     border-top: 1px solid #ccc;
     padding-top: 20px;
     text-align: left; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .flex-control-nav a, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .flex-control-nav a {
+  .node-type-page .group-right .field-name-testimonios-basic-page .flex-control-nav a, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .flex-control-nav a, .node-type-noticias .group-right .field-name-testimonios-basic-page .flex-control-nav a {
     background: #d5d5d5;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     -ms-box-shadow: none;
     box-shadow: none; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .flex-control-nav a.flex-active, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .flex-control-nav a.flex-active {
+  .node-type-page .group-right .field-name-testimonios-basic-page .flex-control-nav a.flex-active, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .flex-control-nav a.flex-active, .node-type-noticias .group-right .field-name-testimonios-basic-page .flex-control-nav a.flex-active {
     background: #7a7a7a; }
-  .node-type-page .group-right .field-name-testimonios-basic-page .image img, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .image img {
+  .node-type-page .group-right .field-name-testimonios-basic-page .image img, .node-type-casos-rehabilitacion .group-right .field-name-testimonios-basic-page .image img, .node-type-noticias .group-right .field-name-testimonios-basic-page .image img {
     border: 3px solid #f3f3f3;
     width: auto; }
-  .node-type-page .group-right .field-name-actividad-en-redes .block-title, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes .block-title {
+  .node-type-page .group-right .field-name-actividad-en-redes .block-title, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes .block-title, .node-type-noticias .group-right .field-name-actividad-en-redes .block-title {
     font-size: 24px;
     line-height: 24px;
     text-transform: uppercase;
     margin-bottom: 10px; }
-  .node-type-page .group-right .field-name-actividad-en-redes .block-title a, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes .block-title a {
+  .node-type-page .group-right .field-name-actividad-en-redes .block-title a, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes .block-title a, .node-type-noticias .group-right .field-name-actividad-en-redes .block-title a {
     color: #444; }
-  .node-type-page .group-right .field-name-actividad-en-redes .block-title a:hover, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes .block-title a:hover {
+  .node-type-page .group-right .field-name-actividad-en-redes .block-title a:hover, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes .block-title a:hover, .node-type-noticias .group-right .field-name-actividad-en-redes .block-title a:hover {
     color: #0099cd; }
-  .node-type-page .group-right .field-name-actividad-en-redes .block-content, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes .block-content {
+  .node-type-page .group-right .field-name-actividad-en-redes .block-content, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes .block-content, .node-type-noticias .group-right .field-name-actividad-en-redes .block-content {
     display: none; }
-  .node-type-page .group-right .field-name-actividad-en-redes .block-title:after, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes .block-title:after {
+  .node-type-page .group-right .field-name-actividad-en-redes .block-title:after, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes .block-title:after, .node-type-noticias .group-right .field-name-actividad-en-redes .block-title:after {
     border-top: 4px solid #0099cd;
     content: '';
     display: block;
     margin-top: 20px;
     width: 250px; }
-  .node-type-page .group-right .field-name-actividad-en-redes p, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes p {
+  .node-type-page .group-right .field-name-actividad-en-redes p, .node-type-casos-rehabilitacion .group-right .field-name-actividad-en-redes p, .node-type-noticias .group-right .field-name-actividad-en-redes p {
     display: none; }
-  .node-type-page .group-right .field-name-actividad-facebook, .node-type-page .group-right .field-name-actividad-twitter, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter {
+  .node-type-page .group-right .field-name-actividad-facebook, .node-type-page .group-right .field-name-actividad-twitter, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter, .node-type-noticias .group-right .field-name-actividad-facebook, .node-type-noticias .group-right .field-name-actividad-twitter {
     padding: .7em 1em 1em;
     margin: 24px 12px 30px 0;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     border-radius: 20px; }
-    .node-type-page .group-right .field-name-actividad-facebook .block-title, .node-type-page .group-right .field-name-actividad-twitter .block-title, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .block-title, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .block-title {
+    .node-type-page .group-right .field-name-actividad-facebook .block-title, .node-type-page .group-right .field-name-actividad-twitter .block-title, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .block-title, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .block-title, .node-type-noticias .group-right .field-name-actividad-facebook .block-title, .node-type-noticias .group-right .field-name-actividad-twitter .block-title {
       text-transform: uppercase;
       font-size: 1.1428571429em;
       font-weight: bold;
       margin: 0;
       padding: 0 0 8px 0; }
-      .node-type-page .group-right .field-name-actividad-facebook .block-title:before, .node-type-page .group-right .field-name-actividad-twitter .block-title:before, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .block-title:before, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .block-title:before {
+      .node-type-page .group-right .field-name-actividad-facebook .block-title:before, .node-type-page .group-right .field-name-actividad-twitter .block-title:before, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .block-title:before, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .block-title:before, .node-type-noticias .group-right .field-name-actividad-facebook .block-title:before, .node-type-noticias .group-right .field-name-actividad-twitter .block-title:before {
         content: '\ea8c';
         background: #fff;
         -webkit-border-radius: 50%;
@@ -7828,76 +7828,76 @@ button#edit-submit {
         margin-right: 12px;
         text-align: center;
         width: 40px; }
-    .node-type-page .group-right .field-name-actividad-facebook .twitter-status.clearfix, .node-type-page .group-right .field-name-actividad-twitter .twitter-status.clearfix, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .twitter-status.clearfix, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .twitter-status.clearfix {
+    .node-type-page .group-right .field-name-actividad-facebook .twitter-status.clearfix, .node-type-page .group-right .field-name-actividad-twitter .twitter-status.clearfix, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .twitter-status.clearfix, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .twitter-status.clearfix, .node-type-noticias .group-right .field-name-actividad-facebook .twitter-status.clearfix, .node-type-noticias .group-right .field-name-actividad-twitter .twitter-status.clearfix {
       padding: 10px; }
-    .node-type-page .group-right .field-name-actividad-facebook .block-title, .node-type-page .group-right .field-name-actividad-twitter .block-title, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .block-title, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .block-title {
+    .node-type-page .group-right .field-name-actividad-facebook .block-title, .node-type-page .group-right .field-name-actividad-twitter .block-title, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .block-title, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .block-title, .node-type-noticias .group-right .field-name-actividad-facebook .block-title, .node-type-noticias .group-right .field-name-actividad-twitter .block-title {
       color: #fff;
       position: relative;
       top: -4px; }
-      .node-type-page .group-right .field-name-actividad-facebook .block-title:hover, .node-type-page .group-right .field-name-actividad-twitter .block-title:hover, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .block-title:hover, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .block-title:hover {
+      .node-type-page .group-right .field-name-actividad-facebook .block-title:hover, .node-type-page .group-right .field-name-actividad-twitter .block-title:hover, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .block-title:hover, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .block-title:hover, .node-type-noticias .group-right .field-name-actividad-facebook .block-title:hover, .node-type-noticias .group-right .field-name-actividad-twitter .block-title:hover {
         opacity: .5; }
-    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed, .node-type-page .group-right .field-name-actividad-twitter .facebook-feed, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .facebook-feed {
+    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed, .node-type-page .group-right .field-name-actividad-twitter .facebook-feed, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .facebook-feed, .node-type-noticias .group-right .field-name-actividad-facebook .facebook-feed, .node-type-noticias .group-right .field-name-actividad-twitter .facebook-feed {
       background: #fff;
       max-height: 126px;
       min-height: 126px;
       overflow: hidden;
       position: relative;
       padding: 5px 10px 10px; }
-    .node-type-page .group-right .field-name-actividad-facebook li, .node-type-page .group-right .field-name-actividad-facebook li.item, .node-type-page .group-right .field-name-actividad-twitter li, .node-type-page .group-right .field-name-actividad-twitter li.item, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook li, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook li.item, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter li, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter li.item {
+    .node-type-page .group-right .field-name-actividad-facebook li, .node-type-page .group-right .field-name-actividad-facebook li.item, .node-type-page .group-right .field-name-actividad-twitter li, .node-type-page .group-right .field-name-actividad-twitter li.item, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook li, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook li.item, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter li, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter li.item, .node-type-noticias .group-right .field-name-actividad-facebook li, .node-type-noticias .group-right .field-name-actividad-facebook li.item, .node-type-noticias .group-right .field-name-actividad-twitter li, .node-type-noticias .group-right .field-name-actividad-twitter li.item {
       margin: 0; }
-  .node-type-page .group-right .field-name-actividad-facebook, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook {
+  .node-type-page .group-right .field-name-actividad-facebook, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook, .node-type-noticias .group-right .field-name-actividad-facebook {
     background: #425f9c; }
-    .node-type-page .group-right .field-name-actividad-facebook .block-title:before, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .block-title:before {
+    .node-type-page .group-right .field-name-actividad-facebook .block-title:before, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .block-title:before, .node-type-noticias .group-right .field-name-actividad-facebook .block-title:before {
       content: '\ea8c';
       color: #425f9c;
       font-weight: bold;
       text-indent: -4px; }
-    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-from, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-from {
+    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-from, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-from, .node-type-noticias .group-right .field-name-actividad-facebook .facebook-feed-from {
       margin-left: 5px; }
-      .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-from a, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-from a {
+      .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-from a, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-from a, .node-type-noticias .group-right .field-name-actividad-facebook .facebook-feed-from a {
         color: #333;
         font-size: 1em; }
-    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-message {
+    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-message, .node-type-noticias .group-right .field-name-actividad-facebook .facebook-feed-message {
       color: #999;
       font-size: 0.9285714286em;
       display: block;
       line-height: 1.4;
       margin-left: 60px;
       margin-top: 5px; }
-      .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message a, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-message a {
+      .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message a, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-message a, .node-type-noticias .group-right .field-name-actividad-facebook .facebook-feed-message a {
         color: #0099cd; }
-        .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message a:hover, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-message a:hover {
+        .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message a:hover, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-message a:hover, .node-type-noticias .group-right .field-name-actividad-facebook .facebook-feed-message a:hover {
           text-decoration: underline; }
-      .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message img, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-message img {
+      .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-message img, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-message img, .node-type-noticias .group-right .field-name-actividad-facebook .facebook-feed-message img {
         display: none; }
-    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-picture, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-picture {
+    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-picture, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-picture, .node-type-noticias .group-right .field-name-actividad-facebook .facebook-feed-picture {
       margin-top: 8px; }
-    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-time, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-time {
+    .node-type-page .group-right .field-name-actividad-facebook .facebook-feed-time, .node-type-casos-rehabilitacion .group-right .field-name-actividad-facebook .facebook-feed-time, .node-type-noticias .group-right .field-name-actividad-facebook .facebook-feed-time {
       font-size: 13px;
       font-style: italic;
       color: #999;
       position: absolute;
       top: 5px;
       right: 8px; }
-  .node-type-page .group-right .field-name-actividad-twitter, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter {
+  .node-type-page .group-right .field-name-actividad-twitter, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter, .node-type-noticias .group-right .field-name-actividad-twitter {
     background: #0099cd;
     /*margin-top: 75px;*/ }
-    .node-type-page .group-right .field-name-actividad-twitter .block-title:before, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .block-title:before {
+    .node-type-page .group-right .field-name-actividad-twitter .block-title:before, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .block-title:before, .node-type-noticias .group-right .field-name-actividad-twitter .block-title:before {
       content: '\ea91';
       color: #0099cd; }
-    .node-type-page .group-right .field-name-actividad-twitter .avatar, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .avatar {
+    .node-type-page .group-right .field-name-actividad-twitter .avatar, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .avatar, .node-type-noticias .group-right .field-name-actividad-twitter .avatar {
       margin-top: 8px; }
-    .node-type-page .group-right .field-name-actividad-twitter .text, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .text {
+    .node-type-page .group-right .field-name-actividad-twitter .text, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .text, .node-type-noticias .group-right .field-name-actividad-twitter .text {
       color: #999;
       font-size: 13px;
       line-height: 1.4; }
-      .node-type-page .group-right .field-name-actividad-twitter .text a, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .text a {
+      .node-type-page .group-right .field-name-actividad-twitter .text a, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .text a, .node-type-noticias .group-right .field-name-actividad-twitter .text a {
         color: #0099cd; }
-        .node-type-page .group-right .field-name-actividad-twitter .text a:hover, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .text a:hover {
+        .node-type-page .group-right .field-name-actividad-twitter .text a:hover, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .text a:hover, .node-type-noticias .group-right .field-name-actividad-twitter .text a:hover {
           text-decoration: underline; }
-    .node-type-page .group-right .field-name-actividad-twitter ul.actions, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter ul.actions {
+    .node-type-page .group-right .field-name-actividad-twitter ul.actions, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter ul.actions, .node-type-noticias .group-right .field-name-actividad-twitter ul.actions {
       display: none; }
-    .node-type-page .group-right .field-name-actividad-twitter .twitter-status, .node-type-page .group-right .field-name-actividad-twitter .item-list ul, .node-type-page .group-right .field-name-actividad-twitter .views-row, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .twitter-status, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .item-list ul, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .views-row {
+    .node-type-page .group-right .field-name-actividad-twitter .twitter-status, .node-type-page .group-right .field-name-actividad-twitter .item-list ul, .node-type-page .group-right .field-name-actividad-twitter .views-row, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .twitter-status, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .item-list ul, .node-type-casos-rehabilitacion .group-right .field-name-actividad-twitter .views-row, .node-type-noticias .group-right .field-name-actividad-twitter .twitter-status, .node-type-noticias .group-right .field-name-actividad-twitter .item-list ul, .node-type-noticias .group-right .field-name-actividad-twitter .views-row {
       padding: 0;
       margin: 0; }
 
