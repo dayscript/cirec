@@ -140,6 +140,9 @@
         color: $body_font_color;
         font-size: 13px;
         line-height: 1.4;
+        width: 75%;
+        overflow: hidden;
+        text-overflow: ellipsis;
 
         a {
             color: $blue;
