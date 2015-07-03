@@ -1,0 +1,11 @@
+/*$row-width: rem-calc(1140);*/
+/*$column-gutter: rem-calc(20);*/
+.text {
+  color: #999;
+  font-size: 13px;
+  line-height: 1.4;
+  width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+/*# sourceMappingURL=_variables.css.map */
