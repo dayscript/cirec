@@ -26,6 +26,14 @@
  */
 /*$row-width: rem-calc(1140);*/
 /*$column-gutter: rem-calc(20);*/
+.text {
+  color: #999;
+  font-size: 13px;
+  line-height: 1.4;
+  width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
