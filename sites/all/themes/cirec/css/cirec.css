@@ -7407,6 +7407,31 @@ button#edit-submit {
     -ms-border-radius: 50%;
     border-radius: 50%;
     border: 5px solid #f3f3f3; }
+  .block-casos-exitosos .flexslider {
+    margin: 0px 0 9px !important;
+    width: 100%;
+    background: rgba(255, 255, 255, 0) !important; }
+    .block-casos-exitosos .flexslider .flex-next {
+      height: 50px; }
+    .block-casos-exitosos .flexslider .flex-prev {
+      height: 50px; }
+    .block-casos-exitosos .flexslider .flex-viewport {
+      height: 360px;
+      width: 1140px;
+      margin: 0 auto; }
+    .block-casos-exitosos .flexslider .body {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height: 160px;
+      line-height: 18px;
+      display: none; }
+    .block-casos-exitosos .flexslider .field-name-title h4 {
+      color: #0099cd; }
+    .block-casos-exitosos .flexslider .slides img {
+      width: 90px !important;
+      border-radius: 50% !important;
+      margin: 0 auto !important; }
 
 .block-ruta-apadrinar {
   background: #92cd4d url('../images/bg_ruta_apadrinar.png') center 112px no-repeat;
