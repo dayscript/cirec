@@ -7589,10 +7589,12 @@ button#edit-submit {
     line-height: 26px; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .body {
   margin-left: 0;
-  width: 100%; }
+  width: 60%;
+  display: inline-block; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .field-name-field-info-relevante {
   margin-left: 0;
-  width: 100%; }
+  width: 60%;
+  display: inline-block; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .field-name-title:after {
   border-bottom: 4px solid #0099cd;
   content: ' ';
