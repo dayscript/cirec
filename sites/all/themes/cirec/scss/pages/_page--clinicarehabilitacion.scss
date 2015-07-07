@@ -44,6 +44,7 @@
 
 
                 hr{display: none}
+                div{display: none}
               }
           .title-content:hover {
               background:rgba(34, 116, 140, 0.8);
@@ -52,6 +53,7 @@
                           hr{display: block;
                               border: solid  2px #0099CD;
                               width: 50%;}
+                          div{display: block}
 
             }
             .collage.imagen1{

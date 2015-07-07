@@ -8177,6 +8177,8 @@ button#edit-submit {
   font-size: 13px; }
   .page-clinica-rehabilitacin .title-content hr {
     display: none; }
+  .page-clinica-rehabilitacin .title-content div {
+    display: none; }
 .page-clinica-rehabilitacin .title-content:hover {
   background: rgba(34, 116, 140, 0.8);
   color: #fff; }
@@ -8184,6 +8186,8 @@ button#edit-submit {
     display: block;
     border: solid 2px #0099CD;
     width: 50%; }
+  .page-clinica-rehabilitacin .title-content:hover div {
+    display: block; }
 .page-clinica-rehabilitacin .collage.imagen1 {
   position: relative; }
 .page-clinica-rehabilitacin span.title {
