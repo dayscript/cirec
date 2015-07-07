@@ -54,6 +54,25 @@
                               border: solid  2px #0099CD;
                               width: 50%;}
                           div{display: block}
+                          a{
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            -ms-border-radius: 5px;
+                            border-radius: 5px;
+                            -webkit-transition: .2s opacity linear;
+                            -moz-transition: .2s opacity linear;
+                            transition: .2s opacity linear;
+                            background: #0099cd;
+                            color: #fff;
+                            cursor: pointer;
+                            display: inline-block;
+                            font-size: 1em;
+                            opacity: 1;
+                            padding: 8px 20px;
+                            text-transform: uppercase;
+                          }
+
+
 
             }
             .collage.imagen1{

@@ -8188,6 +8188,22 @@ button#edit-submit {
     width: 50%; }
   .page-clinica-rehabilitacin .title-content:hover div {
     display: block; }
+  .page-clinica-rehabilitacin .title-content:hover a {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: .2s opacity linear;
+    -moz-transition: .2s opacity linear;
+    transition: .2s opacity linear;
+    background: #0099cd;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    opacity: 1;
+    padding: 8px 20px;
+    text-transform: uppercase; }
 .page-clinica-rehabilitacin .collage.imagen1 {
   position: relative; }
 .page-clinica-rehabilitacin span.title {
