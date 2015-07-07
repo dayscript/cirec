@@ -7576,6 +7576,10 @@ button#edit-submit {
 
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .views-row-even .group-left {
   float: right; }
+.page-plan-padrino-todos .view-id-plan_padrino .view-content .views-row-even .group-right .body {
+  margin-left: 0; }
+.page-plan-padrino-todos .view-id-plan_padrino .view-content .views-row-even .group-right .field-name-field-info-relevante {
+  margin-left: 0; }
 
 .view-display-id-propuesta_valor .slide {
   background-position: center center;
