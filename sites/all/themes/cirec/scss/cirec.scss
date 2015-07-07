@@ -24,7 +24,6 @@
  * - http://smacss.com/
  */
 
-
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
@@ -147,13 +146,7 @@
 @import "pages/page--proability";
 @import "pages/page--clinicarehabilitacion";
 @import "pages/page--historia";
-@import "pages/page--rehabilitacion";
-
 
 
 // Older    IE support
 // @import "vendor/ie";
-/*.row{
-  width: 1140px!important;
-  max-width: 62.5rem!important;
-}*/
