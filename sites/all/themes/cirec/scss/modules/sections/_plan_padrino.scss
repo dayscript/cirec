@@ -301,6 +301,15 @@ $mleft : 150px;
                     float: right;
                 }
             }
+            .group-left{
+                .image{
+                    img{
+                        border-radius: 0%;
+                        border: 7px solid #eee;
+                        width: 200px;
+                    }
+                }
+            }
             .group-right{
                 .field-name-title{
                  margin-bottom: 26px;
@@ -310,9 +319,11 @@ $mleft : 150px;
                 }
                 .body{
                     margin-left: 0;
+                    width: 100%;
                 }
                 .field-name-field-info-relevante{
                     margin-left: 0;
+                    width: 100%;
                 }
 
             }

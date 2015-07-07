@@ -7580,14 +7580,20 @@ button#edit-submit {
   padding-bottom: 20px; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .views-row-even .group-left {
   float: right; }
+.page-plan-padrino-todos .view-id-plan_padrino .view-content .group-left .image img {
+  border-radius: 0%;
+  border: 7px solid #eee;
+  width: 200px; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .group-right .field-name-title {
   margin-bottom: 26px; }
   .page-plan-padrino-todos .view-id-plan_padrino .view-content .group-right .field-name-title h2 {
     line-height: 26px; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .group-right .body {
-  margin-left: 0; }
+  margin-left: 0;
+  width: 100%; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .group-right .field-name-field-info-relevante {
-  margin-left: 0; }
+  margin-left: 0;
+  width: 100%; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .field-name-title:after {
   border-bottom: 4px solid #0099cd;
   content: ' ';
