@@ -24,9 +24,6 @@
  * - https://drupal.org/node/1887922
  * - http://smacss.com/
  */
-html {
-  width: 1140px; }
-
 /*$row-width: rem-calc(1140);*/
 /*$column-gutter: rem-calc(20);*/
 .text {
