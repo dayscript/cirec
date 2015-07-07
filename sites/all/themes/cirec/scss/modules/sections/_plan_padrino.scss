@@ -302,19 +302,24 @@ $mleft : 150px;
                 }
             }
             .group-right{
+                .field-name-title{
+                 margin-bottom: 26px;
+                    h2{
+                        line-height: 26px;
+                    }
+                }
                 .body{
                     margin-left: 0;
                 }
                 .field-name-field-info-relevante{
                     margin-left: 0;
                 }
+
             }
             .field-name-title{
                 &:after {
                   border-bottom: 4px solid #0099cd;
-                  bottom: 0;
                   content: ' ';
-                  left: 0;
                   position: absolute;
                   width: 250px;
                 }
