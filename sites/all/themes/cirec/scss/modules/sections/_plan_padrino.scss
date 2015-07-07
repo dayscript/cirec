@@ -309,6 +309,16 @@ $mleft : 150px;
                     margin-left: 0;
                 }
             }
+            .field-name-title{
+                &:after {
+                  border-bottom: 4px solid #0099cd;
+                  bottom: 0;
+                  content: ' ';
+                  left: 0;
+                  position: absolute;
+                  width: 250px;
+                }
+            }
         }
     }
 }
