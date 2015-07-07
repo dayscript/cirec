@@ -56,16 +56,15 @@ $last-child-float: $opposite-direction !default;
   @else if $behavior == collapse {
     width: 100%;
     margin: 0;
-    max-width: 62.5rem;
-
     /*max-width: $row-width;*/
+    max-width: 62.5rem;
   }
 
   // use @include grid-row(nest-collapse); to collapse outer margins on a nested row
   @else if $behavior == nest-collapse {
     width: auto;
     margin: 0;
-    max-width: none;
+    max-width: 62.5rem;
   }
 
   // use @include grid-row; to use a container row
