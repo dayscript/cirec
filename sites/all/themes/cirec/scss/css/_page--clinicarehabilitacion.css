@@ -52,10 +52,10 @@
     display: inline-block;
     font-size: 1em;
     opacity: 1;
-    padding: 8px 20px;
+    padding: 8px 15px;
     text-transform: uppercase; }
   .page-clinica-rehabilitacin .title-content:hover p {
-    margin: 0; }
+    margin: 2px; }
 .page-clinica-rehabilitacin .collage.imagen1 {
   position: relative; }
 .page-clinica-rehabilitacin span.title {
