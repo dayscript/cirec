@@ -54,6 +54,8 @@
     opacity: 1;
     padding: 8px 20px;
     text-transform: uppercase; }
+  .page-clinica-rehabilitacin .title-content:hover p {
+    margin: 0; }
 .page-clinica-rehabilitacin .collage.imagen1 {
   position: relative; }
 .page-clinica-rehabilitacin span.title {
