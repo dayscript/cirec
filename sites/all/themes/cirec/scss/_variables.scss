@@ -13,7 +13,9 @@ $em-base: 14px;
 // Foundation
 //---------------------------------------
 /*$row-width: rem-calc(1140);*/
-$row-width: 1140px;
+//$row-width: 1140px;
+$row-width: none;
+
 $total-columns: 24;
 /*$column-gutter: rem-calc(20);*/
 $column-gutter: 20px;

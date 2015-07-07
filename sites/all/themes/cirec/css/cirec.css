@@ -474,7 +474,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 1140px; }
+  max-width: none; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -4491,7 +4491,7 @@ ul.pagination {
   @media only screen and (min-width:40.063em) {
     .reveal-modal, dialog {
       width: 80%;
-      max-width: 1140px;
+      max-width: none;
       left: 0;
       right: 0;
       margin: 0 auto; } }
@@ -4507,35 +4507,35 @@ ul.pagination {
   @media only screen and (min-width:40.063em) {
     .reveal-modal.tiny, dialog.tiny {
       width: 30%;
-      max-width: 1140px;
+      max-width: none;
       left: 0;
       right: 0;
       margin: 0 auto; } }
   @media only screen and (min-width:40.063em) {
     .reveal-modal.small, dialog.small {
       width: 40%;
-      max-width: 1140px;
+      max-width: none;
       left: 0;
       right: 0;
       margin: 0 auto; } }
   @media only screen and (min-width:40.063em) {
     .reveal-modal.medium, dialog.medium {
       width: 60%;
-      max-width: 1140px;
+      max-width: none;
       left: 0;
       right: 0;
       margin: 0 auto; } }
   @media only screen and (min-width:40.063em) {
     .reveal-modal.large, dialog.large {
       width: 70%;
-      max-width: 1140px;
+      max-width: none;
       left: 0;
       right: 0;
       margin: 0 auto; } }
   @media only screen and (min-width:40.063em) {
     .reveal-modal.xlarge, dialog.xlarge {
       width: 95%;
-      max-width: 1140px;
+      max-width: none;
       left: 0;
       right: 0;
       margin: 0 auto; } }
@@ -4550,7 +4550,7 @@ ul.pagination {
     @media only screen and (min-width:40.063em) {
       .reveal-modal.full, dialog.full {
         width: 100vw;
-        max-width: 1140px;
+        max-width: none;
         left: 0;
         right: 0;
         margin: 0 auto; } }
@@ -5383,7 +5383,7 @@ meta.foundation-mq-topbar {
     .top-bar.expanded {
       background: #333333; }
   .contain-to-grid .top-bar {
-    max-width: 1140px;
+    max-width: none;
     margin: 0 auto;
     margin-bottom: 0; }
   .top-bar-section {
@@ -7172,7 +7172,7 @@ button#edit-submit {
         -ms-border-radius: 20%;
         border-radius: 20%; }
   .aliados-destacados .quicktabs-wrapper {
-    width: 1140px;
+    width: none;
     margin: 0 auto; }
 
 .page-search {
@@ -7242,7 +7242,7 @@ button#edit-submit {
   .form-contacto .form-submit {
     margin: 20px 0; }
   .form-contacto .node {
-    width: 1140px;
+    width: none;
     margin: 0 auto; }
   .form-contacto .webform-component-textarea {
     padding: 0 .5em; }
@@ -7400,7 +7400,7 @@ button#edit-submit {
       content: ' ';
       position: absolute;
       width: 250px;
-      left: 445px; }
+      left: none-250px/2; }
   .block-casos-exitosos .views-row .image img {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -7482,7 +7482,7 @@ button#edit-submit {
     opacity: 1;
     top: 180px; }
   .block-ruta-apadrinar .view {
-    width: 1140px;
+    width: none;
     margin: 0 auto;
     padding-top: 20px;
     position: relative; }
@@ -7492,7 +7492,7 @@ button#edit-submit {
       content: ' ';
       position: absolute;
       width: 250px;
-      left: 445px; }
+      left: none-250px/2; }
   .block-ruta-apadrinar .views-content {
     display: table; }
   .block-ruta-apadrinar .views-row {
@@ -7634,7 +7634,7 @@ button#edit-submit {
   bottom: 100px;
   margin: 0 auto;
   position: relative;
-  width: 1140px;
+  width: none;
   z-index: 99;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -7735,7 +7735,7 @@ button#edit-submit {
     .view-display-id-block_servicios_destacados .service.views-row-4 .field-name-title {
       border-bottom-color: #92cd4d; }
   .view-display-id-block_servicios_destacados .view-content {
-    width: 1140px;
+    width: none;
     margin: 0 auto;
     display: table; }
 
@@ -8300,5 +8300,8 @@ button#edit-submit {
 .page-historia .block-block-12 .block-content div p {
   text-align: center;
   margin: 30px auto; }
+
+.row {
+  width: 1140px !important; }
 
 /*# sourceMappingURL=cirec.css.map */
