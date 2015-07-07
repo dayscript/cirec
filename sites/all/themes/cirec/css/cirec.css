@@ -7579,12 +7579,13 @@ button#edit-submit {
   margin-bottom: 20px;
   padding-bottom: 20px; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .image {
-  margin-left: 16px; }
+  margin-left: 16px;
+  margin-right: 40px; }
   .page-plan-padrino-todos .view-id-plan_padrino .view-content .image img {
     border-radius: 0%;
     border: 7px solid #eee;
-    width: 250px;
-    height: 250px; }
+    width: 160px;
+    height: 160px; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .field-name-title {
   margin-bottom: 26px; }
   .page-plan-padrino-todos .view-id-plan_padrino .view-content .field-name-title h2 {
