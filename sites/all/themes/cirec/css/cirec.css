@@ -7574,11 +7574,15 @@ button#edit-submit {
 .view-plan-padrino-casos-rehabilitacion .node-casos-rehabilitacion .field-name-node-link {
   margin-left: 150px; }
 
+.page-plan-padrino-todos .view-id-plan_padrino .view-content .views-row {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .views-row-even .group-left {
   float: right; }
-.page-plan-padrino-todos .view-id-plan_padrino .view-content .views-row-even .group-right .body {
+.page-plan-padrino-todos .view-id-plan_padrino .view-content .group-right .body {
   margin-left: 0; }
-.page-plan-padrino-todos .view-id-plan_padrino .view-content .views-row-even .group-right .field-name-field-info-relevante {
+.page-plan-padrino-todos .view-id-plan_padrino .view-content .group-right .field-name-field-info-relevante {
   margin-left: 0; }
 
 .view-display-id-propuesta_valor .slide {

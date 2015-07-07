@@ -291,17 +291,22 @@ $mleft : 150px;
 .page-plan-padrino-todos{
     .view-id-plan_padrino{
         .view-content{
+            .views-row {
+              border-bottom: 1px solid #ccc;
+              margin-bottom: 20px;
+              padding-bottom: 20px;
+             }
             .views-row-even{
                 .group-left {
                     float: right;
                 }
-                .group-right{
-                    .body{
-                        margin-left: 0;
-                    }
-                    .field-name-field-info-relevante{
-                        margin-left: 0;
-                    }
+            }
+            .group-right{
+                .body{
+                    margin-left: 0;
+                }
+                .field-name-field-info-relevante{
+                    margin-left: 0;
                 }
             }
         }
