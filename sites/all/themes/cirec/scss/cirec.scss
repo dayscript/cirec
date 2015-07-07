@@ -23,6 +23,12 @@
  * - https://drupal.org/node/1887922
  * - http://smacss.com/
  */
+body{
+  min-width: 1140px;
+}
+.page {
+  min-width: 1140px;
+}
 
 // Make sure the charset is set appropriately
 @charset "UTF-8";
