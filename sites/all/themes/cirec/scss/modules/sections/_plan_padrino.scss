@@ -296,36 +296,27 @@ $mleft : 150px;
               margin-bottom: 20px;
               padding-bottom: 20px;
              }
-            .views-row-even{
-                .group-left {
-                    float: right;
+            .image{
+                img{
+                    border-radius: 0%;
+                    border: 7px solid #eee;
+                    width: 250px;
+                    height: 250px;
                 }
             }
-            .group-left{
-                .image{
-                    img{
-                        border-radius: 0%;
-                        border: 7px solid #eee;
-
-                    }
+            .field-name-title{
+             margin-bottom: 26px;
+                h2{
+                    line-height: 26px;
                 }
             }
-            .group-right{
-                .field-name-title{
-                 margin-bottom: 26px;
-                    h2{
-                        line-height: 26px;
-                    }
-                }
-                .body{
-                    margin-left: 0;
-                    width: 100%;
-                }
-                .field-name-field-info-relevante{
-                    margin-left: 0;
-                    width: 100%;
-                }
-
+            .body{
+                margin-left: 0;
+                width: 100%;
+            }
+            .field-name-field-info-relevante{
+                margin-left: 0;
+                width: 100%;
             }
             .field-name-title{
                 &:after {
