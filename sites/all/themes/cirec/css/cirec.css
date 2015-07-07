@@ -8187,7 +8187,8 @@ button#edit-submit {
     border: solid 2px #0099CD;
     width: 50%; }
   .page-clinica-rehabilitacin .title-content:hover div {
-    display: block; }
+    display: block;
+    float: right; }
   .page-clinica-rehabilitacin .title-content:hover a {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
