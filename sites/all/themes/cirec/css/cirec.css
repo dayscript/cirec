@@ -7593,7 +7593,8 @@ button#edit-submit {
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .body {
   margin-left: 0;
   width: 60%;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 13px; }
 .page-plan-padrino-todos .view-id-plan_padrino .view-content .field-name-field-info-relevante {
   margin-left: 0;
   width: 60%;
