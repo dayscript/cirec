@@ -2,12 +2,22 @@
   #page{
     top: 138px;
     position: relative;
-    zoom: 1.5;
+      zoom: 0.9;
     #header{
       text-align: center
     }
     #container{
       text-align: center;
+      #main{
+        #main-squeeze{
+          #content{
+            #content-content{
+              width: 50%;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
     }
   }
 

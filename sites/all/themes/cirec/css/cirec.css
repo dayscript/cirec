@@ -8304,10 +8304,13 @@ button#edit-submit {
 .maintenance-page #page {
   top: 138px;
   position: relative;
-  zoom: 1.5; }
+  zoom: 0.9; }
   .maintenance-page #page #header {
     text-align: center; }
   .maintenance-page #page #container {
     text-align: center; }
+    .maintenance-page #page #container #main #main-squeeze #content #content-content {
+      width: 50%;
+      margin: 0 auto; }
 
 /*# sourceMappingURL=cirec.css.map */
