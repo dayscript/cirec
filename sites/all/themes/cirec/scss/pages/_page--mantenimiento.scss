@@ -1,9 +1,14 @@
 .maintenance-page{
-  #header{
-    text-align: center
-  }
-  #container{
-    text-align: center;
+  #page{
+    top: 138px;
+    position: relative;
+    zoom: 1.5;
+    #header{
+      text-align: center
+    }
+    #container{
+      text-align: center;
+    }
   }
 
 }

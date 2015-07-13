@@ -8301,9 +8301,13 @@ button#edit-submit {
   text-align: center;
   margin: 30px auto; }
 
-.maintenance-page #header {
-  text-align: center; }
-.maintenance-page #container {
-  text-align: center; }
+.maintenance-page #page {
+  top: 138px;
+  position: relative;
+  zoom: 1.5; }
+  .maintenance-page #page #header {
+    text-align: center; }
+  .maintenance-page #page #container {
+    text-align: center; }
 
 /*# sourceMappingURL=cirec.css.map */
