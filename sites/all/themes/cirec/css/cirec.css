@@ -8027,11 +8027,12 @@ button#edit-submit {
   font-size: 36px;
   line-height: 45px;
   color: #000;
-  margin-bottom: 80px; }
+  margin-bottom: 60px; }
   .page-proability .title-header hr {
     width: 30%;
     margin: 0 auto;
-    border: 3px solid #0099CD; }
+    border: 3px solid #0099CD;
+    margin-top: 26px; }
 .page-proability .first-color {
   color: #fff; }
   .page-proability .first-color .views-field-body {
