@@ -6907,7 +6907,7 @@ button#edit-submit {
   padding-bottom: 45px;
   text-align: center; }
   .head-slider h3.title {
-    padding: 0 2em 0px 2em !important; }
+    padding: 0 2em 20px 2em !important; }
   .head-slider:after {
     border-top: 4px solid #0099cd;
     content: '';
@@ -7621,7 +7621,7 @@ button#edit-submit {
   padding: 50px 0; }
   .view-display-id-propuesta_valor .slide-row .column-right {
     text-align: center;
-    margin-top: 30px; }
+    margin-top: 10px; }
   .view-display-id-propuesta_valor .slide-row .desc, .view-display-id-propuesta_valor .slide-row .title {
     color: #fff; }
   .view-display-id-propuesta_valor .slide-row .icon-img {
