@@ -7547,6 +7547,8 @@ button#edit-submit {
       line-height: 24px;
       word-spacing: 3px;
       font-weight: 500; }
+  .view-id-plan_padrino .views-row-1.node-planes-padrinos.field-name-node-link {
+    margin-left: 150px; }
   .view-id-plan_padrino .node-planes-padrinos .image {
     float: left; }
   .view-id-plan_padrino .node-planes-padrinos .field-name-title h4 {
@@ -7556,7 +7558,7 @@ button#edit-submit {
   .view-id-plan_padrino .node-planes-padrinos .body {
     width: 76%;
     margin-left: 150px; }
-  .view-id-plan_padrino .node-planes-padrinos .views-row-1.field-name-node-link {
+  .view-id-plan_padrino .node-planes-padrinos .field-name-node-link {
     margin-left: 150px; }
   .view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante {
     margin-left: 150px;

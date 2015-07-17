@@ -240,6 +240,9 @@ $mleft : 150px;
             }
           }
     }
+    .views-row-1.node-planes-padrinos.field-name-node-link{
+            margin-left: $mleft;
+        }
     .node-planes-padrinos{
         .image {
             float: left;
@@ -255,7 +258,7 @@ $mleft : 150px;
             width: 76%;
             margin-left: $mleft;
         }
-        .views-row-1.field-name-node-link{
+        .field-name-node-link{
             margin-left: $mleft;
         }
         .field-name-field-info-relevante{
