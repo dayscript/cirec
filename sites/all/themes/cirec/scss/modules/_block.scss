@@ -101,6 +101,9 @@
     height: 657px;
 }
 .head-slider {
+    h3.title{
+        padding: 0 2em 0px 2em!important;
+    }
     margin: 0 280px;
     padding-bottom: 45px;
     text-align: center;
@@ -110,5 +113,6 @@
             display: block;
             margin-left: 150px;
             width: 270px;
+
     }
 }

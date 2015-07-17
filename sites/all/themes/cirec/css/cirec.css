@@ -6906,6 +6906,8 @@ button#edit-submit {
   margin: 0 280px;
   padding-bottom: 45px;
   text-align: center; }
+  .head-slider h3.title {
+    padding: 0 2em 0px 2em !important; }
   .head-slider:after {
     border-top: 4px solid #0099cd;
     content: '';
