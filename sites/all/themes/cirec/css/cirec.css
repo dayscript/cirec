@@ -7413,6 +7413,8 @@ button#edit-submit {
     margin: 0px 0 9px !important;
     width: 100%;
     background: rgba(255, 255, 255, 0) !important; }
+    .block-casos-exitosos .flexslider .node-casos-rehabilitacion {
+      margin: 0px 10px; }
     .block-casos-exitosos .flexslider .flex-next {
       height: 50px; }
     .block-casos-exitosos .flexslider .flex-prev {
