@@ -346,3 +346,30 @@ $mleft : 150px;
         }
     }
 }
+.block-views-como-apadrinar-block-1{
+  .view-id-como_apadrinar{
+    .group-left{
+        .field-name-formas-de-apadrinar{
+            .block-views-como-apadrinar-block{
+                .block-content{
+                    .view-como-apadrinar{
+                        #flexslider-1{
+                            .views-field-field-image{
+                                width: 90px;
+                                height: 90px;
+                                display: inline-block;
+                                img{
+                                    border: 7px solid #eee;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .group-right{
+
+    }
+  }
+}
