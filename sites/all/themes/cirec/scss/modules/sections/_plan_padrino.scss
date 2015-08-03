@@ -367,6 +367,24 @@ $mleft : 150px;
                                     border-radius: 50%;
                                 }
                             }
+                            .views-field-body{
+                                display: inline-block;
+                                width: 75%;
+                                color:#fff;
+                            }
+                            .views-field-title{
+                                width: 75%;
+                                display: inline-block;
+                                color: #fff;
+                                text-transform: uppercase;
+                                span{
+                                    h4 {
+                                        a{
+                                        color:#fff;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
