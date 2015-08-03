@@ -7615,12 +7615,19 @@ button#edit-submit {
   position: absolute;
   width: 250px; }
 
-.block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 .views-field-field-image {
-  width: 90px;
-  height: 90px;
-  display: inline-block; }
-  .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 .views-field-field-image img {
-    border: 7px solid #eee; }
+.block-views-como-apadrinar-block-1 {
+  background-color: #0099CD; }
+  .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 {
+    background: rgba(255, 255, 255, 0);
+    border: 0px solid rgba(255, 255, 255, 0); }
+    .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 .views-field-field-image {
+      width: 90px;
+      height: 90px;
+      display: inline-block;
+      float: left; }
+      .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 .views-field-field-image img {
+        border: 7px solid #eee;
+        border-radius: 50%; }
 
 .view-display-id-propuesta_valor .slide {
   background-position: center center;

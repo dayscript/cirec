@@ -347,6 +347,7 @@ $mleft : 150px;
     }
 }
 .block-views-como-apadrinar-block-1{
+    background-color: #0099CD;
   .view-id-como_apadrinar{
     .group-left{
         .field-name-formas-de-apadrinar{
@@ -354,12 +355,16 @@ $mleft : 150px;
                 .block-content{
                     .view-como-apadrinar{
                         #flexslider-1{
+                            background: rgba(255, 255, 255, 0);
+                            border: 0px solid rgba(255, 255, 255, 0);
                             .views-field-field-image{
                                 width: 90px;
                                 height: 90px;
                                 display: inline-block;
+                                float: left;
                                 img{
                                     border: 7px solid #eee;
+                                    border-radius: 50%;
                                 }
                             }
                         }
