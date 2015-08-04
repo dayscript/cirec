@@ -7680,7 +7680,8 @@ button#edit-submit {
   .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right .field-name-como-apadrinar-webform .block-webform-client-block-217 .block-content .ds-1col form label {
     display: none; }
   .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right .field-name-como-apadrinar-webform .block-webform-client-block-217 .block-content .ds-1col form input, .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right .field-name-como-apadrinar-webform .block-webform-client-block-217 .block-content .ds-1col form select {
-    width: 100%; }
+    width: 100%;
+    color: #BFBBBB; }
 
 .view-display-id-propuesta_valor .slide {
   background-position: center center;
