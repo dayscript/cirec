@@ -7617,6 +7617,16 @@ button#edit-submit {
 
 .block-views-como-apadrinar-block-1 {
   background-color: #0099CD; }
+  .block-views-como-apadrinar-block-1 h2.block-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+    border-bottom: solid;
+    text-transform: uppercase; }
   .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left {
     padding: 72px 0; }
     .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block {
@@ -7630,6 +7640,8 @@ button#edit-submit {
           margin: 0 auto; }
         .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 ol li a {
           background-color: #fff; }
+          .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 ol li a:hover {
+            background: rgba(243, 236, 236, 0.89); }
         .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 .views-field-field-image {
           width: 90px;
           height: 90px;
@@ -7651,6 +7663,8 @@ button#edit-submit {
           text-transform: uppercase; }
           .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 .views-field-title h4 a {
             color: #fff; }
+  .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right .field-name-como-apadrinar-webform .block-webform-client-block-217 h2 {
+    display: none; }
   .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right .field-name-como-apadrinar-webform .block-webform-client-block-217 .block-content .ds-1col form div {
     width: 98%;
     text-align: center; }

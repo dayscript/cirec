@@ -346,8 +346,21 @@ $mleft : 150px;
         }
     }
 }
+
+
 .block-views-como-apadrinar-block-1{
     background-color: #0099CD;
+    h2.block-title{
+        color: #fff;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        display: block;
+        width: 40%;
+        border-bottom: solid;
+        text-transform: uppercase;
+    }
   .view-id-como_apadrinar{
     .group-left{
         padding: 72px 0;
@@ -368,6 +381,9 @@ $mleft : 150px;
                                 li{
                                     a{
                                         background-color: #fff;
+                                        &:hover{
+                                           background: rgba(243, 236, 236, 0.89);
+                                        }
                                     }
                                 }
                             }
@@ -411,6 +427,7 @@ $mleft : 150px;
     .group-right{
         .field-name-como-apadrinar-webform{
             .block-webform-client-block-217{
+                h2{display: none}
                 .block-content{
                     .ds-1col{
                         form{
