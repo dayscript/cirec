@@ -8422,4 +8422,21 @@ button#edit-submit {
       width: 50%;
       margin: 0 auto; }
 
+.page-voluntariado .view-voluntariado .views-row .row .group-content .image {
+  float: left;
+  margin-right: 20px; }
+.page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-title {
+  display: inline-block; }
+  .page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-title:after {
+    border-bottom: 4px solid #F7F7F7;
+    content: ' ';
+    left: 0;
+    position: absolute;
+    width: 260px;
+    top: 70px;
+    margin-left: 39%; }
+.page-voluntariado .view-voluntariado .views-row .row .group-content .text-secondary {
+  display: inline-block;
+  width: 80%; }
+
 /*# sourceMappingURL=cirec.css.map */
