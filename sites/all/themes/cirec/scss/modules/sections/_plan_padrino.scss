@@ -398,6 +398,10 @@ $mleft : 150px;
                     .ds-1col{
                         form{
                             label{display: none;}
+                            input,select {
+                               width: 450px;
+
+                            }
                         }
                     }
                 }
