@@ -7627,9 +7627,13 @@ button#edit-submit {
     width: 40%;
     text-transform: uppercase; }
     .block-views-como-apadrinar-block-1 h2.block-title:after {
-      content: " ";
-      border-bottom: solid;
-      padding: 0 10px; }
+      border-bottom: 4px solid #F7F7F7;
+      content: ' ';
+      left: 0;
+      position: absolute;
+      width: 260px;
+      top: 70px;
+      margin-left: 39%; }
   .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left {
     padding: 40px 0; }
     .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block {
