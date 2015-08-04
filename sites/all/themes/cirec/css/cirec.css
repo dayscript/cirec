@@ -6923,13 +6923,12 @@ button#edit-submit {
     text-transform: uppercase;
     margin-bottom: 10px; }
     .block-webform-client-block-216 h2:after {
-      border-bottom: 4px solid #F7F7F7;
+      border-bottom: 4px solid #0099CD;
       content: ' ';
       left: 0;
       position: absolute;
-      width: 100px;
-      top: 70px;
-      margin-left: 39%; }
+      width: 250px;
+      top: 26px; }
   .block-webform-client-block-216 .block-content {
     background-color: #0099CD; }
     .block-webform-client-block-216 .block-content form div {
