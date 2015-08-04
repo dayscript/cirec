@@ -353,18 +353,31 @@ $mleft : 150px;
         padding: 72px 0;
         .field-name-formas-de-apadrinar{
             .block-views-como-apadrinar-block{
-                width: 90%;
+                width: 96%;
                 margin: 0 auto;
                 .block-content{
                     .view-como-apadrinar{
                         #flexslider-1{
                             background: rgba(255, 255, 255, 0);
                             border: 0px solid rgba(255, 255, 255, 0);
+                            .slides{
+                                width: 85%;
+                                margin: 0 auto;
+                            }
+                            ol{
+                                li{
+                                    a{
+                                        background-color: #fff;
+                                    }
+                                }
+                            }
                             .views-field-field-image{
-                                width: 90px;
-                                height: 90px;
-                                display: inline-block;
-                                float: left;
+                                    width: 90px;
+                                    height: 90px;
+                                    display: inline-block;
+                                    float: left;
+                                    margin-left: 10px;
+                                    margin-right: 15px;
                                 img{
                                     border: 7px solid #eee;
                                     border-radius: 50%;
@@ -388,6 +401,7 @@ $mleft : 150px;
                                 }
 
                             }
+
                         }
                     }
                 }
