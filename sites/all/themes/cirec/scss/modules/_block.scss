@@ -155,3 +155,43 @@ h2{
     }
 
 }
+
+
+.block-webform-client-block-217{
+    margin-bottom: 10px;
+h2{
+   font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+&:after{
+        border-top: 4px solid #0099cd;
+        content: '';
+        display: block;
+        margin-top: 20px;
+        width: 250px;
+        }
+}
+    .block-content{
+        background-color: #0099CD;
+        form{
+            div{
+                width: 97%;
+                text-align: center;
+                margin: 0 auto;
+                padding-top: 10px;
+            .form-item{
+                text-align: left;
+            }
+            }
+            label{display: none;}
+            input,select {
+               width: 100%;
+               color: #BFBBBB;
+               margin:0;
+           }
+           select {margin-bottom: 20px;}
+        }
+    }
+
+}

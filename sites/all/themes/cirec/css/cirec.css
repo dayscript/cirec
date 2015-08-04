@@ -6946,6 +6946,37 @@ button#edit-submit {
     .block-webform-client-block-216 .block-content form select {
       margin-bottom: 20px; }
 
+.block-webform-client-block-217 {
+  margin-bottom: 10px; }
+  .block-webform-client-block-217 h2 {
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+    .block-webform-client-block-217 h2:after {
+      border-top: 4px solid #0099cd;
+      content: '';
+      display: block;
+      margin-top: 20px;
+      width: 250px; }
+  .block-webform-client-block-217 .block-content {
+    background-color: #0099CD; }
+    .block-webform-client-block-217 .block-content form div {
+      width: 97%;
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 10px; }
+      .block-webform-client-block-217 .block-content form div .form-item {
+        text-align: left; }
+    .block-webform-client-block-217 .block-content form label {
+      display: none; }
+    .block-webform-client-block-217 .block-content form input, .block-webform-client-block-217 .block-content form select {
+      width: 100%;
+      color: #BFBBBB;
+      margin: 0; }
+    .block-webform-client-block-217 .block-content form select {
+      margin-bottom: 20px; }
+
 .button-wrapper {
   margin-top: 20px; }
 
