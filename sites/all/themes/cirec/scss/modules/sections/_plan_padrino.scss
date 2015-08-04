@@ -358,12 +358,16 @@ $mleft : 150px;
         margin: 0 auto;
         display: block;
         width: 40%;
-        border-bottom: solid;
         text-transform: uppercase;
+        &:after{
+            content: " ";
+            border-bottom: solid;
+            padding: 0 10px;
+        }
     }
   .view-id-como_apadrinar{
     .group-left{
-        padding: 72px 0;
+        padding: 40px 0;
         .field-name-formas-de-apadrinar{
             .block-views-como-apadrinar-block{
                 width: 96%;
