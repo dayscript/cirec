@@ -8422,28 +8422,31 @@ button#edit-submit {
       width: 50%;
       margin: 0 auto; }
 
-.page-voluntariado .view-voluntariado .views-row .row .group-content .image {
-  float: left;
-  margin-right: 20px; }
-  .page-voluntariado .view-voluntariado .views-row .row .group-content .image img {
-    width: 120px; }
-.page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-title {
-  display: inline-block; }
-  .page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-title:after {
-    border-bottom: 4px solid #0099CD;
-    content: ' ';
-    left: 0;
-    position: absolute;
-    width: 180px;
-    top: 50px;
-    margin-left: 150px; }
-.page-voluntariado .view-voluntariado .views-row .row .group-content .text-secondary {
-  display: inline-block;
-  width: 80%;
-  padding-top: 10px; }
-  .page-voluntariado .view-voluntariado .views-row .row .group-content .text-secondary p {
-    margin: 0; }
-.page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-node-link {
-  margin: 0 0 0 140px; }
+.page-voluntariado .view-voluntariado .views-row .row .group-content {
+  margin-bottom: 20px;
+  border-bottom: solid 1px #ccc; }
+  .page-voluntariado .view-voluntariado .views-row .row .group-content .image {
+    float: left;
+    margin-right: 20px; }
+    .page-voluntariado .view-voluntariado .views-row .row .group-content .image img {
+      width: 120px; }
+  .page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-title {
+    display: inline-block; }
+    .page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-title:after {
+      border-bottom: 4px solid #0099CD;
+      content: ' ';
+      left: 0;
+      position: absolute;
+      width: 180px;
+      top: 50px;
+      margin-left: 150px; }
+  .page-voluntariado .view-voluntariado .views-row .row .group-content .text-secondary {
+    display: inline-block;
+    width: 80%;
+    padding-top: 10px; }
+    .page-voluntariado .view-voluntariado .views-row .row .group-content .text-secondary p {
+      margin: 0; }
+  .page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-node-link {
+    margin: 0 0 0 140px; }
 
 /*# sourceMappingURL=cirec.css.map */
