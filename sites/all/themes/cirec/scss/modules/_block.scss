@@ -118,6 +118,7 @@
 }
 
 .block-webform-client-block-216{
+    margin-bottom: 10px;
 h2{
    font-size: 24px;
     line-height: 24px;
@@ -125,12 +126,13 @@ h2{
     margin-bottom: 10px;
 }
     .block-content{
-
+        background-color: #0099CD;
         form{
             div{
-                width: 98%;
-                //margin: 0 auto;
+                width: 97%;
                 text-align: center;
+                margin: 0 auto;
+                padding-top: 10px;
             .form-item{
                 text-align: left;
             }
@@ -139,7 +141,9 @@ h2{
             input,select {
                width: 100%;
                color: #BFBBBB;
+               margin:0;
            }
+           select {margin-bottom: 5px;}
         }
     }
 
