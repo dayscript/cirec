@@ -6916,15 +6916,18 @@ button#edit-submit {
     width: 270px; }
 
 .block-webform-client-block-216 h2 {
-  text-transform: uppercase; }
-.block-webform-client-block-216 .block-content .ds-1col form div {
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+.block-webform-client-block-216 .block-content form div {
   width: 98%;
   text-align: center; }
-  .block-webform-client-block-216 .block-content .ds-1col form div .form-item {
+  .block-webform-client-block-216 .block-content form div .form-item {
     text-align: left; }
-.block-webform-client-block-216 .block-content .ds-1col form label {
+.block-webform-client-block-216 .block-content form label {
   display: none; }
-.block-webform-client-block-216 .block-content .ds-1col form input, .block-webform-client-block-216 .block-content .ds-1col form select {
+.block-webform-client-block-216 .block-content form input, .block-webform-client-block-216 .block-content form select {
   width: 100%;
   color: #BFBBBB; }
 

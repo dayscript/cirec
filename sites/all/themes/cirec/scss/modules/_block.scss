@@ -119,26 +119,28 @@
 
 .block-webform-client-block-216{
 h2{
+   font-size: 24px;
+    line-height: 24px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
-.block-content{
-                    .ds-1col{
-                        form{
-                            div{
-                                width: 98%;
-                                //margin: 0 auto;
-                                text-align: center;
-                            .form-item{
-                                text-align: left;
-                            }
-                            }
-                            label{display: none;}
-                            input,select {
-                               width: 100%;
-                               color: #BFBBBB;
-                           }
-                        }
-                    }
-                }
+    .block-content{
+
+        form{
+            div{
+                width: 98%;
+                //margin: 0 auto;
+                text-align: center;
+            .form-item{
+                text-align: left;
+            }
+            }
+            label{display: none;}
+            input,select {
+               width: 100%;
+               color: #BFBBBB;
+           }
+        }
+    }
 
 }
