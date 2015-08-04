@@ -397,11 +397,18 @@ $mleft : 150px;
                 .block-content{
                     .ds-1col{
                         form{
+                            div{
+                                width: 80%;
+                                margin: 0 auto;
+                                text-align: center;
+                            .form-item{
+                                text-align: left;
+                            }
+                            }
                             label{display: none;}
                             input,select {
-                               width: 450px;
-
-                            }
+                               width: 100%;
+                           }
                         }
                     }
                 }
