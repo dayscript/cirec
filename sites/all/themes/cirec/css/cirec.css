@@ -8424,8 +8424,9 @@ button#edit-submit {
 
 .page-voluntariado .view-voluntariado .views-row .row .group-content .image {
   float: left;
-  margin-right: 20px;
-  width: 120px; }
+  margin-right: 20px; }
+  .page-voluntariado .view-voluntariado .views-row .row .group-content .image img {
+    width: 120px; }
 .page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-title {
   display: inline-block; }
   .page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-title:after {
@@ -8435,7 +8436,7 @@ button#edit-submit {
     position: absolute;
     width: 180px;
     top: 50px;
-    margin-left: 130px; }
+    margin-left: 150px; }
 .page-voluntariado .view-voluntariado .views-row .row .group-content .text-secondary {
   display: inline-block;
   width: 80%;
