@@ -124,6 +124,15 @@ h2{
     line-height: 24px;
     text-transform: uppercase;
     margin-bottom: 10px;
+&:after{
+            border-bottom: 4px solid #F7F7F7;
+            content: ' ';
+            left: 0;
+            position: absolute;
+            width: 100px;
+            top: 70px;
+            margin-left: 39%;
+        }
 }
     .block-content{
         background-color: #0099CD;
@@ -143,7 +152,7 @@ h2{
                color: #BFBBBB;
                margin:0;
            }
-           select {margin-bottom: 5px;}
+           select {margin-bottom: 20px;}
         }
     }
 

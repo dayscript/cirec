@@ -6922,6 +6922,14 @@ button#edit-submit {
     line-height: 24px;
     text-transform: uppercase;
     margin-bottom: 10px; }
+    .block-webform-client-block-216 h2:after {
+      border-bottom: 4px solid #F7F7F7;
+      content: ' ';
+      left: 0;
+      position: absolute;
+      width: 100px;
+      top: 70px;
+      margin-left: 39%; }
   .block-webform-client-block-216 .block-content {
     background-color: #0099CD; }
     .block-webform-client-block-216 .block-content form div {
@@ -6938,7 +6946,7 @@ button#edit-submit {
       color: #BFBBBB;
       margin: 0; }
     .block-webform-client-block-216 .block-content form select {
-      margin-bottom: 5px; }
+      margin-bottom: 20px; }
 
 .button-wrapper {
   margin-top: 20px; }
