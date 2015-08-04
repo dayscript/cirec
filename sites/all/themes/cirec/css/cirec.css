@@ -7618,7 +7618,7 @@ button#edit-submit {
 .block-views-como-apadrinar-block-1 {
   background-color: #0099CD; }
   .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left {
-    padding: 72px; }
+    padding: 72px 0; }
     .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block {
       width: 90%;
       margin: 0 auto; }
@@ -7645,8 +7645,7 @@ button#edit-submit {
           .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 .views-field-title span h4 a {
             color: #fff; }
   .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right .field-name-como-apadrinar-webform .block-webform-client-block-217 .block-content .ds-1col form div {
-    width: 80%;
-    margin: 0 auto;
+    width: 98%;
     text-align: center; }
     .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right .field-name-como-apadrinar-webform .block-webform-client-block-217 .block-content .ds-1col form div .form-item {
       text-align: left; }

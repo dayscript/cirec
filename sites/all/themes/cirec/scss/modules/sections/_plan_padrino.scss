@@ -350,7 +350,7 @@ $mleft : 150px;
     background-color: #0099CD;
   .view-id-como_apadrinar{
     .group-left{
-        padding: 72px;
+        padding: 72px 0;
         .field-name-formas-de-apadrinar{
             .block-views-como-apadrinar-block{
                 width: 90%;
@@ -401,8 +401,8 @@ $mleft : 150px;
                     .ds-1col{
                         form{
                             div{
-                                width: 80%;
-                                margin: 0 auto;
+                                width: 98%;
+                                //margin: 0 auto;
                                 text-align: center;
                             .form-item{
                                 text-align: left;
