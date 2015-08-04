@@ -8428,13 +8428,13 @@ button#edit-submit {
 .page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-title {
   display: inline-block; }
   .page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-title:after {
-    border-bottom: 4px solid #F7F7F7;
+    border-bottom: 4px solid #0099CD;
     content: ' ';
     left: 0;
     position: absolute;
     width: 260px;
-    top: 70px;
-    margin-left: 39%; }
+    top: 50px;
+    margin-left: 120px; }
 .page-voluntariado .view-voluntariado .views-row .row .group-content .text-secondary {
   display: inline-block;
   width: 80%; }
