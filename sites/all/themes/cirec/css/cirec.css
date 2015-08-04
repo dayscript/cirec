@@ -8438,5 +8438,7 @@ button#edit-submit {
 .page-voluntariado .view-voluntariado .views-row .row .group-content .text-secondary {
   display: inline-block;
   width: 80%; }
+.page-voluntariado .view-voluntariado .views-row .row .group-content .field-name-node-link {
+  margin: 0 0 0 110px; }
 
 /*# sourceMappingURL=cirec.css.map */
