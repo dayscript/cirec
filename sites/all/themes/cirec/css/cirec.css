@@ -7639,6 +7639,8 @@ button#edit-submit {
       text-transform: uppercase; }
       .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 .views-field-title span h4 a {
         color: #fff; }
+  .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right .field-name-como-apadrinar-webform .block-webform-client-block-217 .block-content .ds-1col form label {
+    display: none; }
 
 .view-display-id-propuesta_valor .slide {
   background-position: center center;
