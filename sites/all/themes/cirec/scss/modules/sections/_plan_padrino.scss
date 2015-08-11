@@ -458,6 +458,19 @@ $mleft : 150px;
                 }
             }
         }
+        .block-entityform-block{
+            .block-title{display: none;}
+            .block-content{
+                .entityform{
+                    width: 95%;
+                    .field-name-field-apadrina-a{
+                       label{
+                        display: none;
+                       }
+                    }
+                }
+            }
+        }
 
     }
   }
