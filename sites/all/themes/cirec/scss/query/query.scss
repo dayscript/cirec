@@ -26,3 +26,32 @@
     	width: 100%!important;
     }
 } 
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    .block-views-nodequeue-4-propuesta-valor {
+        display: none;
+    }
+    .view-display-id-block_servicios_destacados{
+    	.view-content{
+    		width:100%!important;
+    	}
+    }
+    .quicktabs-style-nostyle{
+    		width:100%!important;
+    }
+    .view-plan-padrino-casos-exitosos,.view-id-historia_nodequeue_{
+    	#flexslider-1{
+    		.flex-viewport{
+    			width: 100%!important;
+    		}
+    	}
+    }
+    .block-ruta-apadrinar{
+    	.view-display-id-block_ruta_apadrinar{
+    			width: 100%!important;
+    	}
+    }
+    .page-historia .block-block-12 .block-content div h2{
+    	width: 100%!important;
+    }
+} 
