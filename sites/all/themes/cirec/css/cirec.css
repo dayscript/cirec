@@ -3691,8 +3691,8 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
   .page-servicios-plan-padrino .group-left .text-secondary { margin-bottom: 30px; }
   .page-servicios-plan-padrino .group-right { width: 100%; float: none; }
   .sf-menu li { margin-right: 15px !important; }
-  .view-como-apadrinar .block-entityform-block .block-content { display: block; margin: 0 auto; width: 60%; }
-  .view-como-apadrinar .block-entityform-block .block-content form { margin: 0 auto; } }
+  .view-como-apadrinar .block-entityform-block .block-content { display: block; margin: 0 auto; width: 80%; }
+  .view-como-apadrinar .block-entityform-block .block-content form { margin: 0 auto; text-align: center; } }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 800px) { .block-views-nodequeue-4-propuesta-valor { display: none; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
