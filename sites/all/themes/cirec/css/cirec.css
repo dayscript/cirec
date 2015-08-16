@@ -2917,6 +2917,10 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .block-webform-client-block-217 .block-content form select { margin-bottom: 20px; }
 
+.facebook-feed-picture { background: url("http://pbs.twimg.com/profile_images/460892253326569473/GXsqpPmO_normal.png"); width: 50px; height: 50px; background-repeat: no-repeat; }
+
+.facebook-feed-picture img { display: none; }
+
 .button-wrapper { margin-top: 20px; }
 
 .button-wrapper a, .btn { -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; -webkit-transition: 0.2s opacity linear; -moz-transition: 0.2s opacity linear; transition: 0.2s opacity linear; background: #0099cd; color: #fff; cursor: pointer; display: inline-block; font-size: 1em; opacity: 1; padding: 8px 20px; text-transform: uppercase; }
