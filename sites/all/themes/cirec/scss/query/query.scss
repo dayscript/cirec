@@ -59,8 +59,33 @@
 		    margin-left: 300px;
 		}
 		
-	}	 
-
+	}
+	.page-node-73,.page-node-72{
+		.group-left{
+			width: 67%!important;
+		}	 
+	}
+	.page-servicios-plan-padrino{
+		.view-id-plan_padrino h2.block-title:after{
+			top:70px;	
+		}
+		.group-left{
+			width: 100%;
+			float:none;
+			.mayusculas{
+				span{
+					font-size: 10px!important;
+				}
+			}
+			.text-secondary{
+				    margin-bottom: 30px;
+			}
+		}
+		.group-right {
+			width: 100%;
+			float:none;
+		}
+	}
 }
 
 
