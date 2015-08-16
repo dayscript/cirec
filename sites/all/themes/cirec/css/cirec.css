@@ -3684,7 +3684,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
   .page-clinica-rehabilitacin .views-row-5 img { width: 298px; }
   .page-clinica-rehabilitacin .views-row-6 { float: none !important; display: inline-block; margin: 0px 0 0 300px !important; }
   .page-clinica-rehabilitacin .views-row-7 { float: left; left: 24px; margin-left: 300px; }
-  .page-node-73 .group-left, .page-node-72 .group-left { width: 67% !important; }
+  .page-node-73 .group-left, .page-node-72 .group-left, .node-type-noticias .group-left { width: 67% !important; }
   .page-servicios-plan-padrino .view-id-plan_padrino h2.block-title:after { top: 70px; }
   .page-servicios-plan-padrino .group-left { width: 100%; float: none; }
   .page-servicios-plan-padrino .group-left .mayusculas span { font-size: 10px !important; }
