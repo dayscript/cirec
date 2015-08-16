@@ -3669,6 +3669,8 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 .maintenance-page #page #container #main #main-squeeze #content #content-content { width: 50%; margin: 0 auto; }
 
 /*RESPONSIVE*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { .block-views-nodequeue-4-propuesta-valor { display: none; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { .block-views-nodequeue-4-propuesta-valor { display: none; }
+  .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
+  .quicktabs-style-nostyle { width: 100% !important; } }
 
 /*# sourceMappingURL=cirec.css.map */
