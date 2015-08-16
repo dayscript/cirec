@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* @file This file is a custom file that loads all files. Each non-base layer can be disabled. Do not name this file "STARTER.scss". This file should be named cirec.scss. If you used the drush command to generate this subtheme, it should be named for you. This application file (cirec.scss) is where all the partials are imported. Theme styles are categorized using SMACSS standards. They utilize categorization of styles into various categories. Those categories are the following: - Base: CSS reset/normalize plus HTML element styling. - Layout: Macro arrangement of a web page, including any grid systems. - Modules: Dictate minor layout modules or reusable elements. - States: Describe the appearance of a module in various states. - Theme: Specific customizations for your subtheme. For more information about this new Drupal css file standard, please review the following: - https://drupal.org/node/1887922 - http://smacss.com/ */
-/*$row-width: rem-calc(1140);*/
 /*$column-gutter: rem-calc(20);*/
 .text { color: #999; font-size: 13px; line-height: 1.4; width: 75%; overflow: hidden; text-overflow: ellipsis; }
 
@@ -3070,8 +3069,6 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .form-contacto .form-submit { margin: 20px 0; }
 
-.form-contacto .node { width: 1140px; margin: 0 auto; }
-
 .form-contacto .webform-component-textarea { padding: 0 0.5em; }
 
 .form-contacto .links a { -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; -webkit-transition: 0.2s opacity linear; -moz-transition: 0.2s opacity linear; transition: 0.2s opacity linear; background: #fff; color: #0099cd; cursor: pointer; display: inline-block; font-size: 1em; opacity: 1; padding: 8px 20px; text-transform: uppercase; }
@@ -3670,5 +3667,8 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 .maintenance-page #page #container { text-align: center; }
 
 .maintenance-page #page #container #main #main-squeeze #content #content-content { width: 50%; margin: 0 auto; }
+
+/*RESPONSIVE*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { .block-views-nodequeue-4-propuesta-valor { display: none; } }
 
 /*# sourceMappingURL=cirec.css.map */
