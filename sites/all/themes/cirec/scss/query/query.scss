@@ -41,10 +41,19 @@
     .block-ruta-apadrinar{
     	.view-display-id-block_ruta_apadrinar{
     			width: 100%!important;
+                &:before{
+                    left: 0px;
+                }
+
     	}
     }
-    .page-historia .block-block-12 .block-content div h2{
+    .page-historia 
+    {.block-block-12 .block-content div h2{
     	width: 100%!important;
+    }
+    .block-views-d3216d34d00b40bb8b1a610234e3c626{
+        display: none;
+    }
     }
 
     .page-clinica-rehabilitacin {
@@ -59,11 +68,20 @@
 	.page-node-73,.page-node-72,.node-type-noticias{
 	   .group-right{
         width: 100%;
-       }		 
+       }
+       .group-left{
+        width: 100%;
+       }    		 
 	}
 	.page-servicios-plan-padrino{
 	  .block-ruta-apadrinar .views-row{
             display: inline;
+      
+        .view-display-id-block_ruta_apadrinar{
+            &:after{
+                display: none;
+            }
+        }
       }
 	.view-id-plan_padrino{
 
@@ -71,6 +89,7 @@
             
                 .field-name-field-info-relevante{
                     margin: 0;
+                    width: 100%;
                 }
                 .image{
                     float: none;
@@ -187,13 +206,27 @@
 
     .page-proability{
         .view-id-prohability{
-            .view-header{}
+            .view-header{
+                .title-header{
+                    font-size: 18px;
+                    line-height: 19px;
+                }
+            }
             .view-content{
                 .views-row-1{
                     .row{
                         .views-field-body{
                             width:100%;
                             padding:0!important;
+                            .subtitulo{
+                                font-size: 36px;
+                            }
+                            .body{
+                                    padding: 8px 15px;
+                            }
+                            .content {
+                                margin-left: 10px;
+                            }
                         }
                         .views-field-field-imagenes{
                             display:none!important;
@@ -213,12 +246,16 @@
         }
     }
 
+.form-contacto{
+        padding: 0px!important;
+}
 
 
 
 
 
 }
+
 
 
 
