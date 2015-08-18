@@ -3703,6 +3703,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
   .rteright strong { font-size: 11px; }
   .aliados-destacados .quicktabs-tabs a { font-size: 17px !important; padding: 16px 10px 11px !important; }
   #flexslider-2 .flex-viewport { height: 55px; }
+  .page-servicios-proyectos-especiales #flexslider-2 .flex-viewport { height: 234px !important; }
   .page-proability .view-id-prohability .view-content .views-row-1 .row .views-field-body { width: 100%; padding: 0 !important; }
   .page-proability .view-id-prohability .view-content .views-row-1 .row .views-field-field-imagenes { display: none !important; }
   .page-proability .view-id-prohability .view-content .view-header { width: 100%; left: 0; }
