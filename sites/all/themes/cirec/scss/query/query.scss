@@ -6,6 +6,9 @@
     {
         display: none;
     }
+    .view-display-id-block_servicios_destacados .service{
+        display: initial!important;
+    }
     
 
     .view-display-id-block_servicios_destacados{
@@ -39,64 +42,82 @@
 
     .page-clinica-rehabilitacin {
     	
-		.views-row-1{
-			float: left;
-		}
-		.views-row-2{
-			float: left;
-		}
-		.views-row-3{
-			float: left;
-		}
-		.views-row-4{
-			float:none!important;
-		}
-		.views-row-5{
-			width: auto!important;
-			float:left;
-			margin:0!important;
-			img{
-				width: 298px;
-			}
-		}
-		.views-row-6{
-			float: none!important;
-			display: inline-block;
-			margin: 0px 0 0 300px !important;
-		}
-		.views-row-7{
-			float: left;
-			left: 24px;
-		    margin-left: 300px;
-		}
+	   .views-row-5{
+        	position: relative!important; 
+            margin: 0!important;
+        }
+	
 		
 	}
 	.page-node-73,.page-node-72,.node-type-noticias{
-		.group-left{
-			width: 67%!important;
-		}	 
+	   .group-right{
+        width: 100%;
+       }		 
 	}
 	.page-servicios-plan-padrino{
-		.view-id-plan_padrino h2.block-title:after{
-			top:70px;	
-		}
-		.group-left{
-			width: 100%;
-			float:none;
-			.mayusculas{
-				span{
-					font-size: 10px!important;
-				}
-			}
-			.text-secondary{
-				    margin-bottom: 30px;
-			}
-		}
-		.group-right {
-			width: 100%;
-			float:none;
-		}
-	}
+	  .block-ruta-apadrinar .views-row{
+            display: inline;
+      }
+	.view-id-plan_padrino{
+
+            .node-planes-padrinos {
+            
+                .field-name-field-info-relevante{
+                    margin: 0;
+                }
+                .image{
+                    float: none;
+                    text-align: center;
+
+                }
+                .field-name-title{
+                    h4{
+                        margin: 0;
+                        text-align:center; 
+                    }
+
+                }
+                .body{
+                    width: 100%;
+                    margin-left: 0;
+                }
+            }
+            .group-right{
+                .block-title{
+                    &:after{
+                        top: 80px;
+                    }
+                }
+            }
+            .node-casos-rehabilitacion{
+               .field-name-field-info-relevante{
+                    margin: 0;
+                }
+                .image{
+                    float: none;
+                    text-align: center;
+
+                }
+                .field-name-title{
+                    h4{
+                        margin: 0;
+                        text-align:center; 
+
+                    }
+
+                }
+                .body{
+                    width: 100%;
+                    margin-left: 0;
+                } 
+            }
+
+            
+        }
+        .block-casos-exitosos{
+                display: none;
+            }
+    }
 
     .sf-menu li {
          margin-right: 15px!important;
@@ -132,9 +153,68 @@
      strong{
         font-size: 11px;
      }
-   }   
+   }
+   .aliados-destacados {
+    .quicktabs-tabs{ 
+        a {
+            font-size: 17px!important;
+            padding: 16px 10px 11px!important;
+
+        }
+    }
+   } 
+   #flexslider-2{
+       .flex-viewport {
+            height: 55px;
+        }
+    }
+
+
+    .page-proability{
+        .view-id-prohability{
+            .view-header{}
+            .view-content{
+                .views-row-1{
+                    .row{
+                        .views-field-body{
+                            width:100%;
+                            padding:0!important;
+                        }
+                        .views-field-field-imagenes{
+                            display:none!important;
+
+                        }
+                    }
+                }
+                .view-header{
+                    width: 100%;
+                    left:0;
+                }
+                .flex-control-nav{
+                    width: 100%;
+                    left: 0!important;
+                }
+            }
+        }
+    }
+
+
+
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

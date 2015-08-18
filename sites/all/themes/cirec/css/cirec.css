@@ -3674,33 +3674,39 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 /*RESPONSIVE*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { #views_slideshow_slider_slider_nodequeue_4-propuesta_valor { display: none; }
+  .view-display-id-block_servicios_destacados .service { display: initial !important; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
   .quicktabs-style-nostyle { width: 100% !important; }
   .view-plan-padrino-casos-exitosos #flexslider-1 .flex-viewport, .view-id-historia_nodequeue_ #flexslider-1 .flex-viewport { width: 100% !important; }
   .view-plan-padrino-casos-exitosos #flexslider-2 .flex-viewport, .view-id-historia_nodequeue_ #flexslider-2 .flex-viewport { width: 100% !important; }
   .block-ruta-apadrinar .view-display-id-block_ruta_apadrinar { width: 100% !important; }
   .page-historia .block-block-12 .block-content div h2 { width: 100% !important; }
-  .page-clinica-rehabilitacin .views-row-1 { float: left; }
-  .page-clinica-rehabilitacin .views-row-2 { float: left; }
-  .page-clinica-rehabilitacin .views-row-3 { float: left; }
-  .page-clinica-rehabilitacin .views-row-4 { float: none !important; }
-  .page-clinica-rehabilitacin .views-row-5 { width: auto !important; float: left; margin: 0 !important; }
-  .page-clinica-rehabilitacin .views-row-5 img { width: 298px; }
-  .page-clinica-rehabilitacin .views-row-6 { float: none !important; display: inline-block; margin: 0px 0 0 300px !important; }
-  .page-clinica-rehabilitacin .views-row-7 { float: left; left: 24px; margin-left: 300px; }
-  .page-node-73 .group-left, .page-node-72 .group-left, .node-type-noticias .group-left { width: 67% !important; }
-  .page-servicios-plan-padrino .view-id-plan_padrino h2.block-title:after { top: 70px; }
-  .page-servicios-plan-padrino .group-left { width: 100%; float: none; }
-  .page-servicios-plan-padrino .group-left .mayusculas span { font-size: 10px !important; }
-  .page-servicios-plan-padrino .group-left .text-secondary { margin-bottom: 30px; }
-  .page-servicios-plan-padrino .group-right { width: 100%; float: none; }
+  .page-clinica-rehabilitacin .views-row-5 { position: relative !important; margin: 0 !important; }
+  .page-node-73 .group-right, .page-node-72 .group-right, .node-type-noticias .group-right { width: 100%; }
+  .page-servicios-plan-padrino .block-ruta-apadrinar .views-row { display: inline; }
+  .page-servicios-plan-padrino .view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante { margin: 0; }
+  .page-servicios-plan-padrino .view-id-plan_padrino .node-planes-padrinos .image { float: none; text-align: center; }
+  .page-servicios-plan-padrino .view-id-plan_padrino .node-planes-padrinos .field-name-title h4 { margin: 0; text-align: center; }
+  .page-servicios-plan-padrino .view-id-plan_padrino .node-planes-padrinos .body { width: 100%; margin-left: 0; }
+  .page-servicios-plan-padrino .view-id-plan_padrino .group-right .block-title:after { top: 80px; }
+  .page-servicios-plan-padrino .view-id-plan_padrino .node-casos-rehabilitacion .field-name-field-info-relevante { margin: 0; }
+  .page-servicios-plan-padrino .view-id-plan_padrino .node-casos-rehabilitacion .image { float: none; text-align: center; }
+  .page-servicios-plan-padrino .view-id-plan_padrino .node-casos-rehabilitacion .field-name-title h4 { margin: 0; text-align: center; }
+  .page-servicios-plan-padrino .view-id-plan_padrino .node-casos-rehabilitacion .body { width: 100%; margin-left: 0; }
+  .page-servicios-plan-padrino .block-casos-exitosos { display: none; }
   .sf-menu li { margin-right: 15px !important; }
   .view-como-apadrinar .block-entityform-block .block-content { display: block; margin: 0 auto; width: 80%; }
   .view-como-apadrinar .block-entityform-block .block-content form { margin: 0 auto; text-align: center; }
   .facebook-feed-picture { background: url("http://pbs.twimg.com/profile_images/460892253326569473/GXsqpPmO_normal.png"); width: 50px; height: 50px; background-repeat: no-repeat; }
   .facebook-feed-picture img { display: none; }
   .view-display-id-block_servicios_destacados { background: #FBFBFB; }
-  .rteright strong { font-size: 11px; } }
+  .rteright strong { font-size: 11px; }
+  .aliados-destacados .quicktabs-tabs a { font-size: 17px !important; padding: 16px 10px 11px !important; }
+  #flexslider-2 .flex-viewport { height: 55px; }
+  .page-proability .view-id-prohability .view-content .views-row-1 .row .views-field-body { width: 100%; padding: 0 !important; }
+  .page-proability .view-id-prohability .view-content .views-row-1 .row .views-field-field-imagenes { display: none !important; }
+  .page-proability .view-id-prohability .view-content .view-header { width: 100%; left: 0; }
+  .page-proability .view-id-prohability .view-content .flex-control-nav { width: 100%; left: 0 !important; } }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 800px) { .block-views-nodequeue-4-propuesta-valor { display: none; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
