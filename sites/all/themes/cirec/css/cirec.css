@@ -3694,6 +3694,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
   .page-clinica-rehabilitacin .views-row-5 { position: relative !important; margin: 0 !important; }
   .page-node-73 .group-right, .page-node-72 .group-right, .node-type-noticias .group-right { width: 100%; }
   .page-node-73 .group-left, .page-node-72 .group-left, .node-type-noticias .group-left { width: 100%; }
+  .page-servicios-plan-padrino .block-views-como-apadrinar-block-1 .block-title { display: inline-block; width: 100%; }
   .page-servicios-plan-padrino .block-ruta-apadrinar .views-row { display: inline; }
   .page-servicios-plan-padrino .block-ruta-apadrinar .views-row .view-display-id-block_ruta_apadrinar:after { display: none; }
   .page-servicios-plan-padrino .view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante { margin: 0; width: 100%; }
