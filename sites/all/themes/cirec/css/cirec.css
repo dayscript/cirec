@@ -3728,7 +3728,8 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
   .l-footer-wrapper .block-block-3 { text-align: center; }
   .l-footer-wrapper .block-block-4 .block-content { text-align: center; }
   .l-footer-wrapper .block-block-4 .block-content .rteright { text-align: center; }
-  .l-footer-wrapper .block-block-5 { text-align: center; } }
+  .l-footer-wrapper .block-block-5 { text-align: center; }
+  .block-block-1 { margin-top: 10px; } }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 800px) { .block-views-nodequeue-4-propuesta-valor { display: none; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
