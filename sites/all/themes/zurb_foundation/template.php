@@ -27,7 +27,7 @@ function zurb_foundation_html_head_alter(&$head_elements) {
   );
 
   // Optimize mobile viewport.
-  /*$head_elements['mobile_viewport'] = array(
+ /* $head_elements['mobile_viewport'] = array(
     '#type' => 'html_tag',
     '#tag' => 'meta',
     '#attributes' => array(
