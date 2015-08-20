@@ -3508,7 +3508,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .page-proability #page-title { background: #3A5D95 !important; }
 
-.page-proability .flex-viewport { height: 304px; }
+.page-proability .flex-viewport { height: 304px !important; }
 
 .page-proability .views-field-field-imagenes { width: 50%; float: right; }
 
