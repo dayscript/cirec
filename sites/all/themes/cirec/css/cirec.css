@@ -3732,7 +3732,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
   .l-footer-wrapper .block-block-5 { text-align: center; }
   .block-block-1 { margin-top: 10px; } }
 
-.form-contacto .webform-component-textarea { padding: 0 0.5em; display: inline-block; }
+.form-contacto .webform-component-textarea { padding: 0 0.5em; }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 800px) { .block-views-nodequeue-4-propuesta-valor { display: none; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
