@@ -3714,7 +3714,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
   .facebook-feed-picture img { display: none; }
   .view-display-id-block_servicios_destacados { background: #FBFBFB; }
   .rteright strong { font-size: 11px; }
-  .aliados-destacados .quicktabs-tabs a { font-size: 17px !important; padding: 16px 10px 11px !important; }
+  .aliados-destacados .quicktabs-tabs a { font-size: 17px !important; padding: 16px 6px 11px !important; }
   #flexslider-2 .flex-viewport { height: 55px; }
   .page-servicios-proyectos-especiales #flexslider-2 .flex-viewport { height: 234px !important; }
   .page-proability .view-id-prohability .view-header .title-header { font-size: 18px; line-height: 19px; }
@@ -3739,9 +3739,11 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
   .quicktabs-style-nostyle { width: 100% !important; }
   .view-plan-padrino-casos-exitosos #flexslider-1 .flex-viewport, .view-id-historia_nodequeue_ #flexslider-1 .flex-viewport { width: 100% !important; }
   .block-ruta-apadrinar .view-display-id-block_ruta_apadrinar { width: 100% !important; }
-  .page-historia .block-block-12 .block-content div h2 { width: 100% !important; } }
+  .page-historia .block-block-12 .block-content div h2 { width: 100% !important; }
+  .aliados-destacados .quicktabs-tabs a { padding: 16px 33px 8px; } }
 
 @media only screen and (min-device-width: 764px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) { .block-views-nodequeue-4-propuesta-valor { display: block; }
-  .block-views-nodequeue-4-propuesta-valor #views_slideshow_slider_slider_nodequeue_4-propuesta_valor { display: none; } }
+  .block-views-nodequeue-4-propuesta-valor #views_slideshow_slider_slider_nodequeue_4-propuesta_valor { display: none; }
+  .block-views-503cb503394166f7526c3185ba74b711 .view-display-id-block_servicios_destacados .view-content { width: 100%; } }
 
 /*# sourceMappingURL=cirec.css.map */
