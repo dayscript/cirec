@@ -293,14 +293,22 @@
 
 
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .block-views-nodequeue-4-propuesta-valor {
+       display: block;
+        #views_slideshow_slider_slider_nodequeue_4-propuesta_valor{
+            display: none;
+        }
+    }
 
+}
 
 
 
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 800px) {
     .block-views-nodequeue-4-propuesta-valor {
-       // display: none;
+        display: none;
     }
     .view-display-id-block_servicios_destacados{
     	.view-content{
