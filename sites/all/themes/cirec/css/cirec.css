@@ -3746,6 +3746,13 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
   .block-views-nodequeue-4-propuesta-valor #views_slideshow_slider_slider_nodequeue_4-propuesta_valor { display: none; }
   .block-views-503cb503394166f7526c3185ba74b711 .view-display-id-block_servicios_destacados .view-content { width: 100%; } }
 
+/*EQUIPOS DE ESCRITORIO*/
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { .block-superfish-3 { display: none; } }
+
+/*EQUIPOS DE ESCRITORIO*/
+/*TABLETS Y IPADS*/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { .block-superfish-1 { display: none; } }
+
+/*TABLETS Y IPADS*/
 
 /*# sourceMappingURL=cirec.css.map */
