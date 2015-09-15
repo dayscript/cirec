@@ -3748,7 +3748,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 /*EQUIPOS DE ESCRITORIO*/
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { .block-superfish-3 ul li { margin: 0; padding: 0; }
-  .block-superfish-3 ul li a { padding: 0; } }
+  .block-superfish-3 ul li a { padding: 0 !important; } }
 
 /*EQUIPOS DE ESCRITORIO*/
 /*TABLETS Y IPADS*/
