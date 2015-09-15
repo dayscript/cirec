@@ -3749,7 +3749,9 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 /*EQUIPOS DE ESCRITORIO*/
 /*EQUIPOS DE ESCRITORIO*/
 /*TABLETS Y IPADS*/
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { .block-superfish-1 { display: none; } }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { .block-superfish-1 { display: none; }
+  .block-superfish-1 ul li { margin: 0; padding: 0; }
+  .block-superfish-1 ul li a { padding: 0; } }
 
 /*TABLETS Y IPADS*/
 
