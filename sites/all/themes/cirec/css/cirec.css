@@ -3754,5 +3754,9 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { .block-superfish-1 { display: none; } }
 
 /*TABLETS Y IPADS*/
+/*Telefonos movil*/
+@media only screen and (max-width: 40em) { .block-superfish-3 { display: none; } }
+
+/*Telefonos movil*/
 
 /*# sourceMappingURL=cirec.css.map */
