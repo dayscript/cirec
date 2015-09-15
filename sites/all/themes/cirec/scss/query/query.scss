@@ -349,6 +349,18 @@
     .block-superfish-3{
         //display: none;
     }
+    .block-superfish-1{
+        display: none;
+        ul{
+            li{
+                margin: 0;
+                padding: 0;
+            a{
+                padding:0;
+            }
+            }
+        }
+    }
 }
 /*EQUIPOS DE ESCRITORIO*/
 
