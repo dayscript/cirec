@@ -2763,9 +2763,9 @@ th.hide-for-touch { display: table-cell !important; }
 
 .page-node #page-title, .views-page #page-title { background: #0099cd; color: #fff; font-size: 30px; line-height: 30px; margin: 0 0 20px; padding: 20px 40px; text-transform: uppercase; }
 
-a.flex-nav-prev { height: 50px; }
+a.flex-prev { height: 50px; }
 
-a.flex-nav-next { height: 50px; }
+a.flex-next { height: 50px; }
 
 .admin-menu .fixed { top: 1.8125rem; }
 
