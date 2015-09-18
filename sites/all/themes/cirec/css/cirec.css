@@ -3780,7 +3780,10 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   .block-superfish-1 { display: none; }
   .page-servicios-plan-padrino .main .view-plan-padrino section { width: 100%; }
   .rteright { font-size: 68% !important; }
-  .rteright strong { font-size: 68% !important; } }
+  .rteright strong { font-size: 68% !important; }
+  .page-proability .second-color .views-field-body { width: 50%; padding: 25px 50px; }
+  .page-proability .third-color .views-field-body { width: 50%; padding: 25px 50px; }
+  .page-proability .first-color .views-field-body { width: 50%; padding: 25px 50px; } }
 
 /*TABLETS Y IPADS*/
 /*Telefonos movil*/
