@@ -3683,15 +3683,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 .maintenance-page #page #container #main #main-squeeze #content #content-content { width: 50%; margin: 0 auto; }
 
 /*RESPONSIVE*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor { width: 100 !important; }
-  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor { width: 100 !important; }
-  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_0 { width: 100 !important; }
-  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_1 { width: 100 !important; }
-  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_2 { width: 100 !important; }
-  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_3 { width: 100 !important; }
-  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_4 { width: 100 !important; }
-  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_5 { width: 100 !important; }
-  .block-superfish { margin-top: 20px; }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { .block-superfish { margin-top: 20px; }
   .view-display-id-propuesta_valor .head-slider { display: none; }
   .view-display-id-block_servicios_destacados .service { display: initial !important; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
@@ -3745,7 +3737,14 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .form-contacto .webform-component-textarea { padding: 0 0.5em; }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 800px) { .views-slideshow-controls-bottom.clearfix { display: none; }
+@media only screen and (min-device-width: 481px) and (max-device-width: 800px) { #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor { width: 100 !important; }
+  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_0 { width: 100 !important; }
+  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_1 { width: 100 !important; }
+  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_2 { width: 100 !important; }
+  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_3 { width: 100 !important; }
+  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_4 { width: 100 !important; }
+  #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_5 { width: 100 !important; }
+  .views-slideshow-controls-bottom.clearfix { display: none; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
   .quicktabs-style-nostyle { width: 100% !important; }
   .view-plan-padrino-casos-exitosos #flexslider-1 .flex-viewport, .view-id-historia_nodequeue_ #flexslider-1 .flex-viewport { width: 100% !important; }
@@ -3758,19 +3757,16 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
   .block-views-503cb503394166f7526c3185ba74b711 .view-display-id-block_servicios_destacados .view-content { width: 100%; } }
 
 /*EQUIPOS DE ESCRITORIO*/
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { .views-slideshow-controls-bottom.clearfix { display: none; }
-  .block-superfish-3 { display: none; } }
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { .block-superfish-3 { display: none; } }
 
 /*EQUIPOS DE ESCRITORIO*/
 /*TABLETS Y IPADS*/
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { .views-slideshow-controls-bottom.clearfix { display: none; }
-  .block-superfish-1 { display: none; }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { .block-superfish-1 { display: none; }
   .page-servicios-plan-padrino .main .view-plan-padrino section { width: 100%; } }
 
 /*TABLETS Y IPADS*/
 /*Telefonos movil*/
-@media only screen and (max-width: 40em) { .block-superfish-3 { display: none; }
-  .views-slideshow-controls-bottom.clearfix { display: none; } }
+@media only screen and (max-width: 40em) { .block-superfish-3 { display: none; } }
 
 /*Telefonos movil*/
 

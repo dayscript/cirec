@@ -1,23 +1,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    
-    #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor{width:100!important}
-#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor{width:100!important}
-#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_0{width:100!important}
-#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_1{width:100!important}
-#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_2{width:100!important}
-#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_3{width:100!important}
-#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_4{width:100!important}
-#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_5{width:100!important}
-
-
-
     .block-superfish{
         margin-top: 20px;
     }
-
-
-
-
 
     .block-views-nodequeue-4-propuesta-valor {
         //display: none;
@@ -306,7 +290,19 @@
 
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 800px) {
-    
+    #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor{width:100!important}
+    #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor{}
+    #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_0{width:100!important}
+    #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_1{width:100!important}
+    #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_2{width:100!important}
+    #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_3{width:100!important}
+    #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_4{width:100!important}
+    #views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor_5{width:100!important}
+
+
+
+
+
     .block-views-nodequeue-4-propuesta-valor {
         //display: none;
     }
@@ -365,9 +361,7 @@
 
 /*EQUIPOS DE ESCRITORIO*/
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { 
-    .views-slideshow-controls-bottom.clearfix {
-        display: none;
-    }
+
     .block-superfish-3{
         display: none;
     }
@@ -379,10 +373,8 @@
 
 /*TABLETS Y IPADS*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
-    .views-slideshow-controls-bottom.clearfix {
-        display: none;
-    }
-    .block-superfish-1{ 
+
+    .block-superfish-1{
         display: none;
         
     }
@@ -406,9 +398,7 @@
 .block-superfish-3{
         display: none;
     }
-.views-slideshow-controls-bottom.clearfix {
-        display: none;
-    }
+
 
 }
 
