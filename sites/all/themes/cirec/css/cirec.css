@@ -1380,9 +1380,9 @@ fieldset { border: 1px solid #DDDDDD; padding: 1.25rem; margin: 1.125rem 0; }
 fieldset legend { font-weight: bold; background: #fff; padding: 0 0.1875rem; margin: 0; margin-left: -0.1875rem; }
 
 /* Error Handling */
-[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error { display: block; padding: 0.375rem 0.5625rem 0.5625rem; margin-top: -1px; margin-bottom: 1rem; font-size: 0.75rem; font-weight: normal; font-style: italic; background: #f04124; color: #fff; }
+"[data-abide]" .error small.error, "[data-abide]" .error span.error, "[data-abide]" span.error, "[data-abide]" small.error { display: block; padding: 0.375rem 0.5625rem 0.5625rem; margin-top: -1px; margin-bottom: 1rem; font-size: 0.75rem; font-weight: normal; font-style: italic; background: #f04124; color: #fff; }
 
-[data-abide] span.error, [data-abide] small.error { display: none; }
+"[data-abide]" span.error, "[data-abide]" small.error { display: none; }
 
 span.error, small.error { display: block; padding: 0.375rem 0.5625rem 0.5625rem; margin-top: -1px; margin-bottom: 1rem; font-size: 0.75rem; font-weight: normal; font-style: italic; background: #f04124; color: #fff; }
 
@@ -1570,13 +1570,13 @@ label.error { color: #f04124; }
 
 .label.info { background-color: #a0d3e8; color: #333333; }
 
-[data-magellan-expedition], [data-magellan-expedition-clone] { background: #fff; z-index: 50; min-width: 100%; padding: 10px; }
+"[data-magellan-expedition]", [data-magellan-expedition-clone] { background: #fff; z-index: 50; min-width: 100%; padding: 10px; }
 
-[data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav { margin-bottom: 0; }
+"[data-magellan-expedition]" .sub-nav, [data-magellan-expedition-clone] .sub-nav { margin-bottom: 0; }
 
-[data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd { margin-bottom: 0; }
+"[data-magellan-expedition]" .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd { margin-bottom: 0; }
 
-[data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a { line-height: 1.8em; }
+"[data-magellan-expedition]" .sub-nav a, [data-magellan-expedition-clone] .sub-nav a { line-height: 1.8em; }
 
 @-webkit-keyframes rotate { from { -webkit-transform: rotate(0deg); }
   to { -webkit-transform: rotate(360deg); } }
@@ -2747,7 +2747,7 @@ th.hide-for-touch { display: table-cell !important; }
 
 .hr-stripes .gradient { filter: none; }
 
-.hr-stripes-4-rows div { background: #0099cd; background-color: #0099cd; background-image: -webkit-linear-gradient(left, #0099cd 0%, #0099cd 25%, #92cd4d 25%, #92cd4d 50%, #fc8d31 50%, #fc8d31 75%, #d80323 75%, #d80323 100%); background-image: linear-gradient(to right,#0099cd 0%, #0099cd 25%, #92cd4d 25%, #92cd4d 50%, #fc8d31 50%, #fc8d31 75%, #d80323 75%, #d80323 100%, , ); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$blue', endColorstr='$red',GradientType=1 ); height: 7px; }
+.hr-stripes-4-rows div { background: #0099cd; background-color: #0099cd; background-image: -webkit-linear-gradient(left, #0099cd 0%, #0099cd 25%, #92cd4d 25%, #92cd4d 50%, #fc8d31 50%, #fc8d31 75%, #d80323 75%, #d80323 100%); background-image: linear-gradient(to right,#0099cd 0%, #0099cd 25%, #92cd4d 25%, #92cd4d 50%, #fc8d31 50%, #fc8d31 75%, #d80323 75%, #d80323 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$blue', endColorstr='$red',GradientType=1 ); height: 7px; }
 
 .breadcrumbs { border: none; background: none; padding: 0; }
 
@@ -3684,7 +3684,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 /*RESPONSIVE*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { .block-superfish { margin-top: 20px; }
-  #views_slideshow_slider_slider_nodequeue_4-propuesta_valor { display: none; }
+  .view-display-id-propuesta_valor .head-slider { display: none; }
   .view-display-id-block_servicios_destacados .service { display: initial !important; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
   .quicktabs-style-nostyle { width: 100% !important; }
