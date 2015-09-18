@@ -3698,6 +3698,7 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 
 /*RESPONSIVE*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { .block-superfish { margin-top: 20px; }
+  .aliados-destacados { display: none; }
   .view-display-id-propuesta_valor .head-slider { display: none; }
   .block-views-nodequeue-4-propuesta-valor { display: none; }
   .view-display-id-block_servicios_destacados .service { display: initial !important; }
