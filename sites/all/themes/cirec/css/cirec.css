@@ -3737,7 +3737,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .form-contacto .webform-component-textarea { padding: 0 0.5em; }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 800px) { .views-slideshow-controls-bottom { display: none; }
+@media only screen and (min-device-width: 481px) and (max-device-width: 800px) { .views-slideshow-controls-bottom.clearfix { display: none; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
   .quicktabs-style-nostyle { width: 100% !important; }
   .view-plan-padrino-casos-exitosos #flexslider-1 .flex-viewport, .view-id-historia_nodequeue_ #flexslider-1 .flex-viewport { width: 100% !important; }
