@@ -371,7 +371,11 @@
 
 }
 /*EQUIPOS DE ESCRITORIO*/
-
+@media only screen and (min-width: 40.063em) and (max-width: 64em) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2){
+    .block-casos-exitosos{
+        display: block;
+    }
+}
 
 
 /*TABLETS Y IPADS*/

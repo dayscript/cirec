@@ -3773,6 +3773,8 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { .block-superfish-3 { display: none; } }
 
 /*EQUIPOS DE ESCRITORIO*/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) { .block-casos-exitosos { display: block; } }
+
 /*TABLETS Y IPADS*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { .head-slider { margin: 0; }
   .head-slider:after { display: none; }
