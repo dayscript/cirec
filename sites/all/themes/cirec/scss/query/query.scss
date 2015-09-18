@@ -349,7 +349,9 @@
 
 /*EQUIPOS DE ESCRITORIO*/
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { 
-
+    .views-slideshow-controls-bottom.clearfix {
+        display: none;
+    }
     .block-superfish-3{
         display: none;
     }
@@ -361,8 +363,10 @@
 
 /*TABLETS Y IPADS*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
-
-    .block-superfish-1{
+    .views-slideshow-controls-bottom.clearfix {
+        display: none;
+    }
+    .block-superfish-1{ 
         display: none;
         
     }
@@ -386,7 +390,9 @@
 .block-superfish-3{
         display: none;
     }
-
+.views-slideshow-controls-bottom.clearfix {
+        display: none;
+    }
 
 }
 
