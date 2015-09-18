@@ -3782,6 +3782,7 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   .rteright { font-size: 68% !important; }
   .rteright strong { font-size: 68% !important; }
   .page-proability .third-color .views-field-body .content .subtitulo, .page-proability .second-color .views-field-body .content .subtitulo, .page-proability .first-color .views-field-body .content .subtitulo { font-size: 30px; }
+  .page-proability .third-color .views-field-body .content body, .page-proability .second-color .views-field-body .content body, .page-proability .first-color .views-field-body .content body { width: 60%; }
   .page-proability .third-color .view-header h2, .page-proability .second-color .view-header h2, .page-proability .first-color .view-header h2 { font-size: 27px; }
   .page-proability .second-color .views-field-body { width: 50%; padding: 25px 50px; }
   .page-proability .third-color .views-field-body { width: 50%; padding: 25px 50px; }
