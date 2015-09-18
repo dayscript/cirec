@@ -3776,6 +3776,7 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 /*TABLETS Y IPADS*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { .head-slider { margin: 0; }
   .head-slider:after { display: none; }
+  .block-casos-exitosos { display: none; }
   .block-superfish-1 { display: none; }
   .page-servicios-plan-padrino .main .view-plan-padrino section { width: 100%; } }
 
