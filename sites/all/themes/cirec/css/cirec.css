@@ -3763,7 +3763,9 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   .page-historia .block-block-12 .block-content div h2 { width: 100% !important; }
   .aliados-destacados .quicktabs-tabs a { padding: 16px 33px 8px; } }
 
-@media only screen and (min-device-width: 764px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) { .block-views-nodequeue-4-propuesta-valor { display: block; }
+@media only screen and (min-device-width: 764px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) { .head-slider { margin: 0; }
+  .head-slider:after { display: none; }
+  .block-views-nodequeue-4-propuesta-valor { display: block; }
   .block-views-nodequeue-4-propuesta-valor #views_slideshow_slider_slider_nodequeue_4-propuesta_valor { display: none; }
   .block-views-503cb503394166f7526c3185ba74b711 .view-display-id-block_servicios_destacados .view-content { width: 100%; } }
 
@@ -3772,12 +3774,16 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 
 /*EQUIPOS DE ESCRITORIO*/
 /*TABLETS Y IPADS*/
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { .block-superfish-1 { display: none; }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { .head-slider { margin: 0; }
+  .head-slider:after { display: none; }
+  .block-superfish-1 { display: none; }
   .page-servicios-plan-padrino .main .view-plan-padrino section { width: 100%; } }
 
 /*TABLETS Y IPADS*/
 /*Telefonos movil*/
-@media only screen and (max-width: 40em) { .block-superfish-3 { display: none; } }
+@media only screen and (max-width: 40em) { .block-superfish-3 { display: none; }
+  .head-slider { margin: 0; }
+  .head-slider:after { display: none; } }
 
 /*Telefonos movil*/
 

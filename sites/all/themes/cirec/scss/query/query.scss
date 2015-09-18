@@ -341,6 +341,13 @@
 
 
 @media only screen and (min-device-width : 764px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
+     .head-slider{
+        margin:0;
+        &:after{
+               display: none;
+            }
+    }
+
     .block-views-nodequeue-4-propuesta-valor {
        display: block;
         #views_slideshow_slider_slider_nodequeue_4-propuesta_valor{
@@ -356,6 +363,8 @@
 /*EQUIPOS DE ESCRITORIO*/
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { 
 
+
+
     .block-superfish-3{
         display: none;
     }
@@ -367,6 +376,13 @@
 
 /*TABLETS Y IPADS*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+     .head-slider{
+        margin:0;
+        &:after{
+               display: none;
+            }
+    }
 
     .block-superfish-1{
         display: none;
@@ -393,7 +409,12 @@
         display: none;
     }
 
-
+ .head-slider{
+        margin:0;
+        &:after{
+               display: none;
+            }
+    }
 }
 
 /*Telefonos movil*/
