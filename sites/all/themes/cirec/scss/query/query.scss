@@ -290,10 +290,10 @@
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 800px) {
     .head-slider{
-        h3{
+        margin:0;
+        .title{
             &:after{
-                content:"";
-                position: absolute;
+               display: none;
             }
         }
     }

@@ -3753,7 +3753,8 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 
 .form-contacto .webform-component-textarea { padding: 0 0.5em; }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 800px) { .head-slider h3:after { content: ""; position: absolute; }
+@media only screen and (min-device-width: 481px) and (max-device-width: 800px) { .head-slider { margin: 0; }
+  .head-slider .title:after { display: none; }
   .views-slideshow-controls-bottom.clearfix { display: none; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
   .quicktabs-style-nostyle { width: 100% !important; }
