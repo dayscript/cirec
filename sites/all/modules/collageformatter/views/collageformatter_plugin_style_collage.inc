@@ -43,7 +43,7 @@ class collageformatter_plugin_style_collage extends views_plugin_style {
     );
   }
 
-  public function render($input) {
+  public function render() {
     $collage_fields = array();
 
     foreach ($this->view->field as $field_name => $field) {
@@ -56,7 +56,7 @@ class collageformatter_plugin_style_collage extends views_plugin_style {
     $settings['gallery'] = isset($this->view->dom_id) ? $this->view->dom_id : $this->view->name;
 
     $images = array();
-    foreach ($input as $result) {
+    foreach ($this->view->result as $result) {
       foreach($collage_fields as $field_name) {
         foreach ($result->{$field_name} as $element) {
           $images[$element['raw']['fid']] = $element['raw'];

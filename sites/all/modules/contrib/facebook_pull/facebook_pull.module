@@ -212,7 +212,7 @@ function _facebook_pull_notes_cached($id, $key, $viewer = 0) {
   $cache_key = sprintf("%s-%s-%s", $id, $key, $viewer);
   $cache = cache_get($cache_key);
 
-  if (!$cache || $cache->created + FACEBOOK_PULL_CACHETIME > time()) {
+  if (!$cache || $cache->created + FACEBOOK_PULL_CACHETIME < REQUEST_TIME ) {
     $data = _facebook_pull_notes($id, $key, $viewer);
     cache_set($cache_key, $data, 'cache', CACHE_TEMPORARY);
   } else {
@@ -253,7 +253,7 @@ function _facebook_pull_feed_cached($graph_id, $type, $app_id, $app_secret, $opt
   $cache_key = sprintf("%s-%s-%s", $graph_id, $type, http_build_query($options, '', '-'));
   $cache = cache_get($cache_key);
 
-  if (!$cache || $cache->created + FACEBOOK_PULL_CACHETIME > time()) {
+  if (!$cache || $cache->created + FACEBOOK_PULL_CACHETIME < REQUEST_TIME ) {
     $token = _facebook_pull_accesstoken($app_id, $app_secret);
     $data = _facebook_pull_feed($graph_id, $type, $token, $options);
     cache_set($cache_key, $data, 'cache', CACHE_TEMPORARY);

@@ -13,7 +13,7 @@
         <?php if (isset($item->name)) echo l($item->name, $item->link); ?>
       <?php endif; ?>
       <?php if (in_array($item->type, array('photo', 'video'))): ?>
-        <?php echo l('<img src="' . $item->picture . '" />', $item->link, array('html' => true, 'attributes' => array('_target' => 'blank'))); ?>
+        <?php echo l('<img src="' . $item->picture . '" />', $item->link, array('html' => true, 'attributes' => array('target' => '_blank'))); ?>
       <?php endif; ?>
       <?php if ($item->type === 'question'): ?>
         <?php echo $item->question; ?>

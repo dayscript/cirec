@@ -40,6 +40,7 @@ function _collageformatter_default_settings() {
     'image_link_modal' => NULL,
     'image_link_class' => NULL,
     'image_link_rel' => NULL,
+    'generate_image_derivatives' => 0,
     'prevent_upscale' => 0,
     'advanced' => array(
       'original_image_reference' => 'symlink',
@@ -151,6 +152,9 @@ function _collageformatter_settings_form($settings) {
       '1' => t('Portrait'),
     ),
     '#default_value' => $settings['collage_orientation'],
+    '#prefix' => '<div class="container-inline">',
+    '#field_suffix' => '</br>',
+    '#suffix' => '</div>',
   );
   $element['collage_width'] = array(
     '#type' => 'textfield',
@@ -161,7 +165,7 @@ function _collageformatter_settings_form($settings) {
     '#size' => 4,
     '#maxlength' => 4,
     '#prefix' => '<div class="container-inline"><strong>' . t('Collage width & height') . '</strong>',
-    '#field_prefix' => '</br>',
+    // '#field_prefix' => '</br>',
     '#field_suffix' => 'x',
   );
   $element['collage_height'] = array(
@@ -253,6 +257,9 @@ function _collageformatter_settings_form($settings) {
   if (module_exists('photobox')) {
     $modal_options['photobox'] = t('Photobox');
   }
+  if (module_exists('photoswipe')) {
+    $modal_options['photoswipe'] = t('PhotoSwipe');
+  }
   if (module_exists('lightbox2')) {
     $modal_options['lightbox2'] = t('Lightbox2');
   }
@@ -268,7 +275,7 @@ function _collageformatter_settings_form($settings) {
   $element['image_link_class'] = array(
     '#type' => 'textfield',
     '#title' => t('Image link class'),
-    //'#description' => t('Custom class to add to all image links.'),
+    // '#description' => t('Custom class to add to all image links.'),
     '#default_value' => $settings['image_link_class'],
     '#size' => 30,
     '#prefix' => '<div class="container-inline">',
@@ -276,10 +283,16 @@ function _collageformatter_settings_form($settings) {
   $element['image_link_rel'] = array(
     '#type' => 'textfield',
     '#title' => t('Image link rel'),
-    //'#description' => t('Custom rel attribute to add to all image links.'),
+    // '#description' => t('Custom rel attribute to add to all image links.'),
     '#default_value' => $settings['image_link_rel'],
     '#size' => 30,
     '#suffix' => '</div>',
+  );
+  $element['generate_image_derivatives'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Generate image derivatives'),
+    '#description' => t('Generate image derivatives used in the collage while rendering it, before displaying.'),
+    '#default_value' => $settings['generate_image_derivatives'],
   );
   $element['prevent_upscale'] = array(
     '#type' => 'checkbox',
@@ -362,6 +375,15 @@ function collageformatter_field_formatter_settings_summary($field, $instance, $v
   }
   else {
     $summary[] = t('Images without links');
+  }
+  if ($settings['generate_image_derivatives']) {
+    $summary[] = t('Generate image derivatives');
+  }
+  else {
+    $summary[] = t('Do not generate image derivatives');
+  }
+  if ($settings['prevent_upscale']) {
+    $summary[] = t('Prevent images upscaling');
   }
 
   return implode('<br />', $summary);
@@ -493,9 +515,15 @@ function collageformatter_render_collage($images, $settings) {
       $collage_style[] = 'background-color: ' . $settings['gap_color'] . ';';
     }
 
+    $collage_wrapper_class = array('collageformatter-collage-wrapper');
+    if ($settings['image_link_modal'] == 'photoswipe') {
+      $collage_wrapper_class[] = 'photoswipe-gallery';
+    }
+
     $collage[] = array(
       '#theme' => 'collageformatter_collage',
       '#collage' => _collageformatter_render_box($box, $settings),
+      '#collage_wrapper_class' => implode(' ', $collage_wrapper_class),
       '#collage_wrapper_style' => implode(' ', $collage_wrapper_style),
       '#collage_style' => implode(' ', $collage_style),
       '#collage_bottom_style' => 'clear: both; margin-bottom: ' . 100 * ($settings['gap_size'] / round($box['parent_total_width'] - 0.5)) . '%',
@@ -760,6 +788,18 @@ function _collageformatter_render_box($box, $settings) {
       ),
     ));
 
+    // Create image derivatives.
+    if ($settings['generate_image_derivatives']) {
+      $derivative_uri = image_style_path('collageformatter', $image_uri);
+      if (!file_exists($derivative_uri)) {
+        $image_style = image_style_load('collageformatter');
+        if (!image_style_create_derivative($image_style, $image_uri, $derivative_uri)) {
+          watchdog('collageformatter', 'Unable to generate the derived image located at %path.', array('%path' => $derivative_uri));
+        }
+      }
+    }
+
+    $attached = array();
     // Process image linking and modal gallery settings.
     if ($settings['image_link'] == 'content') {
       $class = $settings['image_link_class'] ? array($settings['image_link_class']) : array();
@@ -777,8 +817,21 @@ function _collageformatter_render_box($box, $settings) {
       );
     }
     elseif ($settings['image_link'] == 'file') {
+      $image_dimensions = array(
+        'width' => $box['width'],
+        'height' => $box['height'],
+      );
+      if (empty($settings['image_link_image_style'])) {
+        $image_url = file_create_url($box['uri']);
+      }
+      else {
+        $image_url = image_style_url($settings['image_link_image_style'], $box['uri']);
+        image_style_transform_dimensions($settings['image_link_image_style'], $image_dimensions);
+      }
+
       $class = $settings['image_link_class'] ? array($settings['image_link_class']) : array();
       $rel = $settings['image_link_rel'];
+      $attributes = array();
       switch ($settings['image_link_modal']) {
         case 'colorbox':
           $class[] = 'colorbox';
@@ -789,24 +842,31 @@ function _collageformatter_render_box($box, $settings) {
           break;
         case 'fancybox':
           $class[] = 'fancybox';
+          $attributes['data-fancybox-group'] = 'fancybox-' . $settings['gallery'];
           break;
         case 'photobox':
           $class[] = 'photobox';
-          photobox_initialize();
+          $attached = photobox_attached_resources();
+          $attributes['data-photobox-gallery'] = 'photobox-' . $settings['gallery'];
+          break;
+        case 'photoswipe':
+          $class[] = 'photoswipe';
+          photoswipe_load_assets();
+          $attributes['data-size'] = $image_dimensions['width'] . 'x' . $image_dimensions['height'];
           break;
         case 'lightbox2':
           $rel = 'lightbox[' . $settings['gallery'] . ']';
           break;
         default:
       }
-      $image = l($image,
-        !empty($settings['image_link_image_style']) ? image_style_url($settings['image_link_image_style'], $box['uri']) : file_create_url($box['uri']),
+
+      $image = l($image, $image_url,
         array(
           'attributes' => array(
             'title' => $box['title'],
             'class' => $class,
             'rel' => $rel,
-          ) + ($settings['image_link_modal'] == 'fancybox' ? array('data-fancybox-group' => 'fancybox-' . $settings['gallery']) : array()),
+          ) + $attributes,
           'html' => TRUE,
         )
       );
@@ -835,6 +895,7 @@ function _collageformatter_render_box($box, $settings) {
       '#image_wrapper_class' => array('collageformatter-collage-image-wrapper-' . $box['delta']),
       '#image_wrapper_style' => implode(' ', $image_wrapper_style),
       '#image_style' => $border,
+      '#attached' => $attached,
     );
   }
 
@@ -842,7 +903,7 @@ function _collageformatter_render_box($box, $settings) {
 }
 
 /**
- * Checks/creates for the original image reference file.
+ * Checks for/creates the original image reference file.
  */
 function _collageformatter_image_file_check($box, $settings) {
   $image_width = round($box['total_width'] - 2 * $settings['border_size'] - $settings['gap_size'] - 0.5);
@@ -911,6 +972,7 @@ function collageformatter_theme($existing, $type, $theme, $path) {
     'collageformatter_collage' => array(
       'variables' => array(
         'collage' => NULL,
+        'collage_wrapper_class' => NULL,
         'collage_wrapper_style' => NULL,
         'collage_style' => NULL,
         'collage_bottom_style' => NULL,
@@ -1044,14 +1106,13 @@ function collageformatter_views_api() {
  */
 function collageformatter_form_field_ui_display_overview_form_alter(&$form, &$form_state) {
   if (!empty($form_state['formatter_settings_edit'])) {
-    foreach ($form_state['values']['fields'] as $field => $value) {
-      if ($value['type'] == 'collageformatter') {
-        $form['fields'][$field]['format']['settings_edit_form']['actions']['flush'] = array(
-          '#type' => 'submit',
-          '#value' => t('Flush generated images'),
-          '#submit' => array('collageformatter_flush_style_submit'),
-        );
-      }
+    $field = $form_state['formatter_settings_edit'];
+    if ($form_state['input']['fields'][$field]['type'] == 'collageformatter') {
+      $form['fields'][$field]['format']['settings_edit_form']['actions']['flush'] = array(
+        '#type' => 'submit',
+        '#value' => t('Flush generated images'),
+        '#submit' => array('collageformatter_flush_style_submit'),
+      );
     }
   }
 }

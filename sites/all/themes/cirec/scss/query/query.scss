@@ -7,7 +7,7 @@
         //display: none;
     }
     .view-display-id-propuesta_valor .head-slider {
-    display: none;
+    //display: none;
 }
     #views_slideshow_slider_slider_nodequeue_4-propuesta_valor
     {
@@ -362,6 +362,16 @@
         display: none;
         
     }
+    .page-servicios-plan-padrino{
+        .main{
+            .view-plan-padrino{  
+                section{
+                    width: 100%;
+                }
+            }
+
+        }
+    }
 }
 /*TABLETS Y IPADS*/
 
@@ -372,6 +382,7 @@
 .block-superfish-3{
         display: none;
     }
+
 
 }
 

@@ -3237,7 +3237,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .view-id-plan_padrino .node-planes-padrinos .field-name-node-link { margin-left: 150px; }
 
-.view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante { margin-left: 150px; background-color: #0099CD; color: #fff; padding: 9px 16px; width: 380px; }
+.view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante { margin-left: 150px; background-color: #0099CD; color: #fff; padding: 9px 16px; width: 62.5%; }
 
 .view-id-plan_padrino .node-planes-padrinos .field-name-field-info-relevante a { color: #fff; text-decoration: underline; }
 
@@ -3684,7 +3684,6 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 /*RESPONSIVE*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { .block-superfish { margin-top: 20px; }
-  .view-display-id-propuesta_valor .head-slider { display: none; }
   #views_slideshow_slider_slider_nodequeue_4-propuesta_valor { display: none; }
   .view-display-id-block_servicios_destacados .service { display: initial !important; }
   .view-display-id-block_servicios_destacados .view-content { width: 100% !important; }
@@ -3755,7 +3754,8 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 /*EQUIPOS DE ESCRITORIO*/
 /*TABLETS Y IPADS*/
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { .block-superfish-1 { display: none; } }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { .block-superfish-1 { display: none; }
+  .page-servicios-plan-padrino .main .view-plan-padrino section { width: 100%; } }
 
 /*TABLETS Y IPADS*/
 /*Telefonos movil*/

@@ -5,9 +5,9 @@ package = Fields
 dependencies[] = image
 files[] = views/collageformatter_plugin_style_collage.inc
 
-; Information added by Drupal.org packaging script on 2014-07-26
-version = "7.x-1.0-rc5"
+; Information added by Drupal.org packaging script on 2015-09-06
+version = "7.x-1.0-rc6"
 core = "7.x"
 project = "collageformatter"
-datestamp = "1406359728"
+datestamp = "1441557840"
 
