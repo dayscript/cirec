@@ -2767,9 +2767,9 @@ a.flex-prev { height: 50px; }
 
 a.flex-next { height: 50px; }
 
-#quicktabs-aliados_destacados #flexslider-2 a.flex-prev { height: 43px; }
+#quicktabs-aliados_destacados #flexslider-2 a.flex-prev, #quicktabs-aliados_destacados .flexslider-1 a.flex-prev { height: 43px; }
 
-#quicktabs-aliados_destacados #flexslider-2 a.flex-next { height: 43px; }
+#quicktabs-aliados_destacados #flexslider-2 a.flex-next, #quicktabs-aliados_destacados .flexslider-1 a.flex-next { height: 43px; }
 
 .admin-menu .fixed { top: 1.8125rem; }
 
@@ -3613,6 +3613,8 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 .page-proability .third-color .view-header hr { border: 3px solid #0099cd; bottom: 0; content: ' '; left: 0; width: 250px; margin-top: 6px; margin-left: 18px; }
 
 .page-proability .third-color #flexslider-2 { background-color: #C70C21 !important; border: 0px solid #C70C21 !important; height: 305px; }
+
+.node-type-planes-padrinos .field-name-node-link { display: none; }
 
 .page-clinica-rehabilitacin .views-row.views-row-1.views-row-odd.views-row-first { float: left; }
 
