@@ -81,7 +81,11 @@
         a {
             color: #333;
             font-size: 1em;
-        }
+            &.after{
+                content:"Fundación CIREC";
+            }
+
+        }  
     }
 
     .facebook-feed-message {
