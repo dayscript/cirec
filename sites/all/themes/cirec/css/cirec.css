@@ -3806,7 +3806,8 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 @media only screen and (max-width: 40em) { /********Clinica de rehabilitacion*********************/
   .view-id-clinica_de_rehabilitacion.view-display-id-page { display: none; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 h2 { display: none; }
-  .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .views-row { width: 100%; }
+  .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .views-row { width: 100%; float: none; }
+  .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .views-row-odd { position: relative; }
   /********Clinica de rehabilitacion*********************/
   .block-superfish-3 { display: none; }
   .head-slider { margin: 0; }

@@ -488,6 +488,10 @@
         }
         .views-row {
            width: 100%;
+           float: none
+        }
+        .views-row-odd{
+            position: relative;
         }
     }   
 
