@@ -371,7 +371,8 @@
 /*EQUIPOS DE ESCRITORIO*/
 @media only screen and (min-width: 64.063em) and (max-width: 200em) { 
 
-       .view-id-clinica_de_rehabilitacion.view-display-id-block_1 {
+       .main {
+        section.block-views{
         display: none;
         }
 
