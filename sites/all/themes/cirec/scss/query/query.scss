@@ -513,6 +513,21 @@
             }
             a{
                 display: block;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                border-radius: 5px;
+                -webkit-transition: .2s opacity linear;
+                -moz-transition: .2s opacity linear;
+                transition: .2s opacity linear;
+                background: #0099cd;
+                color: #fff;
+                cursor: pointer;
+                display: inline-block;
+                font-size: 1em;
+                opacity: 1;
+                padding: 8px 15px;
+                text-transform: uppercase;
             }
             &:hover{
                 hr{
