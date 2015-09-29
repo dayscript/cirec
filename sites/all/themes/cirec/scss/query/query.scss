@@ -491,6 +491,11 @@
            margin: 25px 0;
            float: none;
            border-bottom: solid 1px #999;
+           img{
+                width: auto;
+                margin: 0 auto;
+                display: block;
+           }
         }
         .views-row-odd{
             position: relative!important; 
