@@ -503,13 +503,16 @@
              position: relative; 
              color: #999;
              padding: 0px; 
-             font-size: 10px; 
+             font-size: 10px;
+            p{
+                margin:0; 
+            }
             &:hover{
                 hr{
                     display: none!important;
                 }
                 p{
-                    margin: 0;
+                    margin:0;
                 }
             }
         }
