@@ -3779,7 +3779,7 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   .block-views-503cb503394166f7526c3185ba74b711 .view-display-id-block_servicios_destacados .view-content { width: 100%; } }
 
 /*EQUIPOS DE ESCRITORIO*/
-@media only screen and (min-width: 64.063em) and (max-width: 200em) { #main section { display: none; }
+@media only screen and (min-width: 64.063em) and (max-width: 200em) { .main section { display: none; }
   .block-superfish-3 { display: none; }
   .rteright { float: left; } }
 
