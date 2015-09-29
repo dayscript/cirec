@@ -468,6 +468,12 @@
 
 /*Telefonos movil*/
 @media only screen and (max-width: 40em) { 
+
+
+.view-id-clinica_de_rehabilitacion.view-display-id-page{
+    display: none;
+}
+
 .block-superfish-3{
         display: none;
     }
