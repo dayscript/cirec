@@ -3808,11 +3808,11 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 h2 { display: none; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .views-row { width: 100%; margin: 25px 0; float: none; border-bottom: solid 1px #999; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .views-row-odd { position: relative !important; width: 100% !important; margin: 0 !important; display: inline-block !important; }
-  .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content { background: none; width: 100%; height: auto; position: relative; color: #999; padding: 0px; font-size: 148% !important; margin: 9px 0 !important; display: inline-block; text-align: center; border-bottom: 4px solid #0099cd; }
+  .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content { background: none; width: 100%; height: auto; position: relative; color: #999; padding: 0px; font-size: 148% !important; margin: 9px 0 !important; display: inline-block; text-align: center; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content p { margin: 0; display: block; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content div { display: block; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content a { display: block; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; -webkit-transition: .2s opacity linear; -moz-transition: .2s opacity linear; transition: .2s opacity linear; background: #0099cd; color: #fff; cursor: pointer; display: inline-block; font-size: 1em; opacity: 1; padding: 8px 15px; text-transform: uppercase; }
-  .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content span:before { content: ' '; }
+  .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content span { border-bottom: 4px solid #0099cd; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content:hover hr { display: none !important; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content:hover p { margin: 0; }
   /********Clinica de rehabilitacion*********************/

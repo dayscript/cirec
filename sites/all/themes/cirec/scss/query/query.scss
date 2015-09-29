@@ -509,7 +509,7 @@
              margin: 9px 0!important;
             display: inline-block;
             text-align: center;
-             border-bottom: 4px solid #0099cd;
+
             p{
                 margin:0; 
                 display: block;
@@ -536,11 +536,8 @@
                 text-transform: uppercase;
             }
             span{
+                border-bottom: 4px solid #0099cd;
                
-                &:before{
-                   
-                    content: ' ';
-                    }
             }
             &:hover{
                 hr{
