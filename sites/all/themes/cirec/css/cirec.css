@@ -3803,7 +3803,7 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 
 /*TABLETS Y IPADS*/
 /*Telefonos movil*/
-@media only screen and (max-width: 40em) { .main .block-content { display: none; }
+@media only screen and (max-width: 40em) { .view-id-clinica_de_rehabilitacion.view-display-id-page { display: none; }
   .block-superfish-3 { display: none; }
   .head-slider { margin: 0; }
   .head-slider:after { display: none; } }
