@@ -538,12 +538,8 @@
                
                 &:after{
                     border-bottom: 4px solid #0099cd;
-                    top: 0;
                     content: ' ';
-                    position: absolute;
-                    width: 250px;
-                    left: 445px;
-                }
+                    }
             }
             &:hover{
                 hr{
