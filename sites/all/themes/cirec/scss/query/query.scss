@@ -505,13 +505,13 @@
              padding: 0px; 
              font-size: 10px; 
             &:hover{
-
+                hr{
+                    display: none!important;
+                }
             }
         }
     }   
-
-
-     /********Clinica de rehabilitacion*********************/
+    /********Clinica de rehabilitacion*********************/
     .block-superfish-3{
             display: none;
         }
