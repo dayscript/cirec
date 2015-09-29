@@ -476,20 +476,33 @@
 @media only screen and (max-width: 40em) { 
 
 
-.view-id-clinica_de_rehabilitacion.view-display-id-page{
-    display: none;
-}
 
-.block-superfish-3{
+    /********Clinica de rehabilitacion*********************/
+    .view-id-clinica_de_rehabilitacion.view-display-id-page{
         display: none;
     }
 
- .head-slider{
-        margin:0;
-        &:after{
-               display: none;
-            }
-    }
+    .view-id-clinica_de_rehabilitacion.view-display-id-block_1{
+        h2{
+            display: none;
+        }
+        .views-row {
+           width: 100%;
+        }
+    }   
+
+
+     /********Clinica de rehabilitacion*********************/
+    .block-superfish-3{
+            display: none;
+        }
+
+     .head-slider{
+            margin:0;
+            &:after{
+                   display: none;
+                }
+        }
 }
 
 /*Telefonos movil*/
