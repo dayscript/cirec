@@ -650,20 +650,42 @@
     }   
     /********Clinica de rehabilitacion*********************/
     /********Apadrina ya!*********************/
-        .page-servicios-plan-padrino{
-            .l-main{
-                .view-id-plan_padrino{
-                    .group-right{
-                        .view-plan-padrino-casos-rehabilitacion{
-                            .field-name-node-link{
-                                margin: 0;
-                            }
+    .page-servicios-plan-padrino{
+        .l-main{
+            .view-id-plan_padrino{
+                .group-right{
+                    .view-plan-padrino-casos-rehabilitacion{
+                        .field-name-node-link{
+                            margin: 0;
                         }
                     }
                 }
             }
 
         }
+        .l-content-after{
+            .block-views-como-apadrinar-block-1{
+                .view-id-como_apadrinar{
+                    .group-left{
+                        .flexslider-1{
+                            ul{
+                                li{
+                                    span{
+                                        margin: 0 auto!important;
+                                        width: 100%!important;
+                                        display: block!important;
+                                        float: none!important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
     /********Apadrina ya!*********************/
 
 
