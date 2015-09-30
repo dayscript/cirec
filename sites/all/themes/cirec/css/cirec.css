@@ -3832,6 +3832,9 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content:hover p { margin: 0; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .title-content:hover div { display: block; float: none !important; }
   /********Clinica de rehabilitacion*********************/
+  /********Apadrina ya!*********************/
+  .page-servicios-plan-padrino .l-main .view-id-plan_padrino .group-right .view-plan-padrino-casos-rehabilitacion .field-name-node-link { margin: 0; }
+  /********Apadrina ya!*********************/
   .block-superfish-3 { display: none; }
   .head-slider { margin: 0; }
   .head-slider:after { display: none; } }
