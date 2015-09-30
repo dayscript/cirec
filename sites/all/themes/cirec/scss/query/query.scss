@@ -370,12 +370,13 @@
 
 /*EQUIPOS DE ESCRITORIO*/
 @media only screen and (min-width: 64.063em) and (max-width: 200em) { 
-
+    .page-clinica-rehabilitacin{
        .main {
             section{
             display: none;
             }
         }
+    }
 
     .block-superfish-3{
         display: none;
