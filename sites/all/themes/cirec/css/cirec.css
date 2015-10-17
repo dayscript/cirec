@@ -2853,6 +2853,14 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .l-footer p { font-size: inherit; }
 
+.block-block-3 { min-width: 233px; max-width: 233px; }
+
+.block-block-4 { max-width: 295px; min-width: 295px; }
+
+.block-block-5 { max-width: 295px; min-width: 295px; }
+
+.block-block-6 { max-width: 295px; min-width: 295px; }
+
 .widget .block-title { font-size: 24px; line-height: 24px; text-transform: uppercase; margin-bottom: 10px; }
 
 .widget .block-title:after { border-top: 4px solid #0099cd; content: ''; display: block; margin-top: 20px; width: 250px; }
