@@ -216,17 +216,22 @@ $mleft : 150px;
       text-transform: uppercase;
       font-size: 28px;
       margin: 0 0 50px 0;
+        &:after {
+          border-bottom: 4px solid #0099cd;
+          /* bottom: 0; */
+          content: ' ';
+          left: 0;
+          position: absolute;
+          width: 260px;
+          top:50px;
+          margin-left: 9px;
+        }
     }
-    h2.block-title:after {
-      border-bottom: 4px solid #0099cd;
-      /* bottom: 0; */
-      content: ' ';
-      left: 0;
-      position: absolute;
-      width: 260px;
-      top:50px;
-      margin-left: 9px;
-    }
+    .group-right{
+            h2.block-title{
+                min-width: 568px; 
+            }
+        }    
     .mayusculas{
           color: #000;
           margin: 20px 0;
@@ -434,6 +439,7 @@ $mleft : 150px;
         }
     }
     .group-right{
+        padding-left: 30px;
         .field-name-como-apadrinar-webform{
             .block-webform-client-block-217{
                 h2{display: none}

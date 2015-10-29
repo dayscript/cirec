@@ -3239,6 +3239,8 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .view-id-plan_padrino h2.block-title:after { border-bottom: 4px solid #0099cd; /* bottom: 0; */ content: ' '; left: 0; position: absolute; width: 260px; top: 50px; margin-left: 9px; }
 
+.view-id-plan_padrino .group-right h2.block-title { min-width: 568px; }
+
 .view-id-plan_padrino .mayusculas { color: #000; margin: 20px 0; }
 
 .view-id-plan_padrino .mayusculas p span { font-family: raleway; font-size: 17px; line-height: 24px; word-spacing: 3px; font-weight: 500; }
@@ -3311,6 +3313,8 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-left .field-name-formas-de-apadrinar .block-views-como-apadrinar-block .block-content .view-como-apadrinar #flexslider-1 .views-field-title h4 a { color: #fff; }
 
+.block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right { padding-left: 30px; }
+
 .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right .field-name-como-apadrinar-webform .block-webform-client-block-217 h2 { display: none; }
 
 .block-views-como-apadrinar-block-1 .view-id-como_apadrinar .group-right .field-name-como-apadrinar-webform .block-webform-client-block-217 .block-content .ds-1col form div { width: 98%; text-align: center; }
@@ -3369,13 +3373,11 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .view-display-id-block_servicios_destacados { background: url("../images/pattern-grid.png") left top; }
 
-.view-display-id-block_servicios_destacados .service { display: table-cell; padding-bottom: 20px; text-align: center; float: none; }
+.view-display-id-block_servicios_destacados .service { display: block; padding-bottom: 20px; text-align: center; }
 
 .view-display-id-block_servicios_destacados .service:hover { background: #fff; }
 
 .view-display-id-block_servicios_destacados .service:hover:before { background: #0099cd; content: ' '; height: 12px; left: 0; position: absolute; top: 541px; width: 100%; z-index: 99; }
-
-.view-display-id-block_servicios_destacados .service:last-child { float: none; }
 
 .view-display-id-block_servicios_destacados .service .field-name-title { border-bottom: 4px solid #0099cd; text-transform: uppercase; margin: 0 6px 20px; }
 
@@ -3393,7 +3395,7 @@ button#edit-submit { background: url(../images/search.png) no-repeat; color: rgb
 
 .view-display-id-block_servicios_destacados .service.views-row-4 .field-name-title { border-bottom-color: #92cd4d; }
 
-.view-display-id-block_servicios_destacados .view-content { width: 1140px; margin: 0 auto; display: table; }
+.view-display-id-block_servicios_destacados .view-content { display: table; max-width: 1140px; margin: 0 auto; }
 
 .view-id-testimonios_widget .image { float: left; margin-right: 10px; }
 
@@ -3572,7 +3574,9 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 
 .page-proability .first-color .views-field-body .content .subtitulo { float: left; font-size: 60px; }
 
-.page-proability .first-color .views-field-body .content .body { float: right; width: 50%; text-align: initial; padding: 30px 15px; border-left: 2px solid; }
+.page-proability .first-color .views-field-body .content .body { float: right; width: 50%; text-align: initial; padding-left: 10px; border-left: 2px solid; font-size: 12px; }
+
+.page-proability .first-color .views-field-body .content .body p { margin: 0; }
 
 .page-proability .first-color .view-header { position: absolute; z-index: 1; font-size: 24px; text-transform: uppercase; }
 
@@ -3582,8 +3586,6 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 
 .page-proability .first-color #flexslider-3 { background-color: #3A5D95 !important; border: 0px solid #3A5D95 !important; height: 305px; }
 
-.page-proability .first-color #flexslider-3 img { width: 570px; height: 304px; }
-
 .page-proability .second-color { color: #fff; }
 
 .page-proability .second-color .views-field-body { width: 50%; padding: 50px 50px; }
@@ -3592,7 +3594,9 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 
 .page-proability .second-color .views-field-body .content .subtitulo { float: left; font-size: 60px; }
 
-.page-proability .second-color .views-field-body .content .body { float: right; width: 50%; text-align: initial; padding: 8px 15px; border-left: 2px solid; }
+.page-proability .second-color .views-field-body .content .body { float: right; width: 50%; text-align: initial; padding-left: 10px; border-left: 2px solid; font-size: 12px; }
+
+.page-proability .second-color .views-field-body .content .body p { margin: 0; }
 
 .page-proability .second-color .view-header { position: absolute; z-index: 1; font-size: 24px; text-transform: uppercase; width: 50%; left: 50%; }
 
@@ -3606,7 +3610,7 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 
 .page-proability .second-color #flexslider-1 .left-d { top: 0 !important; }
 
-.page-proability .second-color #flexslider-1 .left-d img { width: 570px; height: 304px; top: 0 !important; }
+.page-proability .second-color #flexslider-1 .left-d img { top: 0 !important; }
 
 .page-proability .third-color { color: #fff; }
 
@@ -3616,7 +3620,9 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 
 .page-proability .third-color .views-field-body .content .subtitulo { float: left; font-size: 60px; }
 
-.page-proability .third-color .views-field-body .content .body { float: right; width: 50%; text-align: initial; padding: 8px 15px; border-left: 2px solid; }
+.page-proability .third-color .views-field-body .content .body { float: right; width: 50%; text-align: initial; padding-left: 10px; border-left: 2px solid; font-size: 12px; }
+
+.page-proability .third-color .views-field-body .content .body p { margin: 0; }
 
 .page-proability .third-color .view-header { position: absolute; z-index: 1; font-size: 24px; font-size: 24px; text-transform: uppercase; }
 
@@ -3730,6 +3736,7 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   .page-clinica-rehabilitacin .views-row-5 { position: relative !important; margin: 0 !important; }
   .page-node-73 .group-right, .page-node-72 .group-right, .node-type-noticias .group-right { width: 100%; }
   .page-node-73 .group-left, .page-node-72 .group-left, .node-type-noticias .group-left { width: 100%; }
+  /*Pagina plan padrino */
   .page-servicios-plan-padrino .block-views-como-apadrinar-block-1 .block-title { display: inline-block; width: 100%; }
   .page-servicios-plan-padrino .block-ruta-apadrinar .views-row { display: inline; }
   .page-servicios-plan-padrino .block-ruta-apadrinar .views-row .view-display-id-block_ruta_apadrinar:after { display: none; }
@@ -3766,9 +3773,8 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   .l-footer-wrapper .block-block-4 .block-content { text-align: center; }
   .l-footer-wrapper .block-block-4 .block-content .rteright { text-align: center; }
   .l-footer-wrapper .block-block-5 { text-align: center; }
-  .block-block-1 { margin-top: 10px; } }
-
-.form-contacto .webform-component-textarea { padding: 0 0.5em; }
+  .block-block-1 { margin-top: 10px; }
+  .form-contacto .webform-component-textarea { padding: 0 0.5em; } }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 800px) { .head-slider { margin: 0; }
   .head-slider:after { display: none; }
@@ -3778,7 +3784,8 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   .view-plan-padrino-casos-exitosos #flexslider-1 .flex-viewport, .view-id-historia_nodequeue_ #flexslider-1 .flex-viewport { width: 100% !important; }
   .block-ruta-apadrinar .view-display-id-block_ruta_apadrinar { width: 100% !important; }
   .page-historia .block-block-12 .block-content div h2 { width: 100% !important; }
-  .aliados-destacados .quicktabs-tabs a { padding: 16px 33px 8px; } }
+  .aliados-destacados .quicktabs-tabs a { padding: 16px 33px 8px; }
+  .view-prohability .view-content article .row .group-header .field-name-proability-slider #flexslider-3 ol { width: 100%; } }
 
 @media only screen and (min-device-width: 764px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) { .head-slider { margin: 0; }
   .head-slider:after { display: none; }
@@ -3793,8 +3800,7 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
 
 /*EQUIPOS DE ESCRITORIO*/
 /*TABLETS Y IPADS*/
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { /********Clinica de rehabilitacion*********************/
-  .view-id-clinica_de_rehabilitacion.view-display-id-page { display: none; }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { .view-id-clinica_de_rehabilitacion.view-display-id-page { display: none; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 h2 { display: none; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .views-row { width: 100%; margin: 25px 0; float: none; border-bottom: solid 1px #999; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .views-row img { width: auto; margin: 0 auto; display: block; }
@@ -3819,14 +3825,17 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   .page-proability .third-color .views-field-body .content .body, .page-proability .second-color .views-field-body .content .body, .page-proability .first-color .views-field-body .content .body { width: 60%; }
   .page-proability .third-color .views-field-body .content .body p, .page-proability .second-color .views-field-body .content .body p, .page-proability .first-color .views-field-body .content .body p { font-size: 12px; }
   .page-proability .third-color .view-header h2, .page-proability .second-color .view-header h2, .page-proability .first-color .view-header h2 { font-size: 27px; }
+  .page-proability .view-prohability .view-content article .row .group-header .field-name-proability-slider #flexslider-3 ol { width: 100%; }
+  .page-proability .view-prohability .view-content article .row .group-content ol { width: 100%; left: 0 !important; }
+  .page-proability .view-prohability .view-content article .row .group-footer ol { width: 100%; left: 0 !important; }
   .page-proability .second-color .views-field-body { width: 50%; padding: 25px 50px; }
   .page-proability .third-color .views-field-body { width: 50%; padding: 25px 50px; }
-  .page-proability .first-color .views-field-body { width: 50%; padding: 25px 50px; } }
+  .page-proability .first-color .views-field-body { width: 50%; padding: 25px 50px; }
+  .view-prohability .view-content article .row .group-header .field-name-proability-slider #flexslider-3 ol { width: 100%; } }
 
 /*TABLETS Y IPADS*/
 /*Telefonos movil*/
-@media only screen and (max-width: 40em) { /********Clinica de rehabilitacion*********************/
-  .view-id-clinica_de_rehabilitacion.view-display-id-page { display: none; }
+@media only screen and (max-width: 40em) { .view-id-clinica_de_rehabilitacion.view-display-id-page { display: none; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 h2 { display: none; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .views-row { width: 100%; margin: 25px 0; float: none; border-bottom: solid 1px #999; }
   .view-id-clinica_de_rehabilitacion.view-display-id-block_1 .views-row img { width: auto; margin: 0 auto; display: block; }
@@ -3846,7 +3855,25 @@ div#views_slideshow_cycle_teaser_section_nodequeue_4-propuesta_valor #views_slid
   /********Apadrina ya!*********************/
   .block-superfish-3 { display: none; }
   .head-slider { margin: 0; }
-  .head-slider:after { display: none; } }
+  .head-slider:after { display: none; }
+  .view-prohability .view-content article .row .group-header .field-name-proability-slider #flexslider-3 ol { width: 100%; }
+  .view-prohability .view-content article .row .group-header .field-name-proability-slider #flexslider-3 .body p { font-size: 13px; }
+  .view-prohability .view-content article .row .group-header .field-name-proability-slider #flexslider-3 .body { font-size: 13px; }
+  .view-prohability .view-content article .row .group-header .field-name-proability-slider #flexslider-3 .subtitulo { font-size: 45px; }
+  .view-prohability .view-content article .row .group-header .field-name-proability-slider .views-field-field-imagenes { display: none; }
+  .view-prohability .view-content article .row .group-header .field-name-proability-slider .views-field-body { width: 100%; padding: 50px 15px; }
+  .view-prohability .view-content article .row .group-content .views-field-field-imagenes { display: none; }
+  .view-prohability .view-content article .row .group-content .views-field-body { width: 100%; padding: 50px 15px; }
+  .view-prohability .view-content article .row .group-content .content .body p { font-size: 13px; }
+  .view-prohability .view-content article .row .group-content .content .body { font-size: 13px; }
+  .view-prohability .view-content article .row .group-content .content .subtitulo { font-size: 45px; }
+  .view-prohability .view-content article .row .group-content ol { width: 100%; left: 0 !important; }
+  .view-prohability .view-content article .row .group-footer .views-field-field-imagenes { display: none; }
+  .view-prohability .view-content article .row .group-footer .views-field-body { width: 100%; padding: 50px 15px; }
+  .view-prohability .view-content article .row .group-footer .content .body p { font-size: 13px; }
+  .view-prohability .view-content article .row .group-footer .content .body { font-size: 13px; }
+  .view-prohability .view-content article .row .group-footer .content .subtitulo { font-size: 45px; }
+  .view-prohability .view-content article .row .group-footer ol { width: 100%; left: 0 !important; } }
 
 /*Telefonos movil*/
 

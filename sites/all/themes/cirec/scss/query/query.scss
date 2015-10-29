@@ -1,101 +1,58 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .block-superfish{
-        margin-top: 20px;
-    }
-    
-    .zopim{
-            display: none;
-        }
-    .aliados-destacados{
-        display: none;
-    }
-    .view-display-id-propuesta_valor .head-slider {
-    display: none;
-    }
-    .block-views-nodequeue-4-propuesta-valor
-    {
-        display: none;
-    }
-    .view-display-id-block_servicios_destacados .service{
-        display: initial!important;
-    }
-    
-
+    .block-superfish{margin-top: 20px;}
+    .zopim{display: none;}
+    .aliados-destacados{display: none;}
+    .view-display-id-propuesta_valor .head-slider {display: none;}
+    .block-views-nodequeue-4-propuesta-valor{display: none;}
+    .view-display-id-block_servicios_destacados .service{display: initial!important;}
     .view-display-id-block_servicios_destacados{ 
-    	.view-content{
-    		width:100%!important;
-    	} 
+        .view-content{width:100%!important;} 
     }
-    .quicktabs-style-nostyle{
-    		width:100%!important;
-    }
+    .quicktabs-style-nostyle{width:100%!important;}
     .view-plan-padrino-casos-exitosos,.view-id-historia_nodequeue_{
-    	#flexslider-1{
-    		.flex-viewport{
-    			width: 100%!important;
-    		} 
-    	} 
-    	#flexslider-2{
-    		.flex-viewport{
-    			width: 100%!important;
-    		}
-    	}
+        #flexslider-1{
+            .flex-viewport{width: 100%!important;} 
+        } 
+        #flexslider-2{
+            .flex-viewport{width: 100%!important;}
+        }
     }
     .block-ruta-apadrinar{
-    	.view-display-id-block_ruta_apadrinar{
-    			width: 100%!important;
-                &:before{
-                    left: 0px;
-                }
-
-    	}
+        .view-display-id-block_ruta_apadrinar{
+                width: 100%!important;
+                &:before{left: 0px;}
+        }
     }
-    .page-historia 
-    {.block-block-12 .block-content div h2{
-    	width: 100%!important;
+    .page-historia{
+        .block-block-12 .block-content div h2{width: 100%!important;}
+        .block-views-d3216d34d00b40bb8b1a610234e3c626{ display: none; }
     }
-    .block-views-d3216d34d00b40bb8b1a610234e3c626{
-        display: none;
-    }
-    }
-
-    .page-clinica-rehabilitacin {
-    	
-	   .views-row-5{
-        	position: relative!important; 
+    .page-clinica-rehabilitacin {       
+       .views-row-5{
+            position: relative!important; 
             margin: 0!important;
         }
-	
-		
-	}
-	.page-node-73,.page-node-72,.node-type-noticias{
-	   .group-right{
-        width: 100%;
-       }
-       .group-left{
-        width: 100%;
-       }    		 
-	}
-	.page-servicios-plan-padrino{
+    }
+    .page-node-73,.page-node-72,.node-type-noticias{
+       .group-right{ width: 100%; }
+       .group-left{ width: 100%; }           
+    }
+    /*Pagina plan padrino */
+    .page-servicios-plan-padrino{
         .block-views-como-apadrinar-block-1{
             .block-title{
                 display: inline-block;
                 width: 100%;
             }
         }
-	  .block-ruta-apadrinar .views-row{
-            display: inline;
+        .block-ruta-apadrinar .views-row{ display: inline;
       
-        .view-display-id-block_ruta_apadrinar{
-            &:after{
-                display: none;
+            .view-display-id-block_ruta_apadrinar{
+                &:after{ display: none; }
             }
         }
-      }
-	.view-id-plan_padrino{
-
+       .view-id-plan_padrino{
             .node-planes-padrinos {
-            
                 .field-name-field-info-relevante{
                     margin: 0;
                     width: 100%;
@@ -103,14 +60,12 @@
                 .image{
                     float: none;
                     text-align: center;
-
                 }
                 .field-name-title{
                     h4{
                         margin: 0;
                         text-align:center; 
                     }
-
                 }
                 .body{
                     width: 100%;
@@ -119,40 +74,31 @@
             }
             .group-right{
                 .block-title{
-                    &:after{
-                        top: 80px;
-                    }
+                    &:after{ top: 80px; }
                 }
             }
             .node-casos-rehabilitacion{
-               .field-name-field-info-relevante{
-                    margin: 0;
-                }
+               .field-name-field-info-relevante{ margin: 0; }
                 .image{
                     float: none;
                     text-align: center;
-
                 }
                 .field-name-title{
                     h4{
                         margin: 0;
                         text-align:center; 
-
                     }
-
                 }
                 .body{
                     width: 100%;
                     margin-left: 0;
                 } 
             }
-
-            
         }
         .block-casos-exitosos{
                 display: none;
             }
-    }
+    }//finalizar estilos plan padrino
 
     .sf-menu li {
          margin-right: 15px!important;
@@ -181,13 +127,9 @@
             display: none;
         }
     }
-   .view-display-id-block_servicios_destacados{
-    background:#FBFBFB;
-   } 
+   .view-display-id-block_servicios_destacados{ background:#FBFBFB; } 
    .rteright{
-     strong{
-        font-size: 11px;
-     }
+     strong{ font-size: 11px; }
    }
    .aliados-destacados {
     .quicktabs-tabs{ 
@@ -200,7 +142,7 @@
    } 
    #flexslider-2{
        .flex-viewport {
-            height: 55px;
+            height: 55px; 
         }
     }
 
@@ -255,42 +197,32 @@
         }
     }
 
-.form-contacto{
+    .form-contacto{
         padding: 0px!important;
-}
-
-
-.l-footer-wrapper{
-    .block-block-3{
-            text-align: center;
     }
-    .block-block-4{
-        .block-content{
-            text-align:center; 
-            .rteright{
+
+
+    .l-footer-wrapper{
+        .block-block-3{
                 text-align: center;
+        }
+        .block-block-4{
+            .block-content{
+                text-align:center; 
+                .rteright{
+                    text-align: center;
+                }
             }
         }
+        .block-block-5{
+            text-align: center;
+        }
     }
-    .block-block-5{
-        text-align: center;
-    }
+
+    .block-block-1{ margin-top: 10px; }
+
+    .form-contacto .webform-component-textarea { padding: 0 0.5em; }
 }
-
-.block-block-1{
-    margin-top: 10px;
-}
-
-}
-
-
-.form-contacto .webform-component-textarea {
-    padding: 0 0.5em;
-}
-
-
-
-
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 800px) {
     .head-slider{
@@ -299,8 +231,6 @@
                display: none;
             }
     }
-
-
     .block-views-nodequeue-4-propuesta-valor {
         //display: none;
     }
@@ -308,98 +238,69 @@
         display: none;
     }
     .view-display-id-block_servicios_destacados{
-    	.view-content{
-    		width:100%!important;
-    	}
+        .view-content{ width:100%!important; }
     }
-    .quicktabs-style-nostyle{
-    		width:100%!important;
-    }
+    .quicktabs-style-nostyle{ width:100%!important; }
     .view-plan-padrino-casos-exitosos,.view-id-historia_nodequeue_{
-    	#flexslider-1{
-    		.flex-viewport{
-    			width: 100%!important;
-    		}
-    	}
+        #flexslider-1{
+            .flex-viewport{ width: 100%!important; }
+        }
     }
     .block-ruta-apadrinar{
-    	.view-display-id-block_ruta_apadrinar{
-    			width: 100%!important;
-    	}
+        .view-display-id-block_ruta_apadrinar{ width: 100%!important; }
     }
-    .page-historia .block-block-12 .block-content div h2{
-    	width: 100%!important;
-    }
+    .page-historia .block-block-12 .block-content div h2{ width: 100%!important; }
 
     .aliados-destacados{ 
         .quicktabs-tabs {
-            a{
-                padding: 16px 33px 8px;
-            }
+            a{ padding: 16px 33px 8px; }
         }
     }
-
-
+    .view-prohability{
+            .view-content{
+                article{
+                    .row{
+                        .group-header{
+                            .field-name-proability-slider{
+                                #flexslider-3{
+                                    ol{ width: 100%; }
+                                }
+                            }
+                        }
+                        .group-content{}
+                        .group-footer{}
+                    }
+                }
+            }
+    }   
 } 
-
-
-
 @media only screen and (min-device-width : 764px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
-     .head-slider{
-        margin:0;
-        &:after{
-               display: none;
-            }
-    }
-
-    .block-views-nodequeue-4-propuesta-valor {
-       display: block;
-        #views_slideshow_slider_slider_nodequeue_4-propuesta_valor{
-            display: none;
+    .head-slider{margin:0;
+        &:after{ display: none; }
         }
+    .block-views-nodequeue-4-propuesta-valor { display: block;
+        #views_slideshow_slider_slider_nodequeue_4-propuesta_valor{ display: none; }
     }
-    .block-views-503cb503394166f7526c3185ba74b711 .view-display-id-block_servicios_destacados .view-content{
-        width: 100%;
-    }
-
-
-
-
-
+    .block-views-503cb503394166f7526c3185ba74b711 .view-display-id-block_servicios_destacados .view-content{ width: 100%; }
 }
-
 /*EQUIPOS DE ESCRITORIO*/
 @media only screen and (min-width: 64.063em) and (max-width: 200em) { 
     .page-clinica-rehabilitacin{
        .main {
-            section{
-            display: none;
-            }
+            section{ display: none; }
         }
     }
-
-    .block-superfish-3{
-        display: none;
-    }
-    .rteright{
-        float: left;
-    }
+    .block-superfish-3{ display: none; }
+    .rteright{ float: left; }
 }
 /*EQUIPOS DE ESCRITORIO*/
-
-
 /*TABLETS Y IPADS*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 
-     /********Clinica de rehabilitacion*********************/
-    .view-id-clinica_de_rehabilitacion.view-display-id-page{
-        display: none;
-    }
+    .view-id-clinica_de_rehabilitacion.view-display-id-page{ display: none; }
 
     .view-id-clinica_de_rehabilitacion.view-display-id-block_1{
-        h2{
-            display: none;
-        }
+        h2{ display: none; }
         .views-row {
            width: 100%;
            margin: 25px 0;
@@ -412,23 +313,22 @@
            }
         }
         .views-row-odd{
-            position: relative!important; 
+           position: relative!important; 
            width: 100%!important;
            margin: 0!important;
            display: inline-block!important;
         }
         .title-content{
-             background: none ; 
-             width: 100%; 
-             height: auto; 
-             position: relative; 
-             color: #999;
-             padding: 0px; 
-             font-size:148%!important ;
-             margin: 9px 0!important;
+            background: none ; 
+            width: 100%; 
+            height: auto; 
+            position: relative; 
+            color: #999;
+            padding: 0px; 
+            font-size:148%!important ;
+            margin: 9px 0!important;
             display: inline-block;
             text-align: center;
-
             p{
                 margin:10px 0; 
                 display: block;
@@ -462,46 +362,27 @@
                 display: inline-block;
             }
             &:hover{
-                hr{
-                    display: none!important;
-                }
-                p{
-                    margin:0;
-                }
+                hr{ display: none!important; }
+                p{ margin:0; }
                  div{
                     display: block;
                     float: none!important;
                 }
             }
-            
         }
     }   
     /********Clinica de rehabilitacion*********************/
-
-
-
-     .head-slider{
-        margin:0;
-        &:after{
-               display: none;
-            }
+     .head-slider{ margin:0;
+        &:after{ display: none; }
     }
-    .block-casos-exitosos{
-        display: none;
-    }
+    .block-casos-exitosos{ display: none; }
 
-    .block-superfish-1{
-        display: none;
-        
-    }
+    .block-superfish-1{ display: none; }
     .page-servicios-plan-padrino{
         .main{
             .view-plan-padrino{  
-                section{
-                    width: 100%;
-                }
+                section{ width: 100%; }
             }
-
         }
     }
 
@@ -511,59 +392,74 @@
             font-size: 68%!important;   
          }
     }
-
-
-
-.page-proability{
-    .third-color,.second-color,.first-color {
-        .views-field-body{
-            .content {
-                .subtitulo{
-                    font-size: 30px;
+    .page-proability{
+        .third-color,.second-color,.first-color {
+            .views-field-body{
+                .content {
+                    .subtitulo{
+                        font-size: 30px;
+                    }
+                    .body{
+                     width: 60%;   
+                        p{
+                            font-size: 12px;
+                        }
+                    }
                 }
-                .body{
-                 width: 60%;   
-                    p{
-                        font-size: 12px;
+            }
+            .view-header{
+                h2{
+                    font-size: 27px;
+                }
+            }  
+        }
+
+        .view-prohability{
+            .view-content{
+                article{
+                    .row{
+                        .group-header{
+                            .field-name-proability-slider{
+                                #flexslider-3{
+                                    ol{ width: 100%; }
+                                }
+                            }
+                        }
+                        .group-content{
+                            ol{ width: 100%;left:0!important }
+                        }
+
+                        .group-footer{
+                            ol{ width: 100%; left:0!important }
+                        }
                     }
                 }
             }
         }
-        .view-header{
-            h2{
-                font-size: 27px;
-            }
-        }  
     }
-}
-
-.page-proability .second-color .views-field-body {
-    width: 50%;
-    padding: 25px 50px;
-}
-.page-proability .third-color .views-field-body {
-    width: 50%;
-    padding: 25px 50px;
-}
-.page-proability .first-color .views-field-body {
-    width: 50%;
-    padding: 25px 50px;
-}
 
 
 
+    .page-proability .second-color .views-field-body {
+        width: 50%;
+        padding: 25px 50px;
+    }
+    .page-proability .third-color .views-field-body {
+        width: 50%;
+        padding: 25px 50px;
+    }
+    .page-proability .first-color .views-field-body {
+        width: 50%;
+        padding: 25px 50px;
+    }
 
+     .view-prohability .view-content article .row .group-header .field-name-proability-slider #flexslider-3 ol{
+     width:100%;
+    } 
 }
 /*TABLETS Y IPADS*/
-
- 
-
 /*Telefonos movil*/
 @media only screen and (max-width: 40em) { 
-
-
-
-    /********Clinica de rehabilitacion*********************/
     .view-id-clinica_de_rehabilitacion.view-display-id-page{
         display: none;
     }
@@ -683,34 +579,67 @@
                 }
             }
         }
-
-
     }
     /********Apadrina ya!*********************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .block-superfish-3{
-            display: none; 
+    .block-superfish-3{ display: none; }
+        .head-slider{ margin:0;
+             &:after{ display: none; }
         }
+    .view-prohability{
+            .view-content{
+                article{
+                    .row{
+                        .group-header{
+                            .field-name-proability-slider{
+                                #flexslider-3{
+                                    ol{ width: 100%; }
+                                    .body p{font-size:13px}
+                                    .body {font-size:13px}
+                                    .subtitulo{font-size:45px}
+                                }
+                                .views-field-field-imagenes{
+                                    display: none;
+                                }
+                                .views-field-body{
+                                    width: 100%;
+                                    padding: 50px 15px;
+                                }
+                            }
+                        }
+                        .group-content{
+                            .views-field-field-imagenes{
+                                display: none;
+                            }
+                            .views-field-body{
+                                width: 100%;
+                                padding: 50px 15px;
+                            }
+                            .content{
+                                .body p{font-size:13px}
+                                .body {font-size:13px}
+                                .subtitulo{font-size:45px}
+                            }
+                            ol{ width: 100%;left:0!important }
+                        }
 
-     .head-slider{
-            margin:0;
-            &:after{
-                   display: none;
+                        .group-footer{
+                            .views-field-field-imagenes{
+                                display: none;
+                            }
+                            .views-field-body{
+                                width: 100%;
+                                padding: 50px 15px;
+                            }
+                            .content{
+                                .body p{font-size:13px}
+                                .body {font-size:13px}
+                                .subtitulo{font-size:45px}
+                            }
+                            ol{ width: 100%; left:0!important }
+                        }
+                    }    
                 }
+            }
         }
-}
-
+} 
 /*Telefonos movil*/

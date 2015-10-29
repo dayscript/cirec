@@ -117,8 +117,12 @@
             float: right;
             width: 50%;
             text-align: initial;
-            padding: 30px 15px;
+            padding-left: 10px;
             border-left: 2px solid;
+            font-size: 12px;
+            p{
+              margin:0;
+            }
           }
         }
       }
@@ -144,8 +148,8 @@
         border: 0px solid #3A5D95!important;
         height: 305px;
         img{
-            width: 570px;
-            height: 304px;
+            //width: 570px;
+            //height: 304px;
           }
         }
     }
@@ -165,8 +169,12 @@
             float: right;
             width: 50%;
             text-align: initial;
-            padding: 8px 15px;
+            padding-left: 10px;
             border-left: 2px solid;
+            font-size: 12px;
+            p{
+              margin:0;
+            }
           }
         }
       }
@@ -197,8 +205,8 @@
         .left-d{
           top:0!important;
           img{
-            width: 570px;
-            height: 304px;
+            //width: 570px;
+            //height: 304px;
             top: 0!important;
           }
         }
@@ -220,8 +228,12 @@
             float: right;
             width: 50%;
             text-align: initial;
-            padding: 8px 15px;
+            padding-left: 10px;
             border-left: 2px solid;
+            font-size: 12px;
+            p{
+              margin:0;
+            }
           }
         }
       }

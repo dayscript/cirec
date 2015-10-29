@@ -7,11 +7,11 @@
     background: url("../images/pattern-grid.png") left top;
 
     .service { // = .views-row
-        display: table-cell;
+        //display: table-cell;
+        display: block;
         padding-bottom: $margin_size;
         text-align: center;
-        float: none; // Override
-
+        
         &:hover {
             background: $white;
         }
@@ -28,7 +28,7 @@
         }
 
         &:last-child {
-            float: none; // Override
+            //float: none; // Override
         }
 
         .body { }
@@ -58,7 +58,9 @@
 
     .view-content {
         //@extend .row;
-        @include row();
+        //@include row();
         display: table;
+        max-width: 1140px;
+        margin:0 auto;
     }
 }
